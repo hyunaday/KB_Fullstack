@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>One True 레이아웃 구성</title>
+        <style>
+            body {
+                width: 500px;
+                margin: 10px auto;
+            }
+            #top {
+                background-color: green;
+            }
+            #middle {
+                overflow: hidden;
+            }
+
+            #left {
+                background-color: red;
+                float: left;
+                width: 150px;
+            }
+            #right {
+                /* float를 left, right 준 것 모두 동일하다.
+                width가 지정되어 있기 때문에 */
+                background-color: blue;
+                float: right;
+                width: 350px;
+            }
+            #bottom {
+                background-color: purple;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="top">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae dolores iste corporis? Fuga error numquam neque asperiores delectus. Laboriosam alias nam est
+            incidunt deleniti quisquam saepe iusto placeat corrupti libero?
+        </div>
+        <div id="middle">
+            <div id="left">Lorem, ipsum dolor sit amet consectetur adipisicing elit.</div>
+            <div id="right">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cupiditate, nostrum assumenda! Sequi quo natus voluptas provident recusandae placeat quia? Corrupti
+                corporis quos, consequatur doloribus cum itaque totam iure culpa illum!
+            </div>
+        </div>
+        <div id="bottom">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae dolores iste corporis? Fuga error numquam neque asperiores delectus. Laboriosam alias nam est
+            incidunt deleniti quisquam saepe iusto placeat corrupti libero?
+        </div>
+    </body>
+</html>

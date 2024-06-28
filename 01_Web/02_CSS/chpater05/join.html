@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+    </head>
+    <body>
+        <form>
+            <fieldset>
+            <legend>회원가입</legend>
+            <table>
+                <tr>
+                    <th>사용자 ID</th>
+                    <td><input type="text" /></td>
+                </tr>
+                <tr>
+                    <th>비밀번호</th>
+                    <td><input type="password" /></td>
+                </tr>
+                <tr>
+                    <th>비밀번호 확인</th>
+                    <td><input type="password" /></td>
+                </tr>
+                <tr>
+                    <th>이름</th>
+                    <td><input type="text" name="name" /></td>
+                </tr>
+                <tr>
+                    <th>성별</th>
+                    <td>
+                        <input type="radio" name="gender" value="m" />
+                        <label for="gender">남</label>
+                        <input type="radio" name="gender" value="w" />
+                        <label for="gender">여</label>
+
+                    </td>
+                </tr>
+                <tr>
+                    <th>취미</th>
+                    <td><input type="checkbox" name="sports" value="soccer" /></td>
+                    <td><label for="sports">축구</label></td>
+                    <td><input type="checkbox" name="sports" value="baseball" /></td>
+                    <td><label for="sports">야구</label></td>
+                    <td><input type="checkbox" name="sports" value="volleyball" /></td>
+                    <td><label for="sports">배구</label></td>
+                    <td><input type="checkbox" name="sports" value="baseball" /></td>
+                    <td><label for="sports">농구</label></td>
+                </tr>
+                <tr>
+                    <th>email</th>
+                    <td><input type="text" name="email" /></td>
+                </tr>
+                <tr>
+                    <th>역할</th>
+                    <td>
+                        <input type="select" />
+                        <optgroup>
+                            <option value="admin">ADMIN</option>
+                            <option value="관리자">관리자</option>
+                            <option value="일반회원">일반회원</option>
+                        </optgroup>
+                    </td>
+                   <tr>
+                    <td><input type="submit" /></td>
+                    <td><input type="reset" /></td>
+                   </tr> 
+                </tr>
+            </table>
+        </fieldset>
+        </form>
+    </body>
+</html>

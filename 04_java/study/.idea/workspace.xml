@@ -1,0 +1,303 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="1b133e6f-f39e-4957-a3b9-4ea1adb5a63e" name="Changes" comment="20240621_L3" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/ch06/sec08/exam02/ComputerExample.java" root0="SKIP_HIGHLIGHTING" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
+  <component name="ProjectId" id="2hzFa4qtQ98ljSzoQp1YkHOTpYv" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;Application.AExample.executor&quot;: &quot;Coverage&quot;,
+    &quot;Application.AbstractMethodExample.executor&quot;: &quot;Run&quot;,
+    &quot;Application.AccuracyExample1.executor&quot;: &quot;Run&quot;,
+    &quot;Application.AccuracyExample2.executor&quot;: &quot;Run&quot;,
+    &quot;Application.App.executor&quot;: &quot;Run&quot;,
+    &quot;Application.AssignmentOperatorExample.executor&quot;: &quot;Run&quot;,
+    &quot;Application.BitLogicExample.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Calculator.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CalculatorExample.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CarExample.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CastingExample.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ChildExample.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CompareOperatorExample.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ComputerExample.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ConditionalOperationExample.executor&quot;: &quot;Run&quot;,
+    &quot;Application.DriverExample.executor&quot;: &quot;Run&quot;,
+    &quot;Application.EarthExample.executor&quot;: &quot;Run&quot;,
+    &quot;Application.EqualsExample.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Example.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Hello.executor&quot;: &quot;Run&quot;,
+    &quot;Application.IfDiceExample.executor&quot;: &quot;Run&quot;,
+    &quot;Application.IfElseExample.executor&quot;: &quot;Run&quot;,
+    &quot;Application.IfElseIfElseExample.executor&quot;: &quot;Run&quot;,
+    &quot;Application.IfExample.executor&quot;: &quot;Run&quot;,
+    &quot;Application.IfNestedExample.executor&quot;: &quot;Run&quot;,
+    &quot;Application.IncreaseDecreaseOperatorExample.executor&quot;: &quot;Run&quot;,
+    &quot;Application.InstanceofExample.executor&quot;: &quot;Run&quot;,
+    &quot;Application.KoreanExample.executor&quot;: &quot;Run&quot;,
+    &quot;Application.LogicalOperatorExample.executor&quot;: &quot;Run&quot;,
+    &quot;Application.OverflowUnderflowExample.executor&quot;: &quot;Run&quot;,
+    &quot;Application.PhoneExample.executor&quot;: &quot;Run&quot;,
+    &quot;Application.PrimitiveAndStringConversionExample.executor&quot;: &quot;Run&quot;,
+    &quot;Application.PrintfExample.executor&quot;: &quot;Run&quot;,
+    &quot;Application.PromotionExample.executor&quot;: &quot;Run&quot;,
+    &quot;Application.RemoteControlExample.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ScannerExample.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SmartPhoneExample.executor&quot;: &quot;Run&quot;,
+    &quot;Application.StringConcatExample.executor&quot;: &quot;Run&quot;,
+    &quot;Application.StringExample.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SupersonicEAirplanexample.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SupersonicExample.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SwitchExample.executor&quot;: &quot;Run&quot;,
+    &quot;Application.VariableExchangeExample.executor&quot;: &quot;Run&quot;,
+    &quot;Application.VariableInitializationExample.executor&quot;: &quot;Run&quot;,
+    &quot;Application.VariableUseExample.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ch01.sec11.Hello.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ch06.sec06.exam01.CarExample.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ch06.sec07.exam01.CarExample.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ch06.sec07.exam03.KoreanExample.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ch06.sec07.exam04.CarExample.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ch06.sec07.exam05.CarExample.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ch06.sec08.exam04.CalculatorExample.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ch06.sec09.CarExample.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ch07.sec03.exam01.SmartPhoneExample.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ch07.sec03.exam02.SmartPhoneExample.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ch07.sec03.sec02.SmartPhoneExample.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ch07.sec07.exam03.ChildExample.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ch08.sec04.RemoteControlExample.executor&quot;: &quot;Run&quot;,
+    &quot;Application.example02.executor&quot;: &quot;Run&quot;,
+    &quot;Application.hello.executor&quot;: &quot;Run&quot;,
+    &quot;Application.hi.executor&quot;: &quot;Run&quot;,
+    &quot;Application.hi2.executor&quot;: &quot;Run&quot;,
+    &quot;Application.hi2024_06_18.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/KB_Fullstack/04_java/study/src/ch09/sec06/exam03&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;C:/KB_Fullstack/04_java/study/src/Main.java&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;project.propGUI&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\KB_Fullstack\04_java\study\src\ch09\sec06\exam03" />
+      <recent name="C:\KB_Fullstack\04_java\study\src\ch09\sec06\exam02" />
+      <recent name="C:\KB_Fullstack\04_java\study\src\ch08\sec04" />
+      <recent name="C:\KB_Fullstack\04_java\study\src\ch07\sec07\exam03" />
+      <recent name="C:\KB_Fullstack\04_java\study\src\ch07\sec03\exam02" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="ch08.sec12" />
+      <recent name="ch08.sec11.exam02" />
+      <recent name="ch08.sec09" />
+      <recent name="ch07.sec08.exam02" />
+      <recent name="ch07.sec07.exam03" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.EqualsExample">
+    <configuration name="AExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ch09.sec03.exam02.AExample" />
+      <module name="study" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ch09.sec03.exam02.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="test.Q1.second.App" />
+      <module name="study" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.Q1.second.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EqualsExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ch05.sec05.EqualsExample" />
+      <module name="study" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ch05.sec05.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RemoteControlExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ch08.sec02.RemoteControlExample" />
+      <module name="study" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ch08.sec02.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ch08.sec04.RemoteControlExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ch08.sec04.RemoteControlExample" />
+      <module name="study" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ch08.sec04.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.EqualsExample" />
+        <item itemvalue="Application.AExample" />
+        <item itemvalue="Application.ch08.sec04.RemoteControlExample" />
+        <item itemvalue="Application.RemoteControlExample" />
+        <item itemvalue="Application.App" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9f38398b9061-39b83d9b5494-intellij.indexing.shared.core-IU-241.17890.1" />
+        <option value="bundled-js-predefined-1d06a55b98c1-0b3e54e931b4-JavaScript-IU-241.17890.1" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1b133e6f-f39e-4957-a3b9-4ea1adb5a63e" name="Changes" comment="" />
+      <created>1718589060351</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1718589060351</updated>
+      <workItem from="1718589061966" duration="3632000" />
+      <workItem from="1718594251536" duration="2173000" />
+      <workItem from="1718600587330" duration="2115000" />
+      <workItem from="1718612024214" duration="421000" />
+      <workItem from="1718613679674" duration="169000" />
+      <workItem from="1718666979017" duration="70351000" />
+      <workItem from="1718877046607" duration="54451000" />
+      <workItem from="1719366968419" duration="2000" />
+    </task>
+    <task id="LOCAL-00001" summary="20240619_두번째">
+      <option name="closed" value="true" />
+      <created>1718794565436</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1718794565436</updated>
+    </task>
+    <task id="LOCAL-00002" summary="20240620_세번째">
+      <option name="closed" value="true" />
+      <created>1718876878626</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1718876878626</updated>
+    </task>
+    <task id="LOCAL-00003" summary="20240621_세번째">
+      <option name="closed" value="true" />
+      <created>1718955775018</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1718955775018</updated>
+    </task>
+    <task id="LOCAL-00004" summary="20240621_L3">
+      <option name="closed" value="true" />
+      <created>1718960222064</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1718960222064</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="20240619_두번째" />
+    <MESSAGE value="20240620_세번째" />
+    <MESSAGE value="20240621_세번째" />
+    <MESSAGE value="20240621_L3" />
+    <option name="LAST_COMMIT_MESSAGE" value="20240621_L3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Main.java</url>
+          <line>8</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/ch01/sec09/Hello.java</url>
+          <line>2</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/ch02/sec08/CastingExample.java</url>
+          <line>2</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>

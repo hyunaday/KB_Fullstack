@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>getElementById로 이미지 속성 변경하기</title>
+        <script>
+            window.onload = function () {
+                let image = document.getElementById('image');
+                // ?어떻게 쓰지 let image = document.querySelector('image');
+
+                // 속성 변경
+                image.src =
+                    // 절대경로
+                    'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRYLJauBsuuhYaRAYccQZ2d-UtBTCOgsHMQmw&s';
+                image.width = 300;
+                image.height = 200;
+            };
+        </script>
+    </head>
+    <body>
+        <img id="image" />
+    </body>
+</html>

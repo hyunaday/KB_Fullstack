@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+        <style>
+            .buttonColor {
+                background-color: aqua;
+                color: black;
+            }
+            .buttonLayout {
+                text-align: center;
+                width: 120px;
+            }
+            .staticBorder {
+                border: khaki dashed 1px;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="app">
+            <input type="checkbox" v-model="isMyLayout" />레이아웃 적용 여부<br />
+            <!-- myColor 클래스는 필수로 바인딩해주지만, myLayout 클래스는 isMyLayout의 값에 따라 추가한다 -->
+            <button
+                class="staticBorder"
+                :class="[myColor, isMyLayout? myLayout: '']"
+            >
+                테스트 버튼
+            </button>
+            // 여기 해야햏애애애ㅐ애애
+        </div>
+        <script src="https://unpkg.com/vue"></script>
+        <script type="text/javascript">
+            var vm = Vue.createApp({
+                name: 'App',
+                data() {
+                    return {
+                        myColor: 'buttonColor buttonLayout',
+                    };
+                },
+            }).mount('#app'); // id가 app인 요소와 연결해줌
+        </script>
+    </body>
+</html>
