@@ -70,8 +70,7 @@ public class App {
         while(run) {
             printMenu();
             int selectNo = getSelect();
-            executeCommand
-                    (selectNo);
+            executeCommand(selectNo);
         }
         System.out.println("프로그램 종료");
     }

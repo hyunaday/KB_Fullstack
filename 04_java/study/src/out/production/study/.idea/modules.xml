@@ -2,6 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/scoulaci.iml" filepath="$PROJECT_DIR$/.idea/modules/scoulaci.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/scoulaci.main.iml" filepath="$PROJECT_DIR$/.idea/modules/scoulaci.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/scoulaci.test.iml" filepath="$PROJECT_DIR$/.idea/modules/scoulaci.test.iml" />
       <module fileurl="file://$PROJECT_DIR$/study.iml" filepath="$PROJECT_DIR$/study.iml" />
     </modules>
   </component>

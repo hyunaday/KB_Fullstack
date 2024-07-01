@@ -4,7 +4,62 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="225f064b-5ee4-4592-a0b8-42519a602c07" name="Changes" comment="" />
+    <list default="true" id="225f064b-5ee4-4592-a0b8-42519a602c07" name="Changes" comment="plz">
+      <change afterPath="$PROJECT_DIR$/../../CLI-Framework/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../CLI-Framework/V2/src/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../CLI-Framework/V2/src/Input.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../CLI-Framework/V2/src/Menu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../CLI-Framework/V2/src/V2.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../CLI-Framework/V3/V3.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../CLI-Framework/V3/src/AnalizeCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../CLI-Framework/V3/src/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../CLI-Framework/V3/src/Command.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../CLI-Framework/V3/src/ExitCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../CLI-Framework/V3/src/GetScoresCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../CLI-Framework/V3/src/InitScoresCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../CLI-Framework/V3/src/Input.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../CLI-Framework/V3/src/PrintScoreCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../CLI-Framework/V3/src/StudentScores.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../CLI-Framework/V4/V4.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../CLI-Framework/V4/src/AnalizeCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../CLI-Framework/V4/src/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../CLI-Framework/V4/src/Command.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../CLI-Framework/V4/src/ExitCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../CLI-Framework/V4/src/GetScoresCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../CLI-Framework/V4/src/InitScoresCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../CLI-Framework/V4/src/Input.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../CLI-Framework/V4/src/Menu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../CLI-Framework/V4/src/MenuItem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../CLI-Framework/V4/src/PrintScoreCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../CLI-Framework/V4/src/StudentScores.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../TodoApp/src/main/java/org/scoula/lib/cli/exception/BadMenuException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch13/sec01/Box.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch13/sec01/GenericExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch13/sec02/exam01/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch13/sec02/exam01/GenericExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch13/sec02/exam01/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch13/sec02/exam01/TV.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch13/sec02/exam02/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch13/sec02/exam02/CarAgency.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch13/sec02/exam02/GenericExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch13/sec02/exam02/Home.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch13/sec02/exam02/HomeAgency.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch13/sec02/exam02/Rentable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch13/sec02/exam03/Box.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch13/sec02/exam03/GenericExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/study/.idea/modules/scoulaci.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLI-Framework/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../CLI-Framework/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLI-Framework/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../CLI-Framework/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLI-Framework/V1/src/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../CLI-Framework/V1/src/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test/ch06/Phone.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test/ch06/SmartPhone.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/study/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/study/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/study/.idea/modules/scoulaci.main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/study/.idea/modules/scoulaci.main.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/study/.idea/modules/scoulaci.test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/study/.idea/modules/scoulaci.test.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/study/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/study/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/week1/test1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/week1/test2/Solution.java" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -40,10 +95,16 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 3
 }</component>
   <component name="ProjectId" id="2iOlVGQMJThB7YmU7PoLBDBIRGH" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -51,22 +112,30 @@
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
     &quot;Application.AccountExample.executor&quot;: &quot;Run&quot;,
+    &quot;Application.BeepPrintExample.executor&quot;: &quot;Run&quot;,
+    &quot;Application.BoxingUnBoxingExample.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CarExample.executor&quot;: &quot;Run&quot;,
     &quot;Application.EqualsExample.executor&quot;: &quot;Run&quot;,
     &quot;Application.ErrExample.executor&quot;: &quot;Run&quot;,
     &quot;Application.ExceptionHandlingExample.executor&quot;: &quot;Run&quot;,
     &quot;Application.ExceptionHandlingExample1.executor&quot;: &quot;Run&quot;,
     &quot;Application.ExceptionHandlingExample2.executor&quot;: &quot;Run&quot;,
     &quot;Application.ExitExample.executor&quot;: &quot;Run&quot;,
+    &quot;Application.GenericExample.executor&quot;: &quot;Run&quot;,
     &quot;Application.HashCodeExample.executor&quot;: &quot;Run&quot;,
     &quot;Application.InExample.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MathExample.executor&quot;: &quot;Run&quot;,
+    &quot;Application.PatternExample.executor&quot;: &quot;Run&quot;,
+    &quot;Application.RandomExample.executor&quot;: &quot;Run&quot;,
     &quot;Application.StringBuilderExample.executor&quot;: &quot;Run&quot;,
     &quot;Application.ToStringExample.executor&quot;: &quot;Run&quot;,
     &quot;Application.TryWithResourceExample.executor&quot;: &quot;Run&quot;,
     &quot;Application.ch11.sec03.exam01.ExceptionHandlingExample.executor&quot;: &quot;Run&quot;,
     &quot;Application.ch11.sec03.exam02.ExceptionHandlingExample.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ch14.sec03.exam02.BeepPrintExample.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/KB_Fullstack/04_java/study/src/ch11/sec03/exam03&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/KB_Fullstack&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -84,14 +153,17 @@
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\KB_Fullstack\04_java\study\src\ch11\sec03\exam03" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="ch13.sec02.exam02" />
+    </key>
   </component>
-  <component name="RunManager" selected="Application.BoxingUnBoxingExample">
-    <configuration name="BoxingUnBoxingExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ch12.sec06.BoxingUnBoxingExample" />
+  <component name="RunManager" selected="Application.GenericExample">
+    <configuration name="BeepPrintExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ch14.sec03.exam01.BeepPrintExample" />
       <module name="study" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ch12.sec06.*" />
+          <option name="PATTERN" value="ch14.sec03.exam01.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -99,12 +171,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ExitExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ch12.sec04.ExitExample" />
+    <configuration name="CarExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ch12.sec11.exam01.CarExample" />
       <module name="study" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ch12.sec04.*" />
+          <option name="PATTERN" value="ch12.sec11.exam01.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -112,12 +184,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="InExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ch12.sec04.InExample" />
+    <configuration name="GenericExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ch13.sec01.GenericExample" />
       <module name="study" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ch12.sec04.*" />
+          <option name="PATTERN" value="ch13.sec01.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -125,12 +197,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StringBuilderExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ch12.sec05.StringBuilderExample" />
+    <configuration name="PatternExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ch12.sec10.PatternExample" />
       <module name="study" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ch12.sec05.*" />
+          <option name="PATTERN" value="ch12.sec10.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -138,12 +210,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ToStringExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ch12.sec03.exam03.ToStringExample" />
+    <configuration name="ch14.sec03.exam02.BeepPrintExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ch14.sec03.exam02.BeepPrintExample" />
       <module name="study" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ch12.sec03.exam03.*" />
+          <option name="PATTERN" value="ch14.sec03.exam02.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -153,11 +225,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.BoxingUnBoxingExample" />
-        <item itemvalue="Application.StringBuilderExample" />
-        <item itemvalue="Application.ExitExample" />
-        <item itemvalue="Application.InExample" />
-        <item itemvalue="Application.ToStringExample" />
+        <item itemvalue="Application.GenericExample" />
+        <item itemvalue="Application.ch14.sec03.exam02.BeepPrintExample" />
+        <item itemvalue="Application.BeepPrintExample" />
+        <item itemvalue="Application.CarExample" />
+        <item itemvalue="Application.PatternExample" />
       </list>
     </recent_temporary>
   </component>
@@ -179,12 +251,31 @@
       <updated>1719369526705</updated>
       <workItem from="1719369528689" duration="23749000" />
       <workItem from="1719459500313" duration="129000" />
-      <workItem from="1719464077414" duration="110000" />
+      <workItem from="1719464077414" duration="15369000" />
+      <workItem from="1719535920049" duration="7000" />
+      <workItem from="1719549690713" duration="3056000" />
+      <workItem from="1719554493969" duration="6610000" />
+      <workItem from="1719562600497" duration="6188000" />
+      <workItem from="1719811264917" duration="3871000" />
+      <workItem from="1719816913943" duration="191000" />
     </task>
+    <task id="LOCAL-00001" summary="plz">
+      <option name="closed" value="true" />
+      <created>1719563421025</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1719563421025</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="plz" />
+    <option name="LAST_COMMIT_MESSAGE" value="plz" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
