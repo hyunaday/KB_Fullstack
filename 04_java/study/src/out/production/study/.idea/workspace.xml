@@ -4,61 +4,45 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="225f064b-5ee4-4592-a0b8-42519a602c07" name="Changes" comment="plz">
-      <change afterPath="$PROJECT_DIR$/../../CLI-Framework/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../CLI-Framework/V2/src/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../CLI-Framework/V2/src/Input.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../CLI-Framework/V2/src/Menu.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../CLI-Framework/V2/src/V2.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../CLI-Framework/V3/V3.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../CLI-Framework/V3/src/AnalizeCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../CLI-Framework/V3/src/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../CLI-Framework/V3/src/Command.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../CLI-Framework/V3/src/ExitCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../CLI-Framework/V3/src/GetScoresCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../CLI-Framework/V3/src/InitScoresCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../CLI-Framework/V3/src/Input.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../CLI-Framework/V3/src/PrintScoreCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../CLI-Framework/V3/src/StudentScores.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../CLI-Framework/V4/V4.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../CLI-Framework/V4/src/AnalizeCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../CLI-Framework/V4/src/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../CLI-Framework/V4/src/Command.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../CLI-Framework/V4/src/ExitCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../CLI-Framework/V4/src/GetScoresCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../CLI-Framework/V4/src/InitScoresCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../CLI-Framework/V4/src/Input.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../CLI-Framework/V4/src/Menu.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../CLI-Framework/V4/src/MenuItem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../CLI-Framework/V4/src/PrintScoreCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../CLI-Framework/V4/src/StudentScores.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../TodoApp/src/main/java/org/scoula/lib/cli/exception/BadMenuException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ch13/sec01/Box.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ch13/sec01/GenericExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ch13/sec02/exam01/Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ch13/sec02/exam01/GenericExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ch13/sec02/exam01/Product.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ch13/sec02/exam01/TV.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ch13/sec02/exam02/Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ch13/sec02/exam02/CarAgency.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ch13/sec02/exam02/GenericExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ch13/sec02/exam02/Home.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ch13/sec02/exam02/HomeAgency.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ch13/sec02/exam02/Rentable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ch13/sec02/exam03/Box.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ch13/sec02/exam03/GenericExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/study/.idea/modules/scoulaci.iml" afterDir="false" />
+    <list default="true" id="225f064b-5ee4-4592-a0b8-42519a602c07" name="Changes" comment="20240701">
+      <change afterPath="$PROJECT_DIR$/ch13/sec04/exam01/HashMapExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch15/sec03/exam03/HashSetExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch15/sec03/exam04/HashSetExample.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../CLI-Framework/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../CLI-Framework/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLI-Framework/.idea/uiDesigner.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../CLI-Framework/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../CLI-Framework/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLI-Framework/V0/src/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../CLI-Framework/V0/src/App.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../CLI-Framework/V1/src/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../CLI-Framework/V1/src/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test/ch06/Phone.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test/ch06/SmartPhone.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/study/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/study/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/study/.idea/modules/scoulaci.main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/study/.idea/modules/scoulaci.main.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/study/.idea/modules/scoulaci.test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/study/.idea/modules/scoulaci.test.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/study/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/study/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/week1/test1.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/week1/test2/Solution.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLI-Framework/V2/src/App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLI-Framework/V2/src/Input.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLI-Framework/V2/src/Menu.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLI-Framework/V2/src/V2.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLI-Framework/V3/V3.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLI-Framework/V3/src/AnalizeCommand.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLI-Framework/V3/src/App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLI-Framework/V3/src/Command.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLI-Framework/V3/src/ExitCommand.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLI-Framework/V3/src/GetScoresCommand.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLI-Framework/V3/src/InitScoresCommand.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLI-Framework/V3/src/Input.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLI-Framework/V3/src/PrintScoreCommand.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLI-Framework/V3/src/StudentScores.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLI-Framework/V4/V4.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLI-Framework/V4/src/AnalizeCommand.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLI-Framework/V4/src/App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLI-Framework/V4/src/Command.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLI-Framework/V4/src/ExitCommand.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLI-Framework/V4/src/GetScoresCommand.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLI-Framework/V4/src/InitScoresCommand.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLI-Framework/V4/src/Input.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLI-Framework/V4/src/Menu.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLI-Framework/V4/src/MenuItem.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLI-Framework/V4/src/PrintScoreCommand.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLI-Framework/V4/src/StudentScores.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLI-Framework/out/production/CLI-Framework/App.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLI-Framework/out/production/CLI-Framework/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLI-Framework/out/production/V1/App.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CLI-Framework/out/production/V1/Main.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -109,61 +93,72 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.AccountExample.executor&quot;: &quot;Run&quot;,
-    &quot;Application.BeepPrintExample.executor&quot;: &quot;Run&quot;,
-    &quot;Application.BoxingUnBoxingExample.executor&quot;: &quot;Run&quot;,
-    &quot;Application.CarExample.executor&quot;: &quot;Run&quot;,
-    &quot;Application.EqualsExample.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ErrExample.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ExceptionHandlingExample.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ExceptionHandlingExample1.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ExceptionHandlingExample2.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ExitExample.executor&quot;: &quot;Run&quot;,
-    &quot;Application.GenericExample.executor&quot;: &quot;Run&quot;,
-    &quot;Application.HashCodeExample.executor&quot;: &quot;Run&quot;,
-    &quot;Application.InExample.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MathExample.executor&quot;: &quot;Run&quot;,
-    &quot;Application.PatternExample.executor&quot;: &quot;Run&quot;,
-    &quot;Application.RandomExample.executor&quot;: &quot;Run&quot;,
-    &quot;Application.StringBuilderExample.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ToStringExample.executor&quot;: &quot;Run&quot;,
-    &quot;Application.TryWithResourceExample.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ch11.sec03.exam01.ExceptionHandlingExample.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ch11.sec03.exam02.ExceptionHandlingExample.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ch14.sec03.exam02.BeepPrintExample.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/KB_Fullstack&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;onboarding.tips.debug.path&quot;: &quot;C:/KB_Fullstack/04_java/study/scoulaci/src/main/java/org/example/Main.java&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.AccountExample.executor": "Run",
+    "Application.ArrayListExample.executor": "Run",
+    "Application.BeepPrintExample.executor": "Run",
+    "Application.BoxingUnBoxingExample.executor": "Run",
+    "Application.CarExample.executor": "Run",
+    "Application.EqualsExample.executor": "Run",
+    "Application.ErrExample.executor": "Run",
+    "Application.ExceptionHandlingExample.executor": "Run",
+    "Application.ExceptionHandlingExample1.executor": "Run",
+    "Application.ExceptionHandlingExample2.executor": "Run",
+    "Application.ExitExample.executor": "Run",
+    "Application.GenericExample.executor": "Run",
+    "Application.HashCodeExample.executor": "Run",
+    "Application.HashMapExample.executor": "Run",
+    "Application.HashSetExample.executor": "Run",
+    "Application.InExample.executor": "Run",
+    "Application.MathExample.executor": "Run",
+    "Application.PatternExample.executor": "Run",
+    "Application.RandomExample.executor": "Run",
+    "Application.StringBuilderExample.executor": "Run",
+    "Application.ToStringExample.executor": "Run",
+    "Application.TryWithResourceExample.executor": "Run",
+    "Application.ch11.sec03.exam01.ExceptionHandlingExample.executor": "Run",
+    "Application.ch11.sec03.exam02.ExceptionHandlingExample.executor": "Run",
+    "Application.ch13.sec02.exam01.GenericExample.executor": "Run",
+    "Application.ch13.sec02.exam02.GenericExample.executor": "Run",
+    "Application.ch13.sec02.exam03.GenericExample.executor": "Run",
+    "Application.ch13.sec03.exam01.GenericExample.executor": "Run",
+    "Application.ch14.sec03.exam02.BeepPrintExample.executor": "Run",
+    "Application.ch15.sec02.exam03.ArrayListExample.executor": "Run",
+    "Application.ch15.sec03.exam02.HashSetExample.executor": "Run",
+    "Application.ch15.sec03.exam03.HashSetExample.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/KB_fullstack/04_java/study/src/ch15/sec03/exam04",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "onboarding.tips.debug.path": "C:/KB_Fullstack/04_java/study/scoulaci/src/main/java/org/example/Main.java",
+    "project.structure.last.edited": "Libraries",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\KB_fullstack\04_java\study\src\ch15\sec03\exam04" />
       <recent name="C:\KB_Fullstack\04_java\study\src\ch11\sec03\exam03" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="ch13.sec02.exam02" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.GenericExample">
-    <configuration name="BeepPrintExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ch14.sec03.exam01.BeepPrintExample" />
+  <component name="RunManager" selected="Application.ch15.sec03.exam03.HashSetExample">
+    <configuration name="HashMapExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ch13.sec04.exam01.HashMapExample" />
       <module name="study" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ch14.sec03.exam01.*" />
+          <option name="PATTERN" value="ch13.sec04.exam01.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -171,12 +166,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CarExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ch12.sec11.exam01.CarExample" />
+    <configuration name="HashSetExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ch15.sec02.exam03.HashSetExample" />
       <module name="study" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ch12.sec11.exam01.*" />
+          <option name="PATTERN" value="ch15.sec02.exam03.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -184,12 +179,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GenericExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ch13.sec01.GenericExample" />
+    <configuration name="ch15.sec02.exam03.ArrayListExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ch15.sec02.exam03.ArrayListExample" />
       <module name="study" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ch13.sec01.*" />
+          <option name="PATTERN" value="ch15.sec02.exam03.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -197,12 +192,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PatternExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ch12.sec10.PatternExample" />
+    <configuration name="ch15.sec03.exam02.HashSetExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ch15.sec03.exam02.HashSetExample" />
       <module name="study" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ch12.sec10.*" />
+          <option name="PATTERN" value="ch15.sec03.exam02.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -210,12 +205,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ch14.sec03.exam02.BeepPrintExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ch14.sec03.exam02.BeepPrintExample" />
+    <configuration name="ch15.sec03.exam03.HashSetExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ch15.sec03.exam03.HashSetExample" />
       <module name="study" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ch14.sec03.exam02.*" />
+          <option name="PATTERN" value="ch15.sec03.exam03.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -225,11 +220,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.GenericExample" />
-        <item itemvalue="Application.ch14.sec03.exam02.BeepPrintExample" />
-        <item itemvalue="Application.BeepPrintExample" />
-        <item itemvalue="Application.CarExample" />
-        <item itemvalue="Application.PatternExample" />
+        <item itemvalue="Application.ch15.sec03.exam03.HashSetExample" />
+        <item itemvalue="Application.HashMapExample" />
+        <item itemvalue="Application.ch15.sec03.exam02.HashSetExample" />
+        <item itemvalue="Application.HashSetExample" />
+        <item itemvalue="Application.ch15.sec02.exam03.ArrayListExample" />
       </list>
     </recent_temporary>
   </component>
@@ -257,7 +252,8 @@
       <workItem from="1719554493969" duration="6610000" />
       <workItem from="1719562600497" duration="6188000" />
       <workItem from="1719811264917" duration="3871000" />
-      <workItem from="1719816913943" duration="191000" />
+      <workItem from="1719816913943" duration="15647000" />
+      <workItem from="1719903316867" duration="385000" />
     </task>
     <task id="LOCAL-00001" summary="plz">
       <option name="closed" value="true" />
@@ -267,7 +263,15 @@
       <option name="project" value="LOCAL" />
       <updated>1719563421025</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="plz">
+      <option name="closed" value="true" />
+      <created>1719823949492</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1719823949492</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
