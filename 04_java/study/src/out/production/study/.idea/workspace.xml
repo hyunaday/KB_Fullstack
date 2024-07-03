@@ -4,45 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="225f064b-5ee4-4592-a0b8-42519a602c07" name="Changes" comment="20240701">
-      <change afterPath="$PROJECT_DIR$/ch13/sec04/exam01/HashMapExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ch15/sec03/exam03/HashSetExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ch15/sec03/exam04/HashSetExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CLI-Framework/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../CLI-Framework/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CLI-Framework/.idea/uiDesigner.xml" beforeDir="false" />
+    <list default="true" id="225f064b-5ee4-4592-a0b8-42519a602c07" name="Changes" comment="20240702_collection(2)">
+      <change afterPath="$PROJECT_DIR$/ch16/sec01/Calculable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch16/sec01/LambdaExample.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../CLI-Framework/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../CLI-Framework/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CLI-Framework/V0/src/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../CLI-Framework/V0/src/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CLI-Framework/V1/src/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../CLI-Framework/V1/src/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CLI-Framework/V2/src/App.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CLI-Framework/V2/src/Input.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CLI-Framework/V2/src/Menu.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CLI-Framework/V2/src/V2.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CLI-Framework/V3/V3.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CLI-Framework/V3/src/AnalizeCommand.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CLI-Framework/V3/src/App.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CLI-Framework/V3/src/Command.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CLI-Framework/V3/src/ExitCommand.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CLI-Framework/V3/src/GetScoresCommand.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CLI-Framework/V3/src/InitScoresCommand.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CLI-Framework/V3/src/Input.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CLI-Framework/V3/src/PrintScoreCommand.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CLI-Framework/V3/src/StudentScores.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CLI-Framework/V4/V4.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CLI-Framework/V4/src/AnalizeCommand.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CLI-Framework/V4/src/App.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CLI-Framework/V4/src/Command.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CLI-Framework/V4/src/ExitCommand.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CLI-Framework/V4/src/GetScoresCommand.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CLI-Framework/V4/src/InitScoresCommand.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CLI-Framework/V4/src/Input.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CLI-Framework/V4/src/Menu.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CLI-Framework/V4/src/MenuItem.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CLI-Framework/V4/src/PrintScoreCommand.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CLI-Framework/V4/src/StudentScores.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CLI-Framework/out/production/CLI-Framework/App.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CLI-Framework/out/production/CLI-Framework/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CLI-Framework/out/production/V1/App.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CLI-Framework/out/production/V1/Main.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -93,56 +58,57 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.AccountExample.executor": "Run",
-    "Application.ArrayListExample.executor": "Run",
-    "Application.BeepPrintExample.executor": "Run",
-    "Application.BoxingUnBoxingExample.executor": "Run",
-    "Application.CarExample.executor": "Run",
-    "Application.EqualsExample.executor": "Run",
-    "Application.ErrExample.executor": "Run",
-    "Application.ExceptionHandlingExample.executor": "Run",
-    "Application.ExceptionHandlingExample1.executor": "Run",
-    "Application.ExceptionHandlingExample2.executor": "Run",
-    "Application.ExitExample.executor": "Run",
-    "Application.GenericExample.executor": "Run",
-    "Application.HashCodeExample.executor": "Run",
-    "Application.HashMapExample.executor": "Run",
-    "Application.HashSetExample.executor": "Run",
-    "Application.InExample.executor": "Run",
-    "Application.MathExample.executor": "Run",
-    "Application.PatternExample.executor": "Run",
-    "Application.RandomExample.executor": "Run",
-    "Application.StringBuilderExample.executor": "Run",
-    "Application.ToStringExample.executor": "Run",
-    "Application.TryWithResourceExample.executor": "Run",
-    "Application.ch11.sec03.exam01.ExceptionHandlingExample.executor": "Run",
-    "Application.ch11.sec03.exam02.ExceptionHandlingExample.executor": "Run",
-    "Application.ch13.sec02.exam01.GenericExample.executor": "Run",
-    "Application.ch13.sec02.exam02.GenericExample.executor": "Run",
-    "Application.ch13.sec02.exam03.GenericExample.executor": "Run",
-    "Application.ch13.sec03.exam01.GenericExample.executor": "Run",
-    "Application.ch14.sec03.exam02.BeepPrintExample.executor": "Run",
-    "Application.ch15.sec02.exam03.ArrayListExample.executor": "Run",
-    "Application.ch15.sec03.exam02.HashSetExample.executor": "Run",
-    "Application.ch15.sec03.exam03.HashSetExample.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/KB_fullstack/04_java/study/src/ch15/sec03/exam04",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "onboarding.tips.debug.path": "C:/KB_Fullstack/04_java/study/scoulaci/src/main/java/org/example/Main.java",
-    "project.structure.last.edited": "Libraries",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.AccountExample.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ArrayListExample.executor&quot;: &quot;Run&quot;,
+    &quot;Application.BeepPrintExample.executor&quot;: &quot;Run&quot;,
+    &quot;Application.BoxingUnBoxingExample.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CarExample.executor&quot;: &quot;Run&quot;,
+    &quot;Application.EqualsExample.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ErrExample.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ExceptionHandlingExample.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ExceptionHandlingExample1.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ExceptionHandlingExample2.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ExitExample.executor&quot;: &quot;Run&quot;,
+    &quot;Application.GenericExample.executor&quot;: &quot;Run&quot;,
+    &quot;Application.HashCodeExample.executor&quot;: &quot;Run&quot;,
+    &quot;Application.HashMapExample.executor&quot;: &quot;Run&quot;,
+    &quot;Application.HashSetExample.executor&quot;: &quot;Run&quot;,
+    &quot;Application.InExample.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MathExample.executor&quot;: &quot;Run&quot;,
+    &quot;Application.PatternExample.executor&quot;: &quot;Run&quot;,
+    &quot;Application.QueueExample.executor&quot;: &quot;Run&quot;,
+    &quot;Application.RandomExample.executor&quot;: &quot;Run&quot;,
+    &quot;Application.StringBuilderExample.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ToStringExample.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TryWithResourceExample.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ch11.sec03.exam01.ExceptionHandlingExample.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ch11.sec03.exam02.ExceptionHandlingExample.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ch13.sec02.exam01.GenericExample.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ch13.sec02.exam02.GenericExample.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ch13.sec02.exam03.GenericExample.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ch13.sec03.exam01.GenericExample.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ch14.sec03.exam02.BeepPrintExample.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ch15.sec02.exam03.ArrayListExample.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ch15.sec03.exam02.HashSetExample.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ch15.sec03.exam03.HashSetExample.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/KB_fullstack/04_java/study/src/ch15/sec03/exam04&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;C:/KB_Fullstack/04_java/study/scoulaci/src/main/java/org/example/Main.java&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\KB_fullstack\04_java\study\src\ch15\sec03\exam04" />
@@ -152,7 +118,7 @@
       <recent name="ch13.sec02.exam02" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ch15.sec03.exam03.HashSetExample">
+  <component name="RunManager" selected="Application.LambdaExample">
     <configuration name="HashMapExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ch13.sec04.exam01.HashMapExample" />
       <module name="study" />
@@ -166,12 +132,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HashSetExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ch15.sec02.exam03.HashSetExample" />
+    <configuration name="LambdaExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ch16.sec01.LambdaExample" />
       <module name="study" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ch15.sec02.exam03.*" />
+          <option name="PATTERN" value="ch16.sec01.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -179,12 +145,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ch15.sec02.exam03.ArrayListExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ch15.sec02.exam03.ArrayListExample" />
+    <configuration name="QueueExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ch15.sec06.exam02.QueueExample" />
       <module name="study" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ch15.sec02.exam03.*" />
+          <option name="PATTERN" value="ch15.sec06.exam02.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -220,11 +186,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ch15.sec03.exam03.HashSetExample" />
+        <item itemvalue="Application.LambdaExample" />
+        <item itemvalue="Application.QueueExample" />
         <item itemvalue="Application.HashMapExample" />
+        <item itemvalue="Application.ch15.sec03.exam03.HashSetExample" />
         <item itemvalue="Application.ch15.sec03.exam02.HashSetExample" />
-        <item itemvalue="Application.HashSetExample" />
-        <item itemvalue="Application.ch15.sec02.exam03.ArrayListExample" />
       </list>
     </recent_temporary>
   </component>
@@ -253,7 +219,8 @@
       <workItem from="1719562600497" duration="6188000" />
       <workItem from="1719811264917" duration="3871000" />
       <workItem from="1719816913943" duration="15647000" />
-      <workItem from="1719903316867" duration="385000" />
+      <workItem from="1719903316867" duration="9348000" />
+      <workItem from="1719976204943" duration="2319000" />
     </task>
     <task id="LOCAL-00001" summary="plz">
       <option name="closed" value="true" />
@@ -271,7 +238,15 @@
       <option name="project" value="LOCAL" />
       <updated>1719823949492</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="20240702_collection(2)">
+      <option name="closed" value="true" />
+      <created>1719910323311</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1719910323311</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -279,7 +254,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="plz" />
-    <option name="LAST_COMMIT_MESSAGE" value="plz" />
+    <MESSAGE value="20240702_collection(2)" />
+    <option name="LAST_COMMIT_MESSAGE" value="20240702_collection(2)" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -288,6 +264,11 @@
           <url>file://$PROJECT_DIR$/../scoulaci/src/main/java/org/example/Main.java</url>
           <line>13</line>
           <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/ch13/sec04/exam01/HashMapExample.java</url>
+          <line>8</line>
+          <option name="timeStamp" value="4" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

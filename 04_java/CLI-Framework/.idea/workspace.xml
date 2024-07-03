@@ -5,47 +5,43 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="50b108cf-f28d-4a32-afc2-f8be98c00850" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../study/src/ch13/sec04/exam01/HashMapExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../study/src/ch15/sec03/exam03/HashSetExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../study/src/ch15/sec03/exam04/HashSetExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../study/src/ch15/sec06/exam01/Coin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../study/src/ch15/sec06/exam01/StackExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../study/src/ch15/sec06/exam02/Message.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../study/src/ch15/sec06/exam02/QueueExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/V3/src/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/V3/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/V3/src/Menu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/V3/src/basic/Input.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/V3/src/command/Command.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/V3/src/command/GetScoresCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/V3/src/command/InitScoresCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/V3/src/command/PrintScoreCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/V3/src/domain/StudentScores.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../study/src/ch16/sec01/Calculable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../study/src/ch16/sec01/LambdaExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../study/src/ch16/sec02/exam01/LambdaExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../study/src/ch16/sec02/exam01/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../study/src/ch16/sec02/exam01/Workable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../study/src/ch16/sec02/exam02/Button.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../study/src/ch16/sec02/exam02/ButtonExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../study/src/ch16/sec03/LambdaExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../study/src/ch16/sec03/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../study/src/ch16/sec03/Speakable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../study/src/ch16/sec03/Workable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../study/src/ch16/sec04/Calcuable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../study/src/ch16/sec04/LambdaExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../study/src/ch16/sec04/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../study/src/ch17/sec01/StreamExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../study/src/ch17/sec03/StreamPipeLineExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../study/src/ch17/sec03/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../study/src/ch17/sec04/exam01/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../study/src/ch17/sec04/exam01/StreamExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../study/src/ch17/sec04/exam02/StreamExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../study/src/ch17/sec04/exam03/StreamExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../study/src/ch17/sec04/exam04/StreamExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../study/src/ch17/sec05/FilteringExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../study/src/ch17/sec06/exam01/MapExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../study/src/ch17/sec06/exam01/Student.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/V0/src/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/V0/src/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/V1/src/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/V1/src/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/V2/src/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/V2/src/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/V2/src/Input.java" beforeDir="false" afterPath="$PROJECT_DIR$/V2/src/Input.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/V2/src/Menu.java" beforeDir="false" afterPath="$PROJECT_DIR$/V2/src/Menu.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/V2/src/V2.iml" beforeDir="false" afterPath="$PROJECT_DIR$/V2/V2.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/V3/src/AnalizeCommand.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/V3/src/App.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/V3/src/Command.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/V3/src/ExitCommand.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/V3/src/GetScoresCommand.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/V3/src/InitScoresCommand.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/V3/src/Input.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/V3/src/PrintScoreCommand.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/V3/src/StudentScores.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/V4/V4.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/V4/src/AnalizeCommand.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/V4/src/App.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/V4/src/Command.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/V4/src/ExitCommand.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/V4/src/GetScoresCommand.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/V4/src/InitScoresCommand.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/V4/src/Input.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/V4/src/Menu.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/V4/src/MenuItem.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/V4/src/PrintScoreCommand.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/V4/src/StudentScores.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CLI-Framework/App.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CLI-Framework/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/V1/App.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/V1/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/V3/V3.iml" beforeDir="false" afterPath="$PROJECT_DIR$/V3/V3.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../study/src/out/production/study/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../study/src/out/production/study/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -63,10 +59,10 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "customColor": "",
-  "associatedIndex": 6
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 6
+}</component>
   <component name="ProjectId" id="2ig3pafTahkHmYX4s9Aeleml3Qk" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -75,27 +71,39 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.App.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "kotlin-language-version-configured": "true",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "onboarding.tips.debug.path": "C:/KB_fullstack/04_java/CLI-Framework/V2/src/Main.java",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.App (1).executor&quot;: &quot;Run&quot;,
+    &quot;Application.App.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/KB_fullstack/04_java/CLI-Framework/V3/src&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;C:/KB_fullstack/04_java/CLI-Framework/V2/src/Main.java&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\KB_fullstack\04_java\CLI-Framework\V3\src" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.App (1)">
+    <configuration name="App (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="App" />
+      <module name="V3" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="App" />
       <module name="V2" />
@@ -105,6 +113,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.App (1)" />
         <item itemvalue="Application.App" />
       </list>
     </recent_temporary>
@@ -125,7 +134,9 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1719898578305</updated>
-      <workItem from="1719898579434" duration="5624000" />
+      <workItem from="1719898579434" duration="6256000" />
+      <workItem from="1719994651492" duration="1524000" />
+      <workItem from="1719996196762" duration="2806000" />
     </task>
     <servers />
   </component>
