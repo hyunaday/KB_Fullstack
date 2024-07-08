@@ -5,21 +5,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="50b108cf-f28d-4a32-afc2-f8be98c00850" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../study/src/ch17/sec06/exam02/MapExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../study/src/ch17/sec07/exam01/SortingExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../study/src/ch17/sec07/exam01/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../study/src/ch17/sec07/exam02/SortingExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../study/src/ch17/sec07/exam02/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../study/src/ch17/sec08/LoopingExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../study/src/ch17/sec10/AggregateExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../study/src/ch17/sec10/OptionalExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../study/src/ch18/sec02/exam01/WriteExample1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../study/src/ch18/sec02/exam01/WriteExample2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../study/src/ch18/sec10/Member.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../study/src/ch18/sec10/ObjectOutputStreamExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../study/src/ch18/sec10/Product.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../study/src/ch17/sec04/exam01/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/../study/src/ch17/sec04/exam01/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KB_2024/KB_2024.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../study/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../study/.idea/libraries/lombok.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../study/src/ch18/sec02/exam02/WriteExample1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../study/src/ch18/sec02/exam02/WriteExample2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../study/src/ch18/sec03/exam02/ReadExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../study/src/ch18/sec03/exam03/CopyExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../study/src/ch18/sec04/exam01/WriteExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../study/src/ch18/sec04/exam02/ReadExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../study/src/ch18/sec06/CharacterConvertStreamExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../study/src/ch18/sec07/exam01/BufferExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../study/src/ch18/sec07/exam02/ReadLineExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../study/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../study/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../study/src/out/production/study/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../study/src/out/production/study/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../study/study.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../study/study.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -115,6 +115,7 @@
       <workItem from="1719994651492" duration="1524000" />
       <workItem from="1719996196762" duration="2840000" />
       <workItem from="1720138489764" duration="948000" />
+      <workItem from="1720424912240" duration="12000" />
     </task>
     <servers />
   </component>

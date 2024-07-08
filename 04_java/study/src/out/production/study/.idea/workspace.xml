@@ -4,10 +4,31 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="225f064b-5ee4-4592-a0b8-42519a602c07" name="Changes" comment="20240702_collection(2)">
-      <change afterPath="$PROJECT_DIR$/ch16/sec01/Calculable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ch16/sec01/LambdaExample.java" afterDir="false" />
+    <list default="true" id="225f064b-5ee4-4592-a0b8-42519a602c07" name="Changes" comment="20240703_Lambda_Stream">
+      <change afterPath="$PROJECT_DIR$/../../KB_2024/src/week1/소수만들기/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../KB_2024/src/week1/연속된부분수열의합/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../KB_2024/src/week1/예산/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../KB_2024/src/week1/완주하지못한선수/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../KB_2024/src/week1/전화번호목록/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../KB_2024/src/week2/괄호회전하기/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../KB_2024/src/week2/두큐합같게만들기/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../KB_2024/src/week2/올바른괄호/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch17/sec06/exam02/MapExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch17/sec07/exam01/SortingExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch17/sec07/exam01/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch17/sec07/exam02/SortingExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch17/sec07/exam02/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch17/sec08/LoopingExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch17/sec10/AggregateExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch17/sec10/OptionalExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch18/sec02/exam01/WriteExample1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch18/sec02/exam01/WriteExample2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch18/sec03/exam01/ReadExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch18/sec10/Member.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch18/sec10/ObjectOutputStreamExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch18/sec10/Product.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../CLI-Framework/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../CLI-Framework/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch17/sec04/exam01/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/ch17/sec04/exam01/Product.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,9 +82,11 @@
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
     &quot;Application.AccountExample.executor&quot;: &quot;Run&quot;,
+    &quot;Application.AggregateExample.executor&quot;: &quot;Run&quot;,
     &quot;Application.ArrayListExample.executor&quot;: &quot;Run&quot;,
     &quot;Application.BeepPrintExample.executor&quot;: &quot;Run&quot;,
     &quot;Application.BoxingUnBoxingExample.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ButtonExample.executor&quot;: &quot;Run&quot;,
     &quot;Application.CarExample.executor&quot;: &quot;Run&quot;,
     &quot;Application.EqualsExample.executor&quot;: &quot;Run&quot;,
     &quot;Application.ErrExample.executor&quot;: &quot;Run&quot;,
@@ -76,10 +99,18 @@
     &quot;Application.HashMapExample.executor&quot;: &quot;Run&quot;,
     &quot;Application.HashSetExample.executor&quot;: &quot;Run&quot;,
     &quot;Application.InExample.executor&quot;: &quot;Run&quot;,
+    &quot;Application.LambdaExample.executor&quot;: &quot;Run&quot;,
+    &quot;Application.LoopingExample.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MapExample.executor&quot;: &quot;Run&quot;,
     &quot;Application.MathExample.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ObjectOutputStreamExample.executor&quot;: &quot;Run&quot;,
+    &quot;Application.OptionalExample.executor&quot;: &quot;Run&quot;,
     &quot;Application.PatternExample.executor&quot;: &quot;Run&quot;,
     &quot;Application.QueueExample.executor&quot;: &quot;Run&quot;,
     &quot;Application.RandomExample.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SortingExample.executor&quot;: &quot;Run&quot;,
+    &quot;Application.StreamExample.executor&quot;: &quot;Run&quot;,
+    &quot;Application.StreamPipeLineExample.executor&quot;: &quot;Run&quot;,
     &quot;Application.StringBuilderExample.executor&quot;: &quot;Run&quot;,
     &quot;Application.ToStringExample.executor&quot;: &quot;Run&quot;,
     &quot;Application.TryWithResourceExample.executor&quot;: &quot;Run&quot;,
@@ -93,6 +124,11 @@
     &quot;Application.ch15.sec02.exam03.ArrayListExample.executor&quot;: &quot;Run&quot;,
     &quot;Application.ch15.sec03.exam02.HashSetExample.executor&quot;: &quot;Run&quot;,
     &quot;Application.ch15.sec03.exam03.HashSetExample.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ch16.sec02.exam01.LambdaExample.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ch16.sec03.LambdaExample.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ch16.sec04.LambdaExample.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ch17.sec04.exam01.StreamExample.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ch17.sec07.exam02.SortingExample.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
     &quot;last_opened_file_path&quot;: &quot;C:/KB_fullstack/04_java/study/src/ch15/sec03/exam04&quot;,
@@ -115,16 +151,17 @@
       <recent name="C:\KB_Fullstack\04_java\study\src\ch11\sec03\exam03" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="ch18.sec02.exam01" />
       <recent name="ch13.sec02.exam02" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.LambdaExample">
-    <configuration name="HashMapExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ch13.sec04.exam01.HashMapExample" />
+  <component name="RunManager" selected="Application.MapExample">
+    <configuration name="AggregateExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ch17.sec10.AggregateExample" />
       <module name="study" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ch13.sec04.exam01.*" />
+          <option name="PATTERN" value="ch17.sec10.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -132,12 +169,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LambdaExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ch16.sec01.LambdaExample" />
+    <configuration name="LoopingExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ch17.sec08.LoopingExample" />
       <module name="study" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ch16.sec01.*" />
+          <option name="PATTERN" value="ch17.sec08.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -145,12 +182,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="QueueExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ch15.sec06.exam02.QueueExample" />
+    <configuration name="MapExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ch17.sec06.exam02.MapExample" />
       <module name="study" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ch15.sec06.exam02.*" />
+          <option name="PATTERN" value="ch17.sec06.exam02.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -158,12 +195,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ch15.sec03.exam02.HashSetExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ch15.sec03.exam02.HashSetExample" />
+    <configuration name="ObjectOutputStreamExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ch18.sec10.ObjectOutputStreamExample" />
       <module name="study" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ch15.sec03.exam02.*" />
+          <option name="PATTERN" value="ch18.sec10.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -171,12 +208,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ch15.sec03.exam03.HashSetExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ch15.sec03.exam03.HashSetExample" />
+    <configuration name="OptionalExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ch17.sec10.OptionalExample" />
       <module name="study" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ch15.sec03.exam03.*" />
+          <option name="PATTERN" value="ch17.sec10.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -186,11 +223,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.LambdaExample" />
-        <item itemvalue="Application.QueueExample" />
-        <item itemvalue="Application.HashMapExample" />
-        <item itemvalue="Application.ch15.sec03.exam03.HashSetExample" />
-        <item itemvalue="Application.ch15.sec03.exam02.HashSetExample" />
+        <item itemvalue="Application.MapExample" />
+        <item itemvalue="Application.ObjectOutputStreamExample" />
+        <item itemvalue="Application.OptionalExample" />
+        <item itemvalue="Application.AggregateExample" />
+        <item itemvalue="Application.LoopingExample" />
       </list>
     </recent_temporary>
   </component>
@@ -220,7 +257,8 @@
       <workItem from="1719811264917" duration="3871000" />
       <workItem from="1719816913943" duration="15647000" />
       <workItem from="1719903316867" duration="9348000" />
-      <workItem from="1719976204943" duration="2319000" />
+      <workItem from="1719976204943" duration="35569000" />
+      <workItem from="1720408386246" duration="358000" />
     </task>
     <task id="LOCAL-00001" summary="plz">
       <option name="closed" value="true" />
@@ -246,7 +284,15 @@
       <option name="project" value="LOCAL" />
       <updated>1719910323311</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="20240703_Lambda_Stream">
+      <option name="closed" value="true" />
+      <created>1720003871655</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1720003871655</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -255,7 +301,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="plz" />
     <MESSAGE value="20240702_collection(2)" />
-    <option name="LAST_COMMIT_MESSAGE" value="20240702_collection(2)" />
+    <MESSAGE value="20240703_Lambda_Stream" />
+    <option name="LAST_COMMIT_MESSAGE" value="20240703_Lambda_Stream" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -269,6 +316,11 @@
           <url>file://$PROJECT_DIR$/ch13/sec04/exam01/HashMapExample.java</url>
           <line>8</line>
           <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/ch17/sec06/exam01/MapExample.java</url>
+          <line>17</line>
+          <option name="timeStamp" value="8" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

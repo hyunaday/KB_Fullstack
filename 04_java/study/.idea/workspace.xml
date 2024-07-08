@@ -4,7 +4,24 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1b133e6f-f39e-4957-a3b9-4ea1adb5a63e" name="Changes" comment="20240621_L3" />
+    <list default="true" id="1b133e6f-f39e-4957-a3b9-4ea1adb5a63e" name="Changes" comment="20240621_L3">
+      <change afterPath="$PROJECT_DIR$/../KB_2024/KB_2024.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/lombok.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ch18/sec02/exam02/WriteExample1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ch18/sec02/exam02/WriteExample2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ch18/sec03/exam02/ReadExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ch18/sec03/exam03/CopyExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ch18/sec04/exam01/WriteExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ch18/sec04/exam02/ReadExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ch18/sec06/CharacterConvertStreamExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ch18/sec07/exam01/BufferExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ch18/sec07/exam02/ReadLineExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CLI-Framework/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../CLI-Framework/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/out/production/study/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/out/production/study/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/study.iml" beforeDir="false" afterPath="$PROJECT_DIR$/study.iml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -71,6 +88,7 @@
     &quot;Application.PrimitiveAndStringConversionExample.executor&quot;: &quot;Run&quot;,
     &quot;Application.PrintfExample.executor&quot;: &quot;Run&quot;,
     &quot;Application.PromotionExample.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ReadLineExample.executor&quot;: &quot;Run&quot;,
     &quot;Application.RemoteControlExample.executor&quot;: &quot;Run&quot;,
     &quot;Application.ScannerExample.executor&quot;: &quot;Run&quot;,
     &quot;Application.SmartPhoneExample.executor&quot;: &quot;Run&quot;,
@@ -101,15 +119,19 @@
     &quot;Application.hi2.executor&quot;: &quot;Run&quot;,
     &quot;Application.hi2024_06_18.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/KB_Fullstack/04_java/study/src/ch09/sec06/exam03&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/KB_fullstack/04_java/study/lib/lombok.jar&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
     &quot;onboarding.tips.debug.path&quot;: &quot;C:/KB_Fullstack/04_java/study/src/Main.java&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;project.propGUI&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.projectsettings.compiler.annotationProcessors&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
@@ -129,7 +151,7 @@
       <recent name="ch07.sec07.exam03" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.EqualsExample">
+  <component name="RunManager" selected="Application.ReadLineExample">
     <configuration name="AExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ch09.sec03.exam02.AExample" />
       <module name="study" />
@@ -143,12 +165,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="test.Q1.second.App" />
+    <configuration name="EqualsExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ch05.sec05.EqualsExample" />
       <module name="study" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="test.Q1.second.*" />
+          <option name="PATTERN" value="ch05.sec05.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -156,12 +178,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EqualsExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ch05.sec05.EqualsExample" />
+    <configuration name="ReadLineExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ch18.sec07.exam02.ReadLineExample" />
       <module name="study" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ch05.sec05.*" />
+          <option name="PATTERN" value="ch18.sec07.exam02.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -197,11 +219,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ReadLineExample" />
         <item itemvalue="Application.EqualsExample" />
         <item itemvalue="Application.AExample" />
         <item itemvalue="Application.ch08.sec04.RemoteControlExample" />
         <item itemvalue="Application.RemoteControlExample" />
-        <item itemvalue="Application.App" />
       </list>
     </recent_temporary>
   </component>
@@ -229,6 +251,8 @@
       <workItem from="1718666979017" duration="70351000" />
       <workItem from="1718877046607" duration="54451000" />
       <workItem from="1719366968419" duration="2000" />
+      <workItem from="1720424566460" duration="536000" />
+      <workItem from="1720425122299" duration="603000" />
     </task>
     <task id="LOCAL-00001" summary="20240619_두번째">
       <option name="closed" value="true" />
