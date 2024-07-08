@@ -5,44 +5,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="50b108cf-f28d-4a32-afc2-f8be98c00850" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/V3/src/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/V3/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/V3/src/Menu.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/V3/src/basic/Input.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/V3/src/command/Command.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/V3/src/command/GetScoresCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/V3/src/command/InitScoresCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/V3/src/command/PrintScoreCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/V3/src/domain/StudentScores.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../study/src/ch16/sec01/Calculable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../study/src/ch16/sec01/LambdaExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../study/src/ch16/sec02/exam01/LambdaExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../study/src/ch16/sec02/exam01/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../study/src/ch16/sec02/exam01/Workable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../study/src/ch16/sec02/exam02/Button.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../study/src/ch16/sec02/exam02/ButtonExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../study/src/ch16/sec03/LambdaExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../study/src/ch16/sec03/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../study/src/ch16/sec03/Speakable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../study/src/ch16/sec03/Workable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../study/src/ch16/sec04/Calcuable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../study/src/ch16/sec04/LambdaExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../study/src/ch16/sec04/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../study/src/ch17/sec01/StreamExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../study/src/ch17/sec03/StreamPipeLineExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../study/src/ch17/sec03/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../study/src/ch17/sec04/exam01/Product.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../study/src/ch17/sec04/exam01/StreamExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../study/src/ch17/sec04/exam02/StreamExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../study/src/ch17/sec04/exam03/StreamExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../study/src/ch17/sec04/exam04/StreamExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../study/src/ch17/sec05/FilteringExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../study/src/ch17/sec06/exam01/MapExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../study/src/ch17/sec06/exam01/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../study/src/ch17/sec06/exam02/MapExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../study/src/ch17/sec07/exam01/SortingExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../study/src/ch17/sec07/exam01/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../study/src/ch17/sec07/exam02/SortingExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../study/src/ch17/sec07/exam02/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../study/src/ch17/sec08/LoopingExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../study/src/ch17/sec10/AggregateExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../study/src/ch17/sec10/OptionalExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../study/src/ch18/sec02/exam01/WriteExample1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../study/src/ch18/sec02/exam01/WriteExample2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../study/src/ch18/sec10/Member.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../study/src/ch18/sec10/ObjectOutputStreamExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../study/src/ch18/sec10/Product.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/V3/V3.iml" beforeDir="false" afterPath="$PROJECT_DIR$/V3/V3.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../study/src/out/production/study/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../study/src/out/production/study/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../study/src/ch17/sec04/exam01/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/../study/src/ch17/sec04/exam01/Product.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -136,7 +113,8 @@
       <updated>1719898578305</updated>
       <workItem from="1719898579434" duration="6256000" />
       <workItem from="1719994651492" duration="1524000" />
-      <workItem from="1719996196762" duration="2806000" />
+      <workItem from="1719996196762" duration="2840000" />
+      <workItem from="1720138489764" duration="948000" />
     </task>
     <servers />
   </component>
