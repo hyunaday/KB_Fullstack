@@ -39,7 +39,7 @@ class UserDaoTest {
         // 모든 사용자 목록을 조회
         List<UserVO> list = dao.getList();
         // 조회된 사용자 목록을 출력
-        for(UserVO user : list){
+        for(UserVO vo : list){
             System.out.println(vo);
         }
     }
@@ -70,9 +70,9 @@ class UserDaoTest {
     @Test
     @DisplayName("user를 삭제합니다.")
     @Order(5)
-    void delete() {
+    void delete() throws SQLException {
         // 특정 사용자 삭제
-        int count = dao.delete("ssama");
+        int count = dao.delete("ssamz3");
         Assertions.assertEquals(1, count);
     }
 }
