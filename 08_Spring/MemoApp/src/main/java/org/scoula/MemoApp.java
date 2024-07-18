@@ -1,9 +1,9 @@
-package org.scoula.memo;
+package org.scoula;
 
 import org.scoula.lib.cli.App;
 import org.scoula.lib.cli.ui.Menu;
 
-public class MemoApp extends App {
+public class MemoApp extends App{
     @Override
     public void createMenu(Menu menu) {
         super.createMenu(menu);
