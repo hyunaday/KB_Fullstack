@@ -7,20 +7,21 @@ import java.io.InputStream;
 
 public class ReadExample {
     public static void main(String[] args) {
-        try(InputStream is = new FileInputStream("C:/temp/test2.db")) {
+        try(InputStream is = new FileInputStream("C:/Temp/test2.db")){
             byte[] data = new byte[100];
 
-            while(true){
-                int num = is.read(data); // 최대 100byte 읽기
-                if(num == -1) break; // 파일 끝 도달
+            while (true){
+//                최대 배열의 개수만큼 읽음 (100byte)
+                int num = is.read(data);
+                if(num == -1) break;
 
                 for(int i=0; i<num; i++){
                     System.out.println(data[i]);
                 }
             }
-        }catch(FileNotFoundException e){
+        }catch (FileNotFoundException e) {
             e.printStackTrace();
-        }catch(IOException e){
+        }catch (IOException e) {
             e.printStackTrace();
         }
     }

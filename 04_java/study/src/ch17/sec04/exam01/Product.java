@@ -5,7 +5,6 @@ import lombok.Data;
 
 @AllArgsConstructor
 @Data
-
 public class Product {
     private int pno;
     private String name;

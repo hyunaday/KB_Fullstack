@@ -6,9 +6,9 @@ public class CarExample {
         Car myCar = new Car();
 
         // Car 객체의 필드값 읽기
-        // 필드에 접근할 때는 기본적으로 객체명으로 접근
-        System.out.println("모델명: "+ myCar.model);
-        System.out.println("시동여부: "+ myCar.start);
-        System.out.println("현재속도: "+ myCar.speed);
+//        필드에 접근할 때는 기본적으로 객체명으로 접근
+        System.out.println("모델명: "+myCar.model);
+        System.out.println("시동여부: "+myCar.start);
+        System.out.println("현재속도: "+myCar.speed);
     }
 }

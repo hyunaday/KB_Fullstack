@@ -2,12 +2,12 @@ package ch07.sec02;
 
 // 부모 클래스
 public class Phone {
-    // 필드 선언
-    public  String model;
-    public  String color;
+    //필드 선언
+    public String model;
+    public String color;
 
-    // 메소드 선언
-    public void bell() {
+    //메소드 선언
+    public void bell(){
         System.out.println("벨이 울립니다.");
     }
     public void sendVoice(String message){

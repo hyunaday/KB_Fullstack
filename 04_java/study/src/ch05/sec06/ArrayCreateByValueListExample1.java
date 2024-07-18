@@ -21,11 +21,12 @@ public class ArrayCreateByValueListExample1 {
 
         // 총합과 평균 구하기
         int sum = 0;
-        for(int i=0; i<3; i++) {
+//        배열의 길이는 변할 수 있으므로 3 대신 scores.length()가 더 좋은 코드다
+        for (int i = 0; i < 3; i++) {
             sum += scores[i];
         }
-        System.out.println("총합 : "+ sum);
+        System.out.println("총합 : "+sum);
         double avg = (double) sum / 3;
-        System.out.println("평균 : " + avg);
+        System.out.println("평균 : "+avg);
     }
 }

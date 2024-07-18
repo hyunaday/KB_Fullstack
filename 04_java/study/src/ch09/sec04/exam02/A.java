@@ -1,5 +1,7 @@
 package ch09.sec04.exam02;
 
+import org.w3c.dom.ls.LSOutput;
+
 public class A {
     // 메소드
     void useB(){
@@ -8,11 +10,11 @@ public class A {
             // 인스턴스 필드
             int field1 = 1;
 
-            // 정적 필드(Java 17부터 허용)
-            static int field2 =2;
+            // 정적 필드
+            static int field2 = 2;
 
             // 생성자
-            B() {
+            B(){
                 System.out.println("B-생성자 실행");
             }
 
@@ -21,7 +23,7 @@ public class A {
                 System.out.println("B-method1 실행");
             }
 
-            // 정적 메소드(Java 17부터 허용)
+            // 정적 메소드
             static void method2(){
                 System.out.println("B-method2 실행");
             }
@@ -34,7 +36,6 @@ public class A {
         b.method1();
 
         // 로컬 클래스의 정적 필드와 메소드 사용
-        // (Java 17부터 허용)
         System.out.println(B.field2);
         B.method2();
     }

@@ -4,31 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="225f064b-5ee4-4592-a0b8-42519a602c07" name="Changes" comment="20240703_Lambda_Stream">
-      <change afterPath="$PROJECT_DIR$/../../KB_2024/src/week1/소수만들기/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../KB_2024/src/week1/연속된부분수열의합/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../KB_2024/src/week1/예산/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../KB_2024/src/week1/완주하지못한선수/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../KB_2024/src/week1/전화번호목록/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../KB_2024/src/week2/괄호회전하기/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../KB_2024/src/week2/두큐합같게만들기/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../KB_2024/src/week2/올바른괄호/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ch17/sec06/exam02/MapExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ch17/sec07/exam01/SortingExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ch17/sec07/exam01/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ch17/sec07/exam02/SortingExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ch17/sec07/exam02/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ch17/sec08/LoopingExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ch17/sec10/AggregateExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ch17/sec10/OptionalExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ch18/sec02/exam01/WriteExample1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ch18/sec02/exam01/WriteExample2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ch18/sec03/exam01/ReadExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ch18/sec10/Member.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ch18/sec10/ObjectOutputStreamExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ch18/sec10/Product.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CLI-Framework/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../CLI-Framework/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch17/sec04/exam01/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/ch17/sec04/exam01/Product.java" afterDir="false" />
+    <list default="true" id="225f064b-5ee4-4592-a0b8-42519a602c07" name="Changes" comment="20240705_java_알고리즘">
+      <change afterPath="$PROJECT_DIR$/ch08/sec08/MultilinerfaceImplExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../cli-framework/V6/src/ui/Menu.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../cli-framework/V6/src/ui/Menu.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,6 +46,10 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="jar://$PROJECT_DIR$/../../../../jdk-17/lib/src.zip!/java.base/java/io/FileNotFoundException.java" root0="SKIP_INSPECTION" />
+    <setting file="jar://$PROJECT_DIR$/../../../../jdk-17/lib/src.zip!/java.base/java/lang/NullPointerException.java" root0="SKIP_INSPECTION" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 3
 }</component>
@@ -86,8 +68,11 @@
     &quot;Application.ArrayListExample.executor&quot;: &quot;Run&quot;,
     &quot;Application.BeepPrintExample.executor&quot;: &quot;Run&quot;,
     &quot;Application.BoxingUnBoxingExample.executor&quot;: &quot;Run&quot;,
+    &quot;Application.BufferExample.executor&quot;: &quot;Run&quot;,
     &quot;Application.ButtonExample.executor&quot;: &quot;Run&quot;,
     &quot;Application.CarExample.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CharacterConvertStreamExample.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CopyExample.executor&quot;: &quot;Run&quot;,
     &quot;Application.EqualsExample.executor&quot;: &quot;Run&quot;,
     &quot;Application.ErrExample.executor&quot;: &quot;Run&quot;,
     &quot;Application.ExceptionHandlingExample.executor&quot;: &quot;Run&quot;,
@@ -108,12 +93,17 @@
     &quot;Application.PatternExample.executor&quot;: &quot;Run&quot;,
     &quot;Application.QueueExample.executor&quot;: &quot;Run&quot;,
     &quot;Application.RandomExample.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ReadExample.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ReadLineExample.executor&quot;: &quot;Run&quot;,
     &quot;Application.SortingExample.executor&quot;: &quot;Run&quot;,
     &quot;Application.StreamExample.executor&quot;: &quot;Run&quot;,
     &quot;Application.StreamPipeLineExample.executor&quot;: &quot;Run&quot;,
     &quot;Application.StringBuilderExample.executor&quot;: &quot;Run&quot;,
     &quot;Application.ToStringExample.executor&quot;: &quot;Run&quot;,
     &quot;Application.TryWithResourceExample.executor&quot;: &quot;Run&quot;,
+    &quot;Application.WriteExample.executor&quot;: &quot;Run&quot;,
+    &quot;Application.WriteExample1.executor&quot;: &quot;Run&quot;,
+    &quot;Application.WriteExample2.executor&quot;: &quot;Run&quot;,
     &quot;Application.ch11.sec03.exam01.ExceptionHandlingExample.executor&quot;: &quot;Run&quot;,
     &quot;Application.ch11.sec03.exam02.ExceptionHandlingExample.executor&quot;: &quot;Run&quot;,
     &quot;Application.ch13.sec02.exam01.GenericExample.executor&quot;: &quot;Run&quot;,
@@ -129,6 +119,9 @@
     &quot;Application.ch16.sec04.LambdaExample.executor&quot;: &quot;Run&quot;,
     &quot;Application.ch17.sec04.exam01.StreamExample.executor&quot;: &quot;Run&quot;,
     &quot;Application.ch17.sec07.exam02.SortingExample.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ch18.sec03.exam02.ReadExample.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ch18.sec04.exam02.ReadExample.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ch18.sec07.exam01.CharacterConvertStreamExample.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
     &quot;last_opened_file_path&quot;: &quot;C:/KB_fullstack/04_java/study/src/ch15/sec03/exam04&quot;,
@@ -151,17 +144,18 @@
       <recent name="C:\KB_Fullstack\04_java\study\src\ch11\sec03\exam03" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="ch18.sec02.exam02" />
       <recent name="ch18.sec02.exam01" />
       <recent name="ch13.sec02.exam02" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MapExample">
-    <configuration name="AggregateExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ch17.sec10.AggregateExample" />
+  <component name="RunManager" selected="Application.MultiInterfaceImplExample">
+    <configuration name="BufferExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ch18.sec07.exam01.BufferExample" />
       <module name="study" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ch17.sec10.*" />
+          <option name="PATTERN" value="ch18.sec07.exam01.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -169,12 +163,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LoopingExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ch17.sec08.LoopingExample" />
+    <configuration name="CharacterConvertStreamExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ch18.sec06.CharacterConvertStreamExample" />
       <module name="study" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ch17.sec08.*" />
+          <option name="PATTERN" value="ch18.sec06.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -182,12 +176,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MapExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ch17.sec06.exam02.MapExample" />
+    <configuration name="MultiInterfaceImplExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ch08.sec08.MultiInterfaceImplExample" />
       <module name="study" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ch17.sec06.exam02.*" />
+          <option name="PATTERN" value="ch08.sec08.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -195,12 +189,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ObjectOutputStreamExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ch18.sec10.ObjectOutputStreamExample" />
+    <configuration name="ReadLineExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ch18.sec07.exam02.ReadLineExample" />
       <module name="study" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ch18.sec10.*" />
+          <option name="PATTERN" value="ch18.sec07.exam02.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -208,12 +202,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OptionalExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ch17.sec10.OptionalExample" />
+    <configuration name="ch18.sec07.exam01.CharacterConvertStreamExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ch18.sec07.exam01.CharacterConvertStreamExample" />
       <module name="study" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ch17.sec10.*" />
+          <option name="PATTERN" value="ch18.sec07.exam01.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -223,19 +217,19 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.MapExample" />
-        <item itemvalue="Application.ObjectOutputStreamExample" />
-        <item itemvalue="Application.OptionalExample" />
-        <item itemvalue="Application.AggregateExample" />
-        <item itemvalue="Application.LoopingExample" />
+        <item itemvalue="Application.MultiInterfaceImplExample" />
+        <item itemvalue="Application.ReadLineExample" />
+        <item itemvalue="Application.BufferExample" />
+        <item itemvalue="Application.ch18.sec07.exam01.CharacterConvertStreamExample" />
+        <item itemvalue="Application.CharacterConvertStreamExample" />
       </list>
     </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-9f38398b9061-39b83d9b5494-intellij.indexing.shared.core-IU-241.17890.1" />
-        <option value="bundled-js-predefined-1d06a55b98c1-0b3e54e931b4-JavaScript-IU-241.17890.1" />
+        <option value="bundled-jdk-9f38398b9061-18abd8497189-intellij.indexing.shared.core-IU-241.14494.240" />
+        <option value="bundled-js-predefined-1d06a55b98c1-74d2a5396914-JavaScript-IU-241.14494.240" />
       </set>
     </attachedChunks>
   </component>
@@ -258,7 +252,10 @@
       <workItem from="1719816913943" duration="15647000" />
       <workItem from="1719903316867" duration="9348000" />
       <workItem from="1719976204943" duration="35569000" />
-      <workItem from="1720408386246" duration="358000" />
+      <workItem from="1720408386246" duration="9007000" />
+      <workItem from="1720772764435" duration="685000" />
+      <workItem from="1721006875481" duration="57000" />
+      <workItem from="1721210451567" duration="901000" />
     </task>
     <task id="LOCAL-00001" summary="plz">
       <option name="closed" value="true" />
@@ -292,7 +289,15 @@
       <option name="project" value="LOCAL" />
       <updated>1720003871655</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="20240705_java_알고리즘">
+      <option name="closed" value="true" />
+      <created>1720408863865</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1720408863865</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -302,7 +307,8 @@
     <MESSAGE value="plz" />
     <MESSAGE value="20240702_collection(2)" />
     <MESSAGE value="20240703_Lambda_Stream" />
-    <option name="LAST_COMMIT_MESSAGE" value="20240703_Lambda_Stream" />
+    <MESSAGE value="20240705_java_알고리즘" />
+    <option name="LAST_COMMIT_MESSAGE" value="20240705_java_알고리즘" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -322,6 +328,15 @@
           <line>17</line>
           <option name="timeStamp" value="8" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/ch18/sec07/exam01/BufferExample.java</url>
+          <line>26</line>
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.io.FileNotFoundException" package="java.io" />
+          <option name="timeStamp" value="15" />
+        </breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>

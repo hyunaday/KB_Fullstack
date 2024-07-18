@@ -6,7 +6,7 @@ import command.Command;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Menu {
+public class Menu {0
     List<MenuItem> menus;
 
     // List는 인터페이스이기 때문에 실제 객체 생성은 ArrayList로 해준다

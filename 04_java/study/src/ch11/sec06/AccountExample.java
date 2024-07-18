@@ -8,10 +8,10 @@ public class AccountExample {
         System.out.println("예금액: " + account.getBalance());
 
         // 출금하기
-        try {
+        try{
             account.withdraw(30000);
-        } catch (InsufficientException e) {
-            // InsufficientException 생성자에서 문자열을 저장해두고 getMessage로 가져오기
+        }catch (InsufficientException e){
+//            InsufficientException 생성자에서 문자열을 저장해두고 getMessage로 가져오기
             String message = e.getMessage();
             System.out.println(message);
         }

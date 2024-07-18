@@ -1,8 +1,9 @@
 package ch13.sec02.exam02;
 
-public class CarAgency implements Rentable<Car> { // 타입 파라미터 P를 Car으로 대체
+//인터페이스의 P가 Car로 전부 대체됨
+public class CarAgency implements Rentable<Car>{
     @Override
-    public Car rent() { // 리턴 타입이 반드시 Car여야 함
+    public Car rent() {
         return new Car();
     }
 }
