@@ -5,22 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ac45c8dc-9296-4c69-901d-8cb2233987ec" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ScoulaLib/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ScoulaLib/.idea/artifacts/scoulacli_main_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ScoulaLib/scoulacli/src/main/java/org/scoula/lib/cli/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ScoulaLib/scoulacli/src/main/java/org/scoula/lib/cli/command/Command.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ScoulaLib/scoulacli/src/main/java/org/scoula/lib/cli/command/ExitCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ScoulaLib/scoulacli/src/main/java/org/scoula/lib/cli/ui/Input.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ScoulaLib/scoulacli/src/main/java/org/scoula/lib/cli/ui/Menu.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ScoulaLib/scoulacli/src/main/java/org/scoula/lib/cli/ui/MenuItem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../cli-framework/V6/src/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../cli-framework/V6/src/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../cli-framework/V6/src/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../cli-framework/V6/src/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../08_Spring/MemoApp/lib/scoulacli.main.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../08_Spring/MemoApp/src/main/java/org/scoula/memo/MemoApp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -127,6 +112,9 @@
       <workItem from="1719802612418" duration="4331000" />
       <workItem from="1721285900763" duration="1653000" />
       <workItem from="1721288147355" duration="6466000" />
+      <workItem from="1721300043744" duration="4000" />
+      <workItem from="1721300080032" duration="14000" />
+      <workItem from="1721300098475" duration="17000" />
     </task>
     <servers />
   </component>

@@ -1,6 +1,6 @@
-package org.scoula.lib.cli.ui;
+package org.scoula.studentscore.lib.cli.ui;
 
-import org.scoula.lib.cli.command.Command;
+import org.scoula.studentscore.lib.cli.command.Command;
 
 import java.util.ArrayList;
 

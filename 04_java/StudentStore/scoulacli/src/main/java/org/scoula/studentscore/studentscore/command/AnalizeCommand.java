@@ -1,4 +1,4 @@
-package org.scoula.studentscore.command;
+package org.scoula.studentscore.studentscore.command;
 
 import domain.StudentScores;
 

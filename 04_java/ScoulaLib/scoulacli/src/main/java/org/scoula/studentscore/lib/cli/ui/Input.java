@@ -1,4 +1,4 @@
-package org.scoula.lib.cli.ui;
+package org.scoula.studentscore.lib.cli.ui;
 
 import java.util.Scanner;
 

@@ -1,6 +1,6 @@
-package org.scoula.studentscore.service;
+package org.scoula.studentscore.studentscore.service;
 
-import org.scoula.studentscore.domain.StudentScores;
+import org.scoula.studentscore.studentscore.domain.StudentScores;
 
 public class StudentScoreService {
     StudentScores studentScores = StudentScores.getInstance();

@@ -1,6 +1,6 @@
-package org.scoula.lib.cli.ui;
+package org.scoula.studentscore.lib.cli.ui;
 
-import org.scoula.lib.cli.command.Command;
+import org.scoula.studentscore.lib.cli.command.Command;
 
 // 따로 관리되던 메뉴명과 Command를 하나의 클래스로 캡슐화해줌
 public class MenuItem {

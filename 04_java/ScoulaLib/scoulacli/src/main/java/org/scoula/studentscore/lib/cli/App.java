@@ -1,9 +1,9 @@
-package org.scoula.lib.cli;
+package org.scoula.studentscore.lib.cli;
 
-import org.scoula.lib.cli.command.Command;
-import org.scoula.lib.cli.command.ExitCommand;
-import org.scoula.lib.cli.ui.Menu;
-import org.scoula.lib.cli.ui.MenuItem;
+import org.scoula.studentscore.lib.cli.command.Command;
+import org.scoula.studentscore.lib.cli.command.ExitCommand;
+import org.scoula.studentscore.lib.cli.ui.Menu;
+import org.scoula.studentscore.lib.cli.ui.MenuItem;
 
 public abstract class App {
     Menu menu;

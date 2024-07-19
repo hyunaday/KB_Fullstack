@@ -1,6 +1,8 @@
 package org.scoula.studentscore.command;
 
-import domain.StudentScores;
+
+import org.scoula.studentscore.lib.cli.command.Command;
+import org.scoula.studentscore.studentscore.domain.StudentScores;
 
 // 3번 메뉴인 점수 출력 기능 처리하는 클래스
 public class PrintScoreCommand implements Command {
