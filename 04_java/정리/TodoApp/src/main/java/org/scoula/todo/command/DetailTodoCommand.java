@@ -1,7 +1,7 @@
 package org.scoula.todo.command;
 
-import org.scoula.lib.cli.command.Command;
-import org.scoula.lib.cli.ui.Input;
+import org.scoula.studentscore.lib.cli.command.Command;
+import org.scoula.studentscore.lib.cli.ui.Input;
 import org.scoula.todo.dao.TodoDao;
 import org.scoula.todo.domain.Todo;
 
