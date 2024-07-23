@@ -22,10 +22,8 @@ db.users.update({username: "jones"},
 {
     $set:{
         favorites:{
-            favorites:{    
                 movies:["Casablanca","Rocky"]
             }
-        }
     }
 })
 
@@ -33,3 +31,12 @@ db.users.update({username: "jones"},
 // favorites.movies : 부모키.자식키, 문자열 표시 필수
 // pretty() : 코드를 보기 좋게 들여쓰기 해줌
 db.users.find({"favorites.movies":"Casablanca"}).pretty()
+
+// users 컬렉션의 "Casabalnca"영화를 좋아하는 사용자들에 대해서 좋아하는 영화 목록에 
+// "The Maltese Falcon"을 중복 없이 추가하세요
+// 단, 해당 항목이 없는 경우는 무시하고, 여러 사람이 일치한다면 모두 업데이트 하세요
+// 여러개를 동시에 업데이트할 때는 되돋록 updateMany() 사용 권장
+db.users.updateMany({"favorites.movies":"Casabalnca"}),
+{$addToSet: {"favorites.movies":"The Maltese"}},
+false,
+true)
