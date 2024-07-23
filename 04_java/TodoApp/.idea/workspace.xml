@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ac45c8dc-9296-4c69-901d-8cb2233987ec" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../ScoulaLib/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ScoulaLib/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="ac45c8dc-9296-4c69-901d-8cb2233987ec" name="Changes" comment="20240722_todoApp_update">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../06_MongoDB/Q02-L3.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../06_MongoDB/Q02-L3.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -118,11 +118,34 @@
       <workItem from="1721300098475" duration="17000" />
       <workItem from="1721633150165" duration="10000" />
       <workItem from="1721633211011" duration="53000" />
+      <workItem from="1721637531615" duration="79000" />
+      <workItem from="1721637950123" duration="14000" />
     </task>
+    <task id="LOCAL-00001" summary="20240722_todoApp_update">
+      <option name="closed" value="true" />
+      <created>1721637566676</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1721637566676</updated>
+    </task>
+    <task id="LOCAL-00002" summary="20240722_todoApp_update">
+      <option name="closed" value="true" />
+      <created>1721637575208</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1721637575208</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="20240722_todoApp_update" />
+    <option name="LAST_COMMIT_MESSAGE" value="20240722_todoApp_update" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
