@@ -1,14 +1,4 @@
-package org.scoula.jdbc_ex.dao;
-
-import org.scoula.jdbc_ex.common.JDBCUtil;
-import org.scoula.jdbc_ex.domain.UserVO;
-import java.sql.Connection;
-import java.sql.PreparedStatement;
-import java.sql.ResultSet;
-import java.sql.SQLException;
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Optional;
+package jdbc_ex.dao;
 
 public class UserDaoImpl implements UserDao {
     // JDBC 연결 객체를 생성해서 초기화
@@ -30,9 +20,6 @@ public class UserDaoImpl implements UserDao {
             stmt.setString(3, user.getName());
             stmt.setString(4, user.getRole());
             return stmt.executeUpdate();
-
-
-
         }
     }
     private UserVO map(ResultSet rs) throws SQLException {

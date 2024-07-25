@@ -1,9 +1,10 @@
 -- USE : 기본 데이터베이스 설정
 USE sqldb;
+
 -- CREATE TABLE : 테이블 생성
 CREATE TABLE stdtbl (
-	stdName VARCHAR(10) NOT NULL PRIMARY KEY,
-	addr CHAR(4) NOT NULL
+    stdName VARCHAR(10) NOT NULL PRIMARY KEY,
+    addr CHAR(4) NOT NULL
 );
 -- NOT NULL : NULL이 될 수 없다
 -- PRIMARY KEY : 기본키

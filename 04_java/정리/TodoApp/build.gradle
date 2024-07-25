@@ -2,7 +2,7 @@ plugins {
     id 'java'
 }
 
-group = 'org.scoula'
+group = 'org.example'
 version = '1.0-SNAPSHOT'
 
 repositories {
@@ -10,16 +10,13 @@ repositories {
 }
 
 dependencies {
-    implementation project(':ScoulaCli')
-// https://mvnrepository.com/artifact/org.projectlombok/lombok
+    implementation project(":ScoulaCli")
     compileOnly 'org.projectlombok:lombok:1.18.32'
     annotationProcessor 'org.projectlombok:lombok:1.18.32'
 
-ad    implementation()
     testImplementation platform('org.junit:junit-bom:5.10.0')
     testImplementation 'org.junit.jupiter:junit-jupiter'
 }
-
 
 test {
     useJUnitPlatform()
