@@ -43,7 +43,7 @@ public class FrontControllerServlet extends HttpServlet {
         getMap.put("/", homeController::getIndex);
 
         getMap.put("/todo/list", todoController::getList);
-        getMap.put("/todo/view", todoController::getView);
+                getMap.put("/todo/view", todoController::getView);
         getMap.put("/todo/update", todoController::getUpdate);
         getMap.put("/todo/create", todoController::getCreate);
 
