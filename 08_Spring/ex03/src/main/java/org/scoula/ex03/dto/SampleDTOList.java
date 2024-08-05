@@ -9,7 +9,7 @@ import java.util.List;
 public class SampleDTOList {
     private List<SampleDTO> list;
 
-    public SampleDTOList() {
-        list = new ArrayList<>();
+    public SampleDTOList() {  // 메서드
+        list = new ArrayList<>(); // 생성자
     }
 }
