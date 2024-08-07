@@ -13,15 +13,14 @@ import org.springframework.test.context.junit.jupiter.SpringExtension;
 import static org.junit.jupiter.api.Assertions.*;
 
 @ExtendWith
-        (SpringExtension.class
-        )
+        (SpringExtension.class)
 @ContextConfiguration(classes = { RootConfig.class })
 @Log4j
-public class BoardMapperTest
-{
+public class BoardMapperTest{
     @Autowired
     private BoardMapper mapper;
-    @Test @DisplayName("BoardMapper의 목록 불러오기")
+    @Test
+    @DisplayName("BoardMapper의 목록 불러오기")
             public void getList() {
             for(BoardVO board : mapper.getList()) {
         log.info(board);
