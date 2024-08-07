@@ -22,12 +22,13 @@ public class TimeMapperTest {
     @Test
     @DisplayName("TimeMapper의 getTime()")
     public void getTime() {
-        log.info(timeMapper.getClass().getName());
-        log.info(timeMapper.getTime());
+        log.info(timeMapper.getClass().getName());  // TimeMapper의 실제 클래스 이름
+        log.info(timeMapper.getTime()); // TimeMapper의 getTime() 메소드 호출
     }
-
+    @Test
     @DisplayName("TimeMapper의 getTime2()")
     public void getTime2() {
+        log.info("getTime2");
         log.info(timeMapper.getTime2());
     }
 }
