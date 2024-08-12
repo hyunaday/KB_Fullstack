@@ -5,9 +5,8 @@
   Time: 오전 10:25
   To change this template use File | Settings | File Templates.
 --%>
-<%@ page contentType="text/html;charset=UTF-8" language="java" %>
-<%--<%@ page contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>--%>
-<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
+<%@ page contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
+<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
 <html lang="ko">
 <head>
     <meta charset="UTF-8" />
@@ -30,4 +29,4 @@
     <p>자바 기반의 백엔드 기술을 배웁니다.</p>
 </header>
 <%@ include file="menu.jsp"%>
-<div class="container my-5">
+<div class="container my-5"

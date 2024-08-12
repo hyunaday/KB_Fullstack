@@ -5,7 +5,7 @@
   Time: 오전 11:30
   To change this template use File | Settings | File Templates.
 --%>
-<%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<%@ page contentType="text/html; charset=UTF-8" language="java" %>
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
 <%@ taglib uri="http://java.sun.com/jsp/jstl/fmt" prefix="fmt"%>
 
@@ -33,15 +33,19 @@
         <th style="width: 130px">등록일</th>
     </tr>
     </thead>
+<%--    service의 getList 호출 -> mapper의 getList 호출 -> 테이블 전체를 리스트로 조회--%>
     <tbody>
     <c:forEach var="board" items="${list}">
         <tr>
+<%--            속성을 가져올 때는 getter로 접근--%>
             <td>${board.no}</td>
             <td>
+<%--                쿼리 스트링으로 no값이 들어가도록 링크 설정--%>
                 <a href="get?no=${board.no}">${board.title}</a>
             </td>
             <td>${board.writer}</td>
             <td>
+<%--                원하는 형식으로 날짜를 출력하기 위해 fmt 사용--%>
                 <fmt:formatDate pattern="yyyy-MM-dd" value="${board.regDate}"/>
             </td>
         </tr>
