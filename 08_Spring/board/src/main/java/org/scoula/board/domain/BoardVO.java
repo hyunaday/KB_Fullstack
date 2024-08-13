@@ -13,10 +13,11 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 @Builder
 public class BoardVO {
+
     private Long no;
     private String title;
-    private String content;
     private String writer;
+    private String content;
     private Date regDate;
     private Date updateDate;
 }

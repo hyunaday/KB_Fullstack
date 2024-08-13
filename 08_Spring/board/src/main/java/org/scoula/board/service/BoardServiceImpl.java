@@ -43,6 +43,9 @@ public class BoardServiceImpl implements BoardService {
         public void create(BoardDTO board) {
                 // DTO를 VO로 변경해서 mapper의 메소드 호출
                 BoardVO vo = board.toVo();
+                // 20240813 - mapper 없어서 create 작동 안함
+                mapper.create(vo);
+
                 // 변경된 vo의 no를 가져와서 다시 dto에 반영
                 board.setNo(vo.getNo());
         }

@@ -28,7 +28,9 @@ public static BoardDTO of(BoardVO vo) {
             .no(vo.getNo())
             .title(vo.getTitle())
             .content(vo.getContent())
-            .writer(vo.getWriter()).regDate(vo.getRegDate()).updateDate(vo.getUpdateDate())
+            .writer(vo.getWriter())
+            .regDate(vo.getRegDate())
+            .updateDate(vo.getUpdateDate())
             .build();
 }
 
@@ -41,5 +43,6 @@ public BoardVO toVo() {
             .writer(writer) .regDate(regDate).updateDate
                     (updateDate ).build();
         }
+
 
 }

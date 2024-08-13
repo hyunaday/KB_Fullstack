@@ -61,7 +61,8 @@ class BoardControllerTest {
                                 .param("title","테스트 새글 제목")
                                 .param("content", "테스트 새글 내용")
                                 .param("writer", "user1")
-                ). andReturn()
+                )
+                .andReturn()
                 .getModelAndView()
                 .getViewName(); // 해당하는 뷰의 이름 return
 
@@ -101,7 +102,7 @@ class BoardControllerTest {
     @Test
     public void delete() throws Exception {
         // 삭제 전 데이터베이스에 게시물 번호 확인할 것
-        String resultPage= mockMvc.perform(
+        String resultPage = mockMvc.perform(
                 MockMvcRequestBuilders
                         .post("/board/delete")
                         .param("no", "25")

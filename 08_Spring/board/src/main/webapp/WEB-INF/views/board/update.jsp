@@ -31,4 +31,9 @@
         <a href="get?no=${board.no}" class="btn btn-primary"><i class="fas fa-file-alt"></i> 돌아가기</a>
     </form>
 </div>
+
+<form action="delete" method="post" id="deleteForm">
+    <input type="hidden" name="no" value="${board.no}"/>
+</form>
+<script src="/resources/js/board.js"></script>
 <%@include file="../layouts/footer.jsp"%>
