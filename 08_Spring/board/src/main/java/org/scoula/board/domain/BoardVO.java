@@ -1,6 +1,7 @@
 package org.scoula.board.domain;
 
 import java.util.Date;
+import java.util.List;
 
 import lombok.Data;
 import lombok.AllArgsConstructor;
@@ -17,6 +18,10 @@ public class BoardVO {
     private Long no;
     private String title;
     private String writer;
+    
+    // 게시글 하나에 여러개의 첨부파일이 추가될 수 있다
+    private List<BoardAttachmentVO> attaches;
+
     private String content;
     private Date regDate;
     private Date updateDate;
