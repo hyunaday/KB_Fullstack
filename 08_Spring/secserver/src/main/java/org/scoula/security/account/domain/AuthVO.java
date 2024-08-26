@@ -1,17 +1,3 @@
-package org.scoula.security.account.domain;
-
-import lombok.Data;
-import org.springframework.security.core.GrantedAuthority;
-
-//member_auth 테이블과 매칭되는 VO
-@Data
-public class AuthVO implements GrantedAuthority {
-    private String username;
-    private String auth;
-
-    @Override
-    public String getAuthority() {
-//        권한정보만 추출해주는 메소드
-        return auth;
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:b64e77f05047d1645b72a736e7870007765c59a9d52174698a22a0c3f67de282
+size 409

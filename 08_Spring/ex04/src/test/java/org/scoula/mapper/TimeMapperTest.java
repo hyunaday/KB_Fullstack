@@ -1,34 +1,3 @@
-package org.scoula.mapper;
-
-import lombok.extern.log4j.Log4j;
-import org.junit.jupiter.api.DisplayName;
-import org.junit.jupiter.api.Test;
-import org.junit.jupiter.api.extension.ExtendWith;
-import org.scoula.config.RootConfig;
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.test.context.ContextConfiguration;
-import org.springframework.test.context.junit.jupiter.SpringExtension;
-
-import static org.junit.jupiter.api.Assertions.*;
-
-@ExtendWith(SpringExtension.class)
-@ContextConfiguration(classes = { RootConfig.class })
-@Log4j
-public class TimeMapperTest {
-
-    @Autowired
-    private TimeMapper timeMapper;
-
-    @Test
-    @DisplayName("TimeMapper의 getTime()")
-    public void getTime() {
-        log.info(timeMapper.getClass().getName());  // TimeMapper의 실제 클래스 이름
-        log.info(timeMapper.getTime()); // TimeMapper의 getTime() 메소드 호출
-    }
-    @Test
-    @DisplayName("TimeMapper의 getTime2()")
-    public void getTime2() {
-        log.info("getTime2");
-        log.info(timeMapper.getTime2());
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:8269afa38b2006f3a1983d41e262749e63549bb264c8f8bd929d7cd4ae01b844
+size 1080

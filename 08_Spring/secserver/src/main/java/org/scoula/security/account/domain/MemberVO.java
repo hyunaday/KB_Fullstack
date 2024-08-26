@@ -1,26 +1,3 @@
-package org.scoula.security.account.domain;
-
-import lombok.AllArgsConstructor;
-import lombok.Builder;
-import lombok.Data;
-import lombok.NoArgsConstructor;
-import org.springframework.security.core.GrantedAuthority;
-
-import java.util.Date;
-import java.util.List;
-
-// member 테이블과 매칭되는 VO
-@Data
-@NoArgsConstructor
-@AllArgsConstructor
-@Builder
-
-public class MemberVO {
-    private String username;
-    private String password;
-    private String email;
-    private Date regDate;
-    private Date updateDate;
-
-    private List<AuthVO> authList; // 권한 목록, join 처리 필요
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:df87f380ccee30980401a06a749bc011169b69b47efb797cf0f1422029de0ecd
+size 593

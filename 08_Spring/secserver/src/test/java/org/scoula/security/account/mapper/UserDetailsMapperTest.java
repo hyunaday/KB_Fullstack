@@ -1,31 +1,3 @@
-package org.scoula.security.account.mapper;
-
-import lombok.extern.log4j.Log4j;
-import org.junit.jupiter.api.Test;
-import org.junit.jupiter.api.extension.ExtendWith;
-import org.scoula.config.RootConfig;
-import org.scoula.security.account.domain.AuthVO;
-import org.scoula.security.account.domain.MemberVO;
-import org.scoula.security.config.SecurityConfig;
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.test.context.ContextConfiguration;
-import org.springframework.test.context.junit.jupiter.SpringExtension;
-
-@ExtendWith(SpringExtension.class)
-@ContextConfiguration(classes = { RootConfig.class, SecurityConfig.class })
-@Log4j
-public class UserDetailsMapperTest {
-
-    @Autowired
-    private UserDetailsMapper mapper;
-
-    @Test
-    public void testGet() {
-        MemberVO member = mapper.get("admin");
-        log.info(member);
-
-        for(AuthVO auth : member.getAuthList()) {
-            log.info(auth);
-        }
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:7a0aed76d662e725f74b427099056f0f0bea1f9f201bf17b9beeb1f5dd50fb6c
+size 969
