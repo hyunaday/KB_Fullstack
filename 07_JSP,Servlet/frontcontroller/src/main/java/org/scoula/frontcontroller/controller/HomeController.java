@@ -1,12 +1,3 @@
-package org.scoula.frontcontroller.controller;
-
-import javax.servlet.ServletException;
-import javax.servlet.http.HttpServletRequest;
-import javax.servlet.http.HttpServletResponse;
-import java.io.IOException;
-
-public class HomeController {
-    public String getIndex(HttpServletRequest request, HttpServletResponse response) throws IOException {
-        return "index"; // index.jsp 이름을 반환
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:ecfec53f10ecce54a816b9d2b8fd95b3ab4c77400fdb4a3ef41749f6646d14ba
+size 407

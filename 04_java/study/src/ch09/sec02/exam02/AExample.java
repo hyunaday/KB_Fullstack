@@ -1,11 +1,3 @@
-package ch09.sec02.exam02;
-
-public class AExample {
-    public static void main(String[] args) {
-        // A 객체 생성
-        A a = new A();
-
-        // A 인스턴스 메소드 호출
-        a.useB();
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:f94af60ff084b5ddd257f56e8acd261229132a7cb0898f09938834b0f840d01a
+size 217

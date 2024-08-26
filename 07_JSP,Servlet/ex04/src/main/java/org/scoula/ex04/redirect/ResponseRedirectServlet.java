@@ -1,24 +1,3 @@
-package org.scoula.ex04.redirect;
-
-import javax.servlet.*;
-import javax.servlet.annotation.WebServlet;
-import javax.servlet.http.*;
-import java.io.IOException;
-
-@WebServlet("/response_redirect")
-public class ResponseRedirectServlet extends HttpServlet {
-    @Override
-    protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-        // 요청이 달라졌기 때문에 해당 값들은  null이 나온다. 이전 서블릿의 속성은 세션으로 저장해줘야 한다.
-        String username = (String) request.getAttribute("username");
-        String useraddress = (String) request.getAttribute("useraddress");
-
-        // 속성 설정
-        request.setAttribute("username", username);
-        request.setAttribute("useraddress", useraddress);
-
-        // forward
-        RequestDispatcher dis = request.getRequestDispatcher("/redirect_response.jsp");
-        dis.forward(request, response);
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:c6cda496be7644c3ed3bcca481cea7cfb42a6785b671368b54db25c31da1d97e
+size 974

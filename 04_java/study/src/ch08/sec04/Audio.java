@@ -1,31 +1,3 @@
-package ch08.sec04;
-
-public class Audio implements RemoteControl {
-
-    //필드
-    private int volume;
-
-    @Override
-    public void turnOn(){
-        System.out.println("Audio를 켭니다.");
-    }
-
-    @Override
-    public void turnOff() {
-        System.out.println("Audio를 끕니다.");
-    }
-
-    @Override
-    public void setVolume(int volume) {
-        // 최대값 10, 최소값 0을 벗어나면 벗어나지 않게 위의 if문에서 처리해줌
-        // 범위 내의 값이 제대로 들어가면 volume에 반영
-        if(volume>RemoteControl.MAX_VOLUME){
-            this.volume =RemoteControl.MAX_VOLUME;
-        }else if(volume<RemoteControl.MIN_VOLUME){
-            this.volume =RemoteControl.MIN_VOLUME;
-        }else{
-            this.volume = volume;
-        }
-        System.out.println("현재 Audio 볼륨 : "+this.volume);
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:2301272669db0a69bb1240ab9e2eb3d7e6f492fca343b8489d43885557bf5d6d
+size 866

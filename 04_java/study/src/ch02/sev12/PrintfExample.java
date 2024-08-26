@@ -1,21 +1,3 @@
-package ch02.sev12;
-
-public class PrintfExample {
-    public static void main(String[] args) {
-        int value = 123;
-        // souf : printf 단축키
-        //printf : 포맷을 적용하여 프린트 가능
-        System.out.printf("상품의 가격: %d원\n", value);
-        System.out.printf("상품의 가격: %6d원\n", value);
-        System.out.printf("상품의 가격: %-6d원\n", value);
-        System.out.printf("상품의 가격: %06d원\n", value);
-
-        double area = 3.14159 * 10 * 10;
-        // 포맷한 갯수에 맞게 \,\ 넣어주기
-        System.out.printf("반지름이 %d인 원의 넓이: %10.2f\n", 10, area);
-
-        String name = "홍길동";
-        String job = "도적";
-        System.out.printf("%6d | %-10s | %10s\n", 1, name, job);
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:baab33fe2518b9d2f2d2ae51ef4b30761e35b2588d2ac6c22adb3e69211b6e68
+size 791

@@ -1,22 +1,3 @@
-package ch09.sec04.exam01;
-
-public class A {
-    // 로컬 클래스는 생성자나 메소드 내에서 선언된 클래스
-    // 생성자
-    A(){
-        // 로컬 클래스 선언
-        class B { }
-
-        // 로컬 객체 생성
-        B b = new B();
-    }
-
-    // 메소드
-    void method(){
-        // 로컬 클래스 선언
-        class B { }
-
-        // 로컬 객체 생성
-        B b = new B();
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:b9079729dea574c6f1005d374398c09dc94cb428fa90be1db6a191fed3f01051
+size 424

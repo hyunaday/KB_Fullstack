@@ -1,10 +1,3 @@
-package jdbc_ex.domain;
-
-// VO : Value Object (테이블의 한 행을 매핑)
-public class UserVO {
-    // 테이블 내에서 각각의 컬럼명과 동일하다
-    private String id;
-    private String password;
-    private String name;
-    private String role;
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:c4ca04c47accf43c3670fe1f31f37a1f64ad667db8d8092b717450e1a270c1ec
+size 268

@@ -1,14 +1,3 @@
-package basic;
-
-import java.util.Scanner;
-
-public class Input {
-//    Scanner 객체는 하나만 있어도 되기 때문에 static으로 생성
-    static Scanner scanner = new Scanner(System.in);
-
-//    사용자한테 입력받을 때 출력할 문구를 title로 받아옴
-    public static int getInt(String title) {
-        System.out.print(title);
-        return Integer.parseInt(scanner.nextLine());
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:99f61a426bea4be3e643f69e7cb0773bccf164c09646cbf8977ccb11b2e9242d
+size 416

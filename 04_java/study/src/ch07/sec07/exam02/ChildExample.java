@@ -1,17 +1,3 @@
-package ch07.sec07.exam02;
-
-public class ChildExample {
-    public static void main(String[] args) {
-        //자식 객체 생성
-        Child child = new Child();
-
-        //자동 타입 변환
-        Parent parent = child;
-
-        //메소드 호출
-        parent.method1();
-        parent.method2();
-//        부모 타입은 자식 타입으로 자동 변환되지 않기 때문에 컴파일 에러
-//        parent.method3();
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:87e17753c27c15b12d598c7cebcaaacd8a44e129093bbc41fe70a1a6afbc7556
+size 447

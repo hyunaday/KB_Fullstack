@@ -1,13 +1,3 @@
-package ch08.sec10.exam02;
-
-public class Bus implements Vehicle{
-    @Override
-    public void run() {
-        System.out.println("버스가 달립니다.");
-    }
-
-    //추가 메소드
-    public void checkFare(){
-        System.out.println("승차요금을 체크합니다.");
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:92ef7fc05624bcfcb4861ab9fff7daf608e11062dc053d5e2b4fb043c62a189f
+size 289

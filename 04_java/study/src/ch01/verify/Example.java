@@ -1,7 +1,3 @@
-package ch01.verify;
-
-public class Example {
-    public static void main(String[] args) {
-        System.out.println("개발자가 되기 위한 필수 개발 언어 Java");
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:0cdd0e0c97ccac3ccbb09fcd6d2ff1d8d22793ce3719a2c75d693fa542234906
+size 182

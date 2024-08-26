@@ -1,6 +1,3 @@
-package org.scoula.lib.cli.command;
-
-public interface Command {
-//    추상 메소드이므로 재정의 필요
-    void execute();
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:096624e28984cc37abdada8df88fe4119aaf6db793c9ee81cd81d2c21fc8c53b
+size 135

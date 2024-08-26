@@ -1,32 +1,3 @@
-package org.scoula.ex05.domain;
-
-public class Member {
-    private String name;
-    private String userid;
-
-    public Member() {
-
-    }
-
-    public Member(String name, String userid) {
-        this.name = name;
-        this.userid = userid;
-    }
-
-    public String getName() {
-        return name;
-    }
-
-    public void setName(String name) {
-        this.name = name;
-    }
-
-    public String getUserid() {
-        return userid;
-    }
-
-    public void setUserid(String userid) {
-        this.userid = userid;
-    }
-}
-
+version https://git-lfs.github.com/spec/v1
+oid sha256:9a2bbfc518cfb7367a0b135dcc72888d0fb51fd4126a4b705588634826c86a33
+size 523

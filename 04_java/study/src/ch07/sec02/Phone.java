@@ -1,22 +1,3 @@
-package ch07.sec02;
-
-// 부모 클래스
-public class Phone {
-    //필드 선언
-    public String model;
-    public String color;
-
-    //메소드 선언
-    public void bell(){
-        System.out.println("벨이 울립니다.");
-    }
-    public void sendVoice(String message){
-        System.out.println("자기: "+message);
-    }
-    public void receiveVoice(String message){
-        System.out.println("상대방: "+message);
-    }
-    public void hangUp(){
-        System.out.println("전화를 끊습니다.");
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:8ff066d9b54bb23ca0eef586a53b6beb5e5af9349d11df00ff615e7ece8b089f
+size 527

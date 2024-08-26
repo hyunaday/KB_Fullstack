@@ -1,21 +1,3 @@
-package org.scoula.ex05;
-
-import javax.servlet.ServletException;
-import javax.servlet.annotation.WebServlet;
-import javax.servlet.http.HttpServlet;
-import javax.servlet.http.HttpServletRequest;
-import javax.servlet.http.HttpServletResponse;
-import java.io.IOException;
-import java.util.Date;
-
-@WebServlet("/format")
-public class FormatServlet extends HttpServlet {
-    @Override
-    protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-        // 현재 날짜로 today 속성 세팅
-        req.setAttribute("today", new Date());
-
-        req.getRequestDispatcher("format.jsp").forward(req, resp);
-    }
-
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:054b87ce1a9c4ccd3591d59ada8de80f88747473f7097619d1b4082318a60cc2
+size 665

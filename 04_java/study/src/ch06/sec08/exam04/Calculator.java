@@ -1,13 +1,3 @@
-package ch06.sec08.exam04;
-
-public class Calculator {
-    //정사각형의 넓이 구하는 메소드
-    double areaRectangle(double width){
-        return width*width;
-    }
-
-    //직사각형의 넓이 구하는 메소드
-    double areaRectangle(double width, double height){
-        return width*height;
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:29692d31693db10ffbd10b86b5219cd99ceff43984f2eed99e00af091a717950
+size 319

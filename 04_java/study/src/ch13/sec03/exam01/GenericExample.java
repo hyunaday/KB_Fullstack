@@ -1,24 +1,3 @@
-package ch13.sec03.exam01;
-
-public class GenericExample {
-    // 제네릭 메소드
-    public static <T> Box<T> boxing(T t) {
-        Box<T> box = new Box<T>();
-        box.set(t);
-        return box;
-    }
-
-    public static void main(String[] args) {
-        // 제네릭 메소드 호출
-        Box<Integer> box1 = boxing(100);
-        int intValue = box1.get();
-        System.out.println(intValue);
-
-        // 제네릭 메소드 호출
-        Box<String> box2 = boxing("홍길동");
-        String strValue = box2.get();
-        System.out.println(strValue);
-    }
-
-
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:2fb2cd4f4d2a32c6fef940bfa86340365c930ca04c936e5c3be96d275f1b9518
+size 580

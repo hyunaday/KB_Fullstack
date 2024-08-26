@@ -1,9 +1,3 @@
-package ch08.sec02;
-
-//인터페이스 상속 시에는 implements 키워드 사용
-public class Television implements RemoteControl{
-    @Override
-    public void turnOn() {
-        System.out.println("TV를 켭니다.");
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:f5efd97abccc2b894f1ace33906cd62f5858cd7458567e71d152bcd80f24ecad
+size 231

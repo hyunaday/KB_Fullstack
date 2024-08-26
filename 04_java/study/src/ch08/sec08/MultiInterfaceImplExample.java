@@ -1,14 +1,3 @@
-package ch08.sec08;
-
-public class MultiInterfaceImplExample {
-    public static void main(String[] args) {
-        //RemoteControl 인터페이스 변수 선언 및 구현 객체 대입
-        RemoteControl rc = new SmartTelevision();
-        rc.turnOn();
-        rc.turnOff();
-
-        //Searchable 인터페이스 변수 선언 및 구현 객체 대입
-        Searchable searchable = new SmartTelevision();
-        searchable.search("https://www.google.com");
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:73f0f7449bed6e77f809e121c2e6b30bab477b19a1feed8e3952d3f2731b5d9e
+size 472

@@ -1,9 +1,3 @@
-package ch06.sec11.exam02;
-
-public class Earth {
-    static final double EARTH_RADIUS = 6400;
-    static final double EARTH_SURFACE_AREA;
-    static {
-        EARTH_SURFACE_AREA = 4*Math.PI*EARTH_RADIUS*EARTH_RADIUS;
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:e68486430311bcb2b4882996f40f4addd278ec505437973b7f4b75f3a40f8856
+size 225

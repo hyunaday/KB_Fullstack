@@ -1,27 +1,3 @@
-package org.scoula.dynamicweb.ex03;
-
-import java.io.*;
-import javax.servlet.http.*;
-import javax.servlet.annotation.*;
-
-@WebServlet(name = "helloServlet", value = "/hello-servlet")
-public class HelloServlet extends HttpServlet {
-    private String message;
-
-    public void init() {
-        message = "Hello Servlet!";
-    }
-
-    public void doGet(HttpServletRequest request, HttpServletResponse response) throws IOException {
-        response.setContentType("text/html");
-
-        // Hello
-        PrintWriter out = response.getWriter();
-        out.println("<html><body>");
-        out.println("<h1>" + message + "</h1>");
-        out.println("</body></html>");
-    }
-
-    public void destroy() {
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:b1417bdf87460f3a5f7f79ddb6ec0449229b7806fd509efaaba9537cbe26414a
+size 706

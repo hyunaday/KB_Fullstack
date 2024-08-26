@@ -1,7 +1,3 @@
-package ch08.sec02;
-
-public interface RemoteControl {
-    //public 추상 메소드
-    //인터페이스는 기본적으로 메소드가 추상 메소드로 만들어진다.
-    public void turnOn();
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:ccbc4ab6e01eb711512dda83d0688a4a1ca03432ea43953caffbb401e0355f60
+size 203

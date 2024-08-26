@@ -1,16 +1,3 @@
-package ch12.sec04;
-
-public class ExitExample {
-    public static void main(String[] args) {
-        for(int i=0;i<10;i++){
-            //i값 출력
-            System.out.println(i);
-            if(i==5){
-                //JVM 프로세스 종료
-                System.out.println("프로세스 강제 종료");
-//                System.exit() : 프로세스를 강제로 종료시킨다. 0이 코드로 들어가면 정상 종료를 의미한다
-                System.exit(0);
-            }
-        }
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:9dd25a573ab60efbdba12f5d83566d618048ce1b6a3817dff8afd46ec804af48
+size 514

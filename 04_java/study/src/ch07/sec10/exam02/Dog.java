@@ -1,11 +1,3 @@
-package ch07.sec10.exam02;
-
-public class Dog extends Animal{
-
-    //추상 메소드는 자식 클래스에서 무조건 재정의를 해줘야한다.
-    // 부모 클래스에 구현부가 없기 때문에
-    @Override
-    public void sound() {
-        System.out.println("멍멍");
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:6bf5b9b958e40738ebe0c25b4b6cb76a59e45d480c36187d201681b1f053d8b5
+size 294

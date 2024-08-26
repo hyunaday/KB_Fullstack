@@ -1,20 +1,3 @@
-package ch07.sec10.exam01;
-
-public abstract class Phone {
-    //필드 선언
-    String owner;
-
-    //생성자 선언
-    Phone(String owner) {
-        this.owner = owner;
-    }
-
-    //메소드 선언
-    void turnOn(){
-        System.out.println("폰 전원을 켭니다.");
-    }
-
-    void turnOff(){
-        System.out.println("폰 전원을 끕니다.");
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:5f8c140de18099044eda360d9b744bd49d385a37a95806281ba776dae059fc3a
+size 370

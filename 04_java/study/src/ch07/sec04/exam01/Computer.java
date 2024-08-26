@@ -1,11 +1,3 @@
-package ch07.sec04.exam01;
-
-public class Computer extends Calculator{
-    //메소드 오버라이딩
-
-    @Override //컴파일 시 정확히 오버라이딩되었는지 체크해줌
-    public double areaCircle(double r) {
-        System.out.println("Computer 객체의 areaCircle() 실행");
-        return Math.PI * r * r;
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:d95bf63b74091bd95a3c9c647b0d48a582f9358cd23a38725fa0c53b8a5fcd9a
+size 335

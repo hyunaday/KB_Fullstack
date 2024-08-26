@@ -1,8 +1,3 @@
-package ch07.sec08.exam01;
-
-public class Tire {
-    //메소드 선언
-    public void roll(){
-        System.out.println("회전합니다.");
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:2c168ddadb658659cb4cfca1d93c06a09aa0fc89134fbb66b7b9dacd69169eee
+size 151

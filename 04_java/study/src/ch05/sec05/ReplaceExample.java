@@ -1,12 +1,3 @@
-package ch05.sec05;
-
-public class ReplaceExample {
-    public static void main(String[] args) {
-        String oldStr = "자바 문자열은 불변입니다. 자바 문자열은 String입니다.";
-//        String.replace(old, new) : 해당 문자열에서 old에 해당하는 값을 new로 변경한다.
-        String newStr = oldStr.replace("자바","JAVA");
-
-        System.out.println(oldStr);
-        System.out.println(newStr);
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:a633f328732bcf9ecf58a6848b34a5dc4dc2f85a2d962bbcca2dbe93a84e1545
+size 443

@@ -1,20 +1,3 @@
-package ch17.sec01;
-
-import java.util.HashSet;
-import java.util.Set;
-import java.util.stream.Stream;
-
-public class StreamExample {
-    public static void main(String[] args) {
-        // Set 컬렉션 생성
-        Set<String> set = new HashSet<>();
-        set.add("홍길동");
-        set.add("신용권");
-        set.add("감자바");
-
-        // Stream을 이용한 요소 반복 처리 (set을 Stream으로 변환해서 저장)
-        Stream<String> stream = set.stream();
-//        Stream을 돌면서 요소를 name이란 이름으로 가져와서 출력
-        stream.forEach(name-> System.out.println(name));
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:a62a105e8b42ecc55fa7a4112eabade1cbc7af98d5b9c034672b6b59ac5b112c
+size 631

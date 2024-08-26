@@ -1,14 +1,3 @@
-package ch07.sec07.exam02;
-
-public class Child extends Parent{
-    //메소드 오버라이딩
-    @Override
-    public void method2() {
-        System.out.println("Child-method2()");
-    }
-
-    //메소드 선언
-    public void method3(){
-        System.out.println("Child-method3()");
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:e3aff4eb636de7218115f4cb43021500952e693c4dcfbbf3fe1a97f776cf6797
+size 296

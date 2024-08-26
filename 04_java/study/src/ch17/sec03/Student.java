@@ -1,14 +1,3 @@
-package ch17.sec03;
-
-public class Student {
-    private String name;
-    private int score;
-
-    public Student(String name, int score) {
-        this.name = name;
-        this.score = score;
-    }
-
-    public String getName() { return name; }
-    public int getScore() { return score; }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:6fdf5efab619c82d817204c67c92bd404476a5a4ce25ca8c205973b27b4e0370
+size 290

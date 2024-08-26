@@ -1,17 +1,3 @@
-package ch16.sec02.exam01;
-
-public class LambdaExample {
-    public static void main(String[] args) {
-        Person person = new Person();
-
-        // 실행문이 두개 이상인 경우 중괄호 필요
-//        실제로는 Workable 내의 work()로 람다식이 들어간다
-        person.action(()->{
-            System.out.println("출근을 합니다.");
-            System.out.println("프로그래밍을 합니다.");
-        });
-
-        // 실행문이 한 개일 경우 중괄호 생략 가능
-        person.action(()-> System.out.println("퇴근합니다."));
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:20a654a9c9b940f18663b0c79a5839f5f6e967fdc86de43c47ca622dd1f7716d
+size 585

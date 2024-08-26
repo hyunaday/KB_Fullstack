@@ -1,14 +1,3 @@
-package ch04.new_0618;
-
-public class hello {
-    public static void main(String[] args) {
-        for (int x = 0; x <= 10; x++) {
-            for (int y = 0; y <= 10; y++) {
-                if (4*x+5*y==60) {
-                    System.out.println("x:"+x +", y:" +y);
-
-                }
-        }
-        }
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:f5ae38c9ba8e38d17fc789539bd489f7c551e156d857996c6eb68a089b662b21
+size 315

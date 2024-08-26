@@ -1,21 +1,3 @@
-package ch17.sec07.exam01;
-
-//Comparable 인터페이스를 상속받으면 compareTo를 무조건 구현해야 한다
-public class Student implements Comparable<Student>{
-    private String name;
-    private int score;
-
-    public Student(String name, int score) {
-        this.name = name;
-        this.score = score;
-    }
-
-    public String getName() { return name; }
-    public int getScore() { return score; }
-
-    // compareTo에서는 Student 객체의 점수를 이용해서 비교
-    @Override
-    public int compareTo(Student o) {
-        return Integer.compare(score, o.score);
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:bac415835a5ee7d53b668be72aa6c66a74786edfd29b465e841b07ba9dff6405
+size 599

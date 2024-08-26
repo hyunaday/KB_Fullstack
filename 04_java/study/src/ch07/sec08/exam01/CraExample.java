@@ -1,20 +1,3 @@
-package ch07.sec08.exam01;
-
-public class CraExample {
-    public static void main(String[] args) {
-        // Car 객체 생성
-        Car myCar = new Car();
-
-        // Tire 객체 장착
-        myCar.tire = new Tire();
-        myCar.run();
-
-        // HankookTire 객체 장착
-        myCar.tire = new HankookTire();
-        myCar.run();
-
-        // KumhoTire 객체 장착
-        myCar.tire = new KumhoTire();
-        myCar.run();
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:265938137b461fd29a28c93da2ee0233d3ccccedce5de2af8851085cace4f707
+size 446

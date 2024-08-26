@@ -1,10 +1,3 @@
-package ch16.sec03;
-
-public class Person {
-    public void action1(Workable workable){
-        workable.work("홍길동","프로그래밍");
-    }
-    public void action2(Speakable speakable){
-        speakable.speak("안녕하세요.");
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:a22319901f9b1eeff7aa5ce9d05ae8224f465d67b1b65174ad45f3b566f0a948
+size 246

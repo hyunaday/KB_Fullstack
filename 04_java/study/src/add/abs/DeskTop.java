@@ -1,20 +1,3 @@
-package add.abs;
-
-public class DeskTop extends Computer{
-
-//    추상 메소드는 오버라이딩 필수, 나머지 일반 메소드는 오버라이딩 선택
-    @Override
-    void show() {
-        System.out.println("데스크탑 화면 생성");
-    }
-
-    @Override
-    void input() {
-        System.out.println("데스크탑 입력 받기");
-    }
-
-    @Override
-    public void turnOff() {
-        System.out.println("데스크탑 종료");
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:b09163f6e9750c744cf4e1f0a83e66f227e16e600c59722b795a51225731fe76
+size 457

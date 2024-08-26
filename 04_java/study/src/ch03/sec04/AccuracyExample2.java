@@ -1,14 +1,3 @@
-package ch03.sec04;
-
-public class AccuracyExample2 {
-    public static void main(String[] args) {
-        int apple=1;
-        int totalPieces = apple * 10;
-        int number=7;
-
-//        정확한 계산을 위해서는 정수 연산으로 변경해준다
-        int result = totalPieces - number;
-        System.out.println("10조각에서 남은 조각: "+result);
-        System.out.println("사과 1개에서 남은 양: "+result/10.0);
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:ccfce2bbc3cda9cee0edc6a2c7312a6a5faa5817cc54ddcca95fe33f30292309
+size 453

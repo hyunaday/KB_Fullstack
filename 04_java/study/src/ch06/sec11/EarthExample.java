@@ -1,10 +1,3 @@
-package ch06.sec11;
-
-public class EarthExample {
-    public static void main(String[] args) {
-        //상수 읽기
-        System.out.println("지구의 반지름: "+Earth.EARTH_RADIUS + "km");
-        System.out.println("지구의 표면적: "+Earth.EARTH_SURFACE_AREA+"km^2");
-
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:5c7448ea653e2cc46f98ac8dc553d9aadad941b2ce7944c22157f987c89f78a9
+size 291

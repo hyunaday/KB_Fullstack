@@ -1,33 +1,3 @@
-package ch09.sec07.exam03;
-
-public class ButtonExample {
-    public static void main(String[] args) {
-        // OK 버튼 객체 생성
-        Button btnOk = new Button();
-        
-        // 기존에 OkListener 클래스로 구현해줬던 코드를 바로 익명 객체로 주입
-        btnOk.setClickListener(new Button.ClickListener() {
-            @Override
-            public void onClick() {
-                System.out.println("Ok 버튼을 클릭했습니다");
-            }
-        });
-
-        // 오버라이딩한 메소드를 호출하므로 OkListener의 onClick 호출
-        btnOk.click();
-
-        // Cancel 버튼 객체 생성
-        Button btnCancel = new Button();
-
-        // 기존에 CancelListener 클래스로 구현해줬던 코드를 바로 익명 객체로 주입
-        btnCancel.setClickListener(new Button.ClickListener() {
-            @Override
-            public void onClick() {
-                System.out.println("Cancel 버튼을 클릭했습니다");
-            }
-        });
-
-        // 오버라이딩한 메소드를 호출하므로 CancelListener의 onClick 호출
-        btnCancel.click();
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:1454875f74036c5185a8f42d59b33e2544f0b6e5b469a9824cb19d5af9d7e3bb
+size 1151

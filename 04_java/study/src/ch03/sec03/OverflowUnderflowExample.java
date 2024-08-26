@@ -1,19 +1,3 @@
-package ch03.sec03;
-
-public class OverflowUnderflowExample {
-    public static void main(String[] args) {
-        byte var1 = 125;
-        for(int i=0;i<5;i++){
-            var1++; // byte의 범위를 위로 초과할 경우 byte의 최소값인 -128로 돌아간다
-            System.out.println("var1: "+var1);
-        }
-
-        System.out.println("-------------------------------");
-
-        byte var2 = -125;
-        for(int i=0;i<5;i++){
-            var2--; // byte의 범위를 아래로 초과할 경우 byte의 최대값인 127로 돌아간다
-            System.out.println("var2: "+var2);
-        }
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:214d3459fd1ad6e847360e9d3ebf6ca7d2f8994a51802de399c6fc79cca38020
+size 620

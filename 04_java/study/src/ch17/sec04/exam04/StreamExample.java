@@ -1,16 +1,3 @@
-package ch17.sec04.exam04;
-
-import java.nio.charset.Charset;
-import java.nio.file.Files;
-import java.nio.file.Path;
-import java.nio.file.Paths;
-import java.util.stream.Stream;
-
-public class StreamExample {
-    public static void main(String[] args) throws Exception {
-        Path path = Paths.get(StreamExample.class.getResource("data.txt").toURI());
-        Stream<String> stream = Files.lines(path, Charset.defaultCharset());
-        stream.forEach(line -> System.out.println(line) );
-        stream.close();
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:c348467fa11375735c61b8d60692638663cea126ad24dde93f919ddd550dd592
+size 519

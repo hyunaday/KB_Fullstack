@@ -1,35 +1,3 @@
-package org.scoula.jdbc_ex.common;
-
-import java.sql.Connection;
-import java.sql.DriverManager;
-import java.sql.SQLException;
-
-public class JDBCUtil {
-    static Connection conn = null;
-    static {
-        try {
-            Class.forName("com.mysql.cj.jdbc.Driver");
-            String url = "jdbc:mysql://127.0.0.1:3306/jdbc_ex";
-            String id = "jdbc_ex";
-            String password = "jdbc_ex";
-            conn = DriverManager.getConnection
-                    (url, id, password);
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
-
-    }
-    public static Connection getConnection() {
-        return conn;
-    }
-    public static void close() {
-        try {
-            if (conn != null) {
-                conn.close();
-                conn = null;
-            }
-        } catch (SQLException e) {
-            e.printStackTrace();
-        }
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:f4513d9efce5fdcd121601ee74c85de7d6f3e6e56ab0c3e067a1df342a196345
+size 889

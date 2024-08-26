@@ -1,9 +1,3 @@
-package ch07.sec08.exam02;
-
-public class Driver {
-    //메소드 선언(클래스 타입의 매개변수를 가지고 있음)
-    // DI, Injection, 주입받는다 => 외부 클래스에서 객체를 넘겨줌
-    public void drive(Vehicle vehicle){
-        vehicle.run();
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:7a6423c4b5a82a8d25bc26b5ea6fb022eed12f7deb41711394dde88fda96b15e
+size 282

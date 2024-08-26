@@ -1,27 +1,3 @@
-package ch09.sec03.exam01;
-
-public class A {
-    //정적 멤버 클래스
-    static class B{}
-
-    // 인스턴스 필드 값으로 B 객체 대입
-    B field1 = new B();
-
-    // 정적 필드 값으로 B 객체 대입
-    static B field2 = new B();
-
-    // 생성자
-    A(){
-        B b = new B();
-    }
-
-    // 인스턴스 메소드
-    void method1(){
-        B b = new B();
-    }
-
-    // 정적 메소드
-    static void method2(){
-        B b = new B();
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:ae67cd36c7e6b0f94d943e52b171153753fdd0dbc69d3742a39be307f4cedcef
+size 472

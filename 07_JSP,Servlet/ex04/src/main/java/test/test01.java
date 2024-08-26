@@ -1,22 +1,3 @@
-import java.util.Scanner;
-
-class Main{
-    public static void main (String[] args)
-    {
-        String input = "";
-        String output = "";
-        int tmp;
-        Scanner sc = new Scanner(System.in);
-        Input = scanner.nextLine(); // 입력받은 문자열을 input에 저장
-
-        for(int i = 0l i<input.length(); i++) {
-            tmp = (int)input.charAt(i);
-            if(tmp >= 'A' && tmp <= 'Z') {
-                output = output + tmp;
-            }
-        }
-        String str = sc.next();
-
-        System.out.println(ans);
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:3c771c7a5a51b5e0692313fe9b012d9515b65ef66f9856053ae0ef6f59b56664
+size 555

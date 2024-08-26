@@ -1,25 +1,3 @@
-package org.scoula.ex04.forwarding;
-
-import javax.servlet.RequestDispatcher;
-import javax.servlet.ServletException;
-import javax.servlet.annotation.WebServlet;
-import javax.servlet.http.HttpServlet;
-import javax.servlet.http.HttpServletRequest;
-import javax.servlet.http.HttpServletResponse;
-import java.io.IOException;
-
-@WebServlet("/request")
-public class RequestServlet extends HttpServlet {
-
-    protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-        // 속성 설정
-        request.setAttribute("username", "홍길동");
-        request.setAttribute("useraddress", "서울");
-
-        // forward
-        // response.jsp로 요청을 전달할 RequestDispatcher를 가져온다.
-        RequestDispatcher dis = request.getRequestDispatcher("/response.jsp");
-        // request와 response를 포워딩시킨다
-        dis.forward(request, response);
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:f619f51afd9bc240a89a94bd1195e966ca96dfa880bae9c2f159998f4ce1d978
+size 935

@@ -1,16 +1,3 @@
-package ch07.sec04.exam01;
-
-public class ComputerExample {
-    public static void main(String[] args) {
-        int r = 10;
-
-        Calculator calculator = new Calculator();
-//        Calculator 클래스의 areaCircle 호출
-        System.out.println("원 면적: "+calculator.areaCircle(r));
-        System.out.println();
-
-        Computer computer = new Computer();
-//        Computer 클래스의 areaCircle 호출
-        System.out.println("원 면적: "+computer.areaCircle(r));
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:9e22b153701e366eb5009a100955d9073957ad9d7cee3cd04209912888b3126f
+size 496

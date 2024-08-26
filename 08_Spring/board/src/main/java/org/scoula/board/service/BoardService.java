@@ -1,23 +1,3 @@
-package org.scoula.board.service;
-
-import org.scoula.board.domain.BoardAttachmentVO;
-import org.scoula.board.dto.BoardDTO;
-
-import java.util.List;
-
-
-public interface BoardService {
-    public List<BoardDTO> getList();
-
-    public BoardDTO get(Long no);
-
-    public void create(BoardDTO board);
-
-    public boolean update(BoardDTO board);
-
-    public boolean delete(Long no);
-
-    public BoardAttachmentVO getAttachment(Long no);
-
-    public boolean deleteAttachment(Long no);
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:c079eb09edb649c14d4366af5169ca9b07f5c8d0ced6bf435d703d8dfa4f9401
+size 478

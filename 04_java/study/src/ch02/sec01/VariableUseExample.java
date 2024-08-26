@@ -1,14 +1,3 @@
-package ch02.sec01;
-
-public class VariableUseExample {
-    public static void main(String[] args) {
-        int hour = 3;
-        int minute = 5;
-//        문자와 변수를 이어줄 때는 +로 이어준다
-//        문자열은 ""로 감싸주고, 변수는 변수 이름만 작성
-        System.out.println(hour+"시간 "+minute+"분");
-        
-        int totalMinute = (hour*60)+minute;
-        System.out.println("총 "+totalMinute+"분");
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:c9935a569872c0e6c66aff5abb1e494e92a43aef456834241f65261e0e1976c1
+size 460

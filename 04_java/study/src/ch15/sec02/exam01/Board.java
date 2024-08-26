@@ -1,17 +1,3 @@
-package ch15.sec02.exam01;
-
-import lombok.*;
-
-//필드 전부를 가지고 있는 생성자를 만들겠다
-@AllArgsConstructor
-// 기본 생성자를 만들겠다.
-//@NoArgsConstructor
-//@Getter
-//@Setter
-// @Data는 getter, setter, toString, 기본 생성자, hashCode, equals가 포함되어있다
-@Data
-public class Board {
-    private String subject;
-    private String content;
-    private String writer;
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:e27d23c6fd56bf66325a2807b0247be150af0d2e815f3191d2539c7376e0810e
+size 413

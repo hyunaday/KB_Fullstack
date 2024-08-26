@@ -1,14 +1,3 @@
-package ch06.sec10;
-
-public class CalculatorExample {
-    public static void main(String[] args) {
-//        static 필드와 메소드는 클래스명으로 접근한다.
-        double result1= 10 * 10 * Calculator.pi;
-        int result2 = Calculator.plus(10,5);
-        int result3 = Calculator.minus(10,5);
-
-        System.out.println("result1 = " + result1);
-        System.out.println("result2 = " + result2);
-        System.out.println("result3 = " + result3);
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:9a6e57f5569ad2af9359be89cfa79049e2c15d3a79101edb92588d7679dde161
+size 477

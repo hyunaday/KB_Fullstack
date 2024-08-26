@@ -1,16 +1,3 @@
-package ch07.sec09;
-
-public class Person {
-    //필드 선언
-    public String name;
-
-    //생성자 선언
-    public Person(String name) {
-        this.name = name;
-    }
-
-    //메소드 선언
-    public void walk(){
-        System.out.println("걷습니다.");
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:d2e2ca6905757f487fa67408d876f6549ebfe40d8ce604c435742add1024dd55
+size 277

@@ -1,22 +1,3 @@
-package ch14.sec03.exam01;
-
-import java.awt.*;
-
-public class BeepPrintExample {
-    public static void main(String[] args) {
-        Toolkit toolkit = Toolkit.getDefaultToolkit();
-//        하나의 메인 스레드에서 작동하므로 비프음 5번 발생 후 "띵" 5번 출력
-        for(int i=0;i<5;i++){
-            toolkit.beep(); // 비프음 발생
-            try{ 
-                Thread.sleep(500);
-            }catch (Exception e){} // 0.5초간 일시 정지
-        }
-        for(int i=0;i<5;i++){
-            System.out.println("띵");
-            try{
-                Thread.sleep(500);
-            }catch (Exception e){} // 0.5초간 일시 정지
-        }
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:cf011272339bf58fc2437deee65031726a6347e5f989bf4144529c12a546860f
+size 687

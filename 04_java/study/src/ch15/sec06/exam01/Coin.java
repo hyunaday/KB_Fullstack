@@ -1,20 +1,3 @@
-package ch15.sec06.exam01;
-
-import lombok.AllArgsConstructor;
-import lombok.Getter;
-
-@AllArgsConstructor
-@Getter
-public class Coin {
-    private int value;
-//
-//    @AllArgsConstructor와 동일
-//    public Coin(int value){
-//        this.value = value;
-//    }
-//
-//    @Getter와 동일
-//    public int getValue(){
-//        return value;
-//    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:da7912fdf4aae53c9f650a79c5ee48c8f314fadf38154858f65ef3af8275dc0b
+size 353

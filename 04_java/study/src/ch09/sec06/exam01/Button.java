@@ -1,9 +1,3 @@
-package ch09.sec06.exam01;
-
-public class Button {
-    // 정적 멤버 인터페이스
-    public static interface ClickListener{
-        // 추상 메소드
-        void onClick();
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:89dd389301825f5b8cee17325e5e495d0c871efd79e2f0d9e2821772e9c2c4c1
+size 190

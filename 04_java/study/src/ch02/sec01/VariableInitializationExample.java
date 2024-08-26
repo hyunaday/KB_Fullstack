@@ -1,16 +1,3 @@
-package ch02.sec01;
-
-public class VariableInitializationExample {
-    public static void main(String[] args) {
-        //변수 value 선언
-        int value;
-
-        //연산 결과를 변수 result의 초기값으로 대입
-//        int result = value+10; // value를 초기화하지 않았기 때문에 에러
-
-        //변수 result 값을 읽고 콘솔에 출력
-//        System.out.println(result);
-
-
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:056111d683324b9fc4919e5c765c7df76ddea06a147ea208ab4c57e6fe7ec6e4
+size 420

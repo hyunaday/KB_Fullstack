@@ -1,10 +1,3 @@
-package ch01.sec12;
-
-public class Calculator {
-    public static void main(String[] args) {
-        int x=1; // 변수 x를 선언하고 1을 저장
-        int y=2; // 변수 y를 선언하고 2를 저장
-        int result=x+y; // 변수 result를 선언하고 x와 y를 더한 값을 저장
-        System.out.println(result); // 모니터에 출력하는 메소드 호출
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:8eca017b494fc7da3c16cae9e36177bcd954a6b21e7ea048745e3d14bd33dd71
+size 384

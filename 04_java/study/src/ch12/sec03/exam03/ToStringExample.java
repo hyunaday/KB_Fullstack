@@ -1,12 +1,3 @@
-package ch12.sec03.exam03;
-
-public class ToStringExample {
-    public static void main(String[] args) {
-        SmartPhone myPhone = new SmartPhone("삼성전자","안드로이드");
-
-//        toString 메소드 호출 시 기본값은 주소값이지만 원하는 값이 출력되도록 오버라이딩할 수 있다
-        String strObj = myPhone.toString();
-        System.out.println(strObj);
-        System.out.println(myPhone);
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:0c50986b1ccc2432470d1c82b45ba4d7acca6d421bc5da492a278af65e132c07
+size 444

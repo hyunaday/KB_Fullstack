@@ -1,9 +1,3 @@
-package ch07.sec08.exam01;
-
-public class KumhoTire extends Tire {
-    //메소드 재정의(오버라이딩)
-    @Override
-    public void roll() {
-        System.out.println("금호 타이어가 회전합니다.");
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:2b70d4c183902d89a85bedd3aacf5e61ee2de4fa432103d823a1174c4469b8eb
+size 224

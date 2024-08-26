@@ -1,17 +1,3 @@
-package ch08.sec11.exam02;
-
-public class DriverExample {
-    public static void main(String[] args) {
-        //Driver 객체 생성
-        Driver driver = new Driver();
-
-        //Vehicle 구현 객체 생성
-        Bus bus = new Bus();
-        Taxi taxi = new Taxi();
-
-        //매개값으로 구현 객체 대입(다형성: 실행 결과가 다름)
-//        자동 타입 변환(클래스 -> 인터페이스)
-        driver.drive(bus);
-        driver.drive(taxi);
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:0815b3ed2cad8d04ccbeb533bc0f086c0350446c4026ffcd2964f567554ab9b3
+size 480

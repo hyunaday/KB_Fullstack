@@ -1,10 +1,3 @@
-package org.scoula.lib.cli.command;
-
-// 종료 기능 처리하는 클래스
-public class ExitCommand implements Command{
-    @Override
-    public void execute() {
-        System.out.println("프로그램 종료");
-        System.exit(0);
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:a133bc6c3afb117a70dd194d319a01fa87e9697a8a40165f72a47263d7d77d84
+size 247

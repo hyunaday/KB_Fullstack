@@ -1,15 +1,3 @@
-package ch05.sec05;
-
-public class SubStringExample {
-    public static void main(String[] args) {
-        String ssn = "880815-1234567";
-
-//        String.substring(startIndex,endIndex) : 해당 문자열의 startIndex에서 endIndex-1까지 잘라낸다
-        String firstNum = ssn.substring(0,6);
-        System.out.println(firstNum);
-
-//        String.substring(startIndex) : 해당 문자열의 startIndex부터 끝까지 잘라낸다
-        String secondNum = ssn.substring(7);
-        System.out.println(secondNum);
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:dfad98bccf69b52f14fccb5e38b9278d53b2242ab7f665da45a531b34a65a2ab
+size 533

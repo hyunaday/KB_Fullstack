@@ -1,22 +1,3 @@
-package ch17.sec06.exam02;
-
-import java.util.Arrays;
-import java.util.stream.IntStream;
-
-public class MapExample {
-    public static void main(String[] args) {
-        int[] intArray = { 1, 2, 3, 4, 5 };
-
-        IntStream intStream = Arrays.stream(intArray);
-        intStream
-                .asDoubleStream()
-                .forEach(d-> System.out.println(d));
-
-        System.out.println();
-
-        intStream = Arrays.stream(intArray);
-        intStream
-                .boxed()
-                .forEach(obj -> System.out.println(obj.intValue()));
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:ae4a4f5796bd48c35a4f69a2bedb35a4db541840d4f573c70d8bb41084baf511
+size 562

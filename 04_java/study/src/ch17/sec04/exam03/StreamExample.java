@@ -1,15 +1,3 @@
-package ch17.sec04.exam03;
-
-import java.util.stream.IntStream;
-
-public class StreamExample {
-    public static int sum;
-    public static void main(String[] args) {
-//        range : 범위값 중 끝값을 포함하지 않는다
-//        rangeClcosed :   범위값 중 끝값을 포함한다
-        IntStream stream = IntStream.rangeClosed(1,100);
-//        stream을 돌면서 sum에 요소를 더해준다
-        stream.forEach(a -> sum += a);
-        System.out.println("총합: "+sum);
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:42ae024de35450d774c87000f258d7513405f56d1fcd2011b5e1361b996f7658
+size 502

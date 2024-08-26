@@ -1,13 +1,3 @@
-package ch12.sec04;
-
-public class ErrExample {
-    public static void main(String[] args) {
-        try{
-            int value = Integer.parseInt("1oo");
-        }catch (NumberFormatException e){
-//            System.err : 콘솔에서 에러 내용을 출력해주는 기능
-            System.err.println("[에러 내용]");
-            System.err.println(e.getMessage());
-        }
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:cc50225de526137a7ae5510b6fb87da27398f3734366e2bea7c718f167905862
+size 393

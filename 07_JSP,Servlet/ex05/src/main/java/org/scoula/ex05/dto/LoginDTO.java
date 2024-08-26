@@ -1,27 +1,3 @@
-package org.scoula.ex05.dto;
-
-public class LoginDTO { // GETTER, SETTER, 필드, 생성자 가지고 있으면 Java Bean으로 사용 가능
-    private String name;  // attribute, 기본적으로 바깥에서 접근하기 힘듦
-    private String passwd;
-    public LoginDTO() {}
-    public LoginDTO(String name, String passwd) {
-        this.name = name;
-        this.passwd = passwd;
-    }
-
-    public String getName() { // property, getter/setter를 통해서 바깥에서 접근 가능
-        return name;
-    }
-
-    public void setName(String name) {
-        this.name = name;
-    }
-
-    public String getPasswd() {
-        return passwd;
-    }
-
-    public void setPasswd(String passwd) {
-        this.passwd = passwd;
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:88c4bffda5886fe01980414161366ecd953ca3ba332caa6f3a57990ae9bb50e1
+size 735

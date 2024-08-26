@@ -1,19 +1,3 @@
-package ch17.sec06.exam01;
-
-import java.util.ArrayList;
-import java.util.List;
-
-public class MapExample {
-    public static void main(String[] args) {
-        // List 컬렉션 생성
-        List<Student> studentList = new ArrayList<>();
-        studentList.add(new Student("홍길동", 85));
-        studentList.add(new Student("홍길동",92));
-        studentList.add(new Student("홍길동",87));
-
-        // Student를 score 스트림으로 변환 후 출력
-        studentList.stream()
-                .mapToInt(s -> s.getScore())
-                .forEach(score -> System.out.println(score));
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:6be51fb5ad3fc1fb154587050f8c8996007282e04c15c490c01d1220a37d1dbb
+size 609

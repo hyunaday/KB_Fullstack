@@ -1,23 +1,3 @@
-package ch15.sec03.exam01;
-
-import java.util.HashSet;
-import java.util.Set;
-
-public class HashSetExample {
-    public static void main(String[] args) {
-        // HashSet 컬렉션 생성
-        Set<String> set = new HashSet();
-
-        // 객체 저장
-        set.add("Java");
-        set.add("JDBC");
-        set.add("Servlet/JSP");
-        // 위쪽에서 Java가 이미 추가됐으므로 중복 저장되지 않는다
-        set.add("Java");
-        set.add("iBATIS");
-
-        // 저장된 객체 수 출력
-        int size = set.size();
-        System.out.println("총 객체 수: " + size);
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:ca03dd5c882b27dfa7e75a65528c1b75e5aadc882697a064b3ba67f44c5d819d
+size 611

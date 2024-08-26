@@ -1,14 +1,3 @@
-package ch06.sec11;
-
-public class Earth {
-    //상수 선언 및 초기화
-    static final double EARTH_RADIUS = 6400;
-
-    //상수 선언
-    static final double EARTH_SURFACE_AREA;
-
-    //정적 블록에서 상수 초기화
-    static {
-        EARTH_SURFACE_AREA = 4*Math.PI * EARTH_RADIUS * EARTH_RADIUS;
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:50b39d0c845d2711a6521664176f8540806b4cbff99dd44835186c7160e540ce
+size 321

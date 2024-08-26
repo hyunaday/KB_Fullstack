@@ -1,13 +1,3 @@
-package ch03.sec08_나혼자한거;
-
-public class BitLogicExample {
-    public static void main(String[] args) {
-        System.out.println("45&25= " + (45&25));
-        System.out.println("45|25= " + (45|25));
-        System.out.println("45^25= " + (45^25));
-        System.out.println("~45= " + (~45));
-        System.out.println("-----------------------------------");
-
-        byte receiveData = -120;
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:14d5b54733a91174236e1be487ad5b5ad3516af3d48dc945a706a46b33ed88e0
+size 414

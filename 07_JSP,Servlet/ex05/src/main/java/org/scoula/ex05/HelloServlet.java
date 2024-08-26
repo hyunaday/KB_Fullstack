@@ -1,27 +1,3 @@
-package org.scoula.ex05;
-
-import java.io.*;
-import javax.servlet.http.*;
-import javax.servlet.annotation.*;
-
-@WebServlet(name = "helloServlet", value = "/hello-servlet")
-public class HelloServlet extends HttpServlet {
-    private String message;
-
-    public void init() {
-        message = "Hello Servlet!";
-    }
-
-    public void doGet(HttpServletRequest request, HttpServletResponse response) throws IOException {
-        response.setContentType("text/html");
-
-        // Hello
-        PrintWriter out = response.getWriter();
-        out.println("<html><body>");
-        out.println("<h1>" + message + "</h1>");
-        out.println("</body></html>");
-    }
-
-    public void destroy() {
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:a5994a770e8c16d99cdd0ce8218f4886f6bc3ea16e941265b638f4173668b347
+size 695

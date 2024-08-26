@@ -1,9 +1,3 @@
-package ch08.sec11.exam01;
-
-public class KumhoTire implements Tire{
-    //추상 메소드 재정의
-    @Override
-    public void roll(){
-        System.out.println("금호 타이어가 굴러갑니다.");
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:c95c132e84a68553bdd176673671b1f2c1742bde083882dd0cfd6c6ccd4fe500
+size 215

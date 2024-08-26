@@ -1,15 +1,3 @@
-package ch06.sec10;
-
-public class Calculator {
-//    static을 붙였으므로 정적 필드
-    static double pi = 3.14159;
-
-//    static을 붙였으므로 정적 메소드
-    static int plus(int x, int y) {
-        return x + y;
-    }
-
-    static int minus(int x, int y) {
-        return x - y;
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:2c853d4883dd157d12416c071c192f7b9087cdc5592d82bd91c5504f0984b728
+size 307

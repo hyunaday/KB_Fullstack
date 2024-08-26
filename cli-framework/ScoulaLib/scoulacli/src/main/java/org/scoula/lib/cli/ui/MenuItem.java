@@ -1,22 +1,3 @@
-package org.scoula.lib.cli.ui;
-
-import org.scoula.lib.cli.command.Command;
-
-// 따로 관리되던 메뉴명과 Command를 하나의 클래스로 캡슐화해줌
-public class MenuItem {
-    String title;
-    Command command;
-
-    public String getTitle() {
-        return title;
-    }
-
-    public Command getCommand() {
-        return command;
-    }
-
-    public MenuItem(String title, Command command) {
-        this.title = title;
-        this.command = command;
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:09906dab38bbb966000aecbd4637600c1e6432cf19461e67b283271e23513199
+size 472

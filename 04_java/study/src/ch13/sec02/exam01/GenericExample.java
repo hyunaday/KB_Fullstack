@@ -1,27 +1,3 @@
-package ch13.sec02.exam01;
-
-public class GenericExample {
-    public static void main(String[] args) {
-        // K는 Tv로 대체, M은 String으로 대체
-        Product<TV,String> product1 = new Product<>();
-        
-        // Setter 매개값은 반드시 Tv와 String을 제공
-        product1.setKind(new TV());
-        product1.setModel("스마트Tv");
-        
-        // Getter 리턴값은 Tv와 String이 됨
-        TV tv = product1.getKind();
-        String tvModel = product1.getModel();
-        
-        // K는 Car로 대체, M은 String으로 대체
-        Product<Car, String> product2 = new Product<>();
-        
-        // Setter 매개값은 반드시 Car와 String을 제공
-        product2.setKind(new Car());
-        product2.setModel("SUV자동차");
-
-        Car car = product2.getKind();
-        String carModel = product2.getModel();
-        
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:db38b2b77ad69bec015970d0bd4b1d5e54e6d55619a1a99889e6e50e79702d29
+size 885

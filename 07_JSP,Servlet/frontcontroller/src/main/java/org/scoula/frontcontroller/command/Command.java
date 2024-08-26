@@ -1,9 +1,3 @@
-package org.scoula.frontcontroller.command;
-
-import javax.servlet.http.HttpServletRequest;
-import javax.servlet.http.HttpServletResponse;
-import java.io.IOException;
-
-public interface Command {
-    String execute(HttpServletRequest request, HttpServletResponse response) throws IOException;
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:ca5327ab2293b578b13a81d1497432cdbd61249f53ee4ddf5a5023280a755a48
+size 293

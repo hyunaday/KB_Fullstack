@@ -1,36 +1,3 @@
-package ch17.sec05;
-
-import java.util.ArrayList;
-import java.util.List;
-
-public class FilteringExample {
-    public static void main(String[] args) {
-        // List 컬렉션 생성
-        List<String> list = new ArrayList<>();
-        list.add("홍길동");
-        list.add("신용권");
-        list.add("감자바");
-        list.add("신용권");
-        list.add("신민철");
-
-        // distinct() : 중복 요소 제거
-        list.stream()
-                .distinct()
-                .forEach(n-> System.out.println(n));
-        System.out.println();
-
-        // startsWith(글자) : 해당 글자로 시작하는지 여부 반환
-        // "신"으로 시작하는 요소만 필터링
-        list.stream()
-                .filter(n-> n.startsWith("신"))
-                .forEach(n-> System.out.println(n));
-        System.out.println();
-
-        // distinct() 와 startsWith() 모두 사용
-        // 중복 요소 제거 + "신"으로 시작하는 요소 필터링
-        list.stream()
-                .distinct()
-                .filter(n->n.startsWith("신"))
-                .forEach(n-> System.out.println(n));
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:df8466dd538e75b9eef68ab313a135ecffd136ada20deb127f41d4f3ee660b2a
+size 1143

@@ -1,18 +1,3 @@
-package add.inter;
-
-public class BookShelf extends Shelf implements Queue{
-    @Override
-    public void enQueue(String title) {
-        shelf.add(title);
-    }
-
-    @Override
-    public String deQueue() {
-        return shelf.remove(0);
-    }
-
-    @Override
-    public int getSize() {
-        return getCount();
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:662532d90f818476891678905595218a5e7ed2885a0ca939dd7204895d9a490b
+size 321

@@ -1,23 +1,3 @@
-package cli.ui;
-
-import cli.command.Command;
-
-public class MenuItem {
-    private String title;
-    private Command cmd;
-
-    public MenuItem(String title, Command cmd) {
-        this.title = title;
-        this.cmd = cmd;
-    }
-
-    public String getTitle() {
-        return title;
-    }
-
-    public void run(){
-        if(cmd != null){
-            cmd.excute();
-        }
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:bbe355768456c936a249613b392fa535fcc5bb7ae115f2f60ff723c06177e9e6
+size 382

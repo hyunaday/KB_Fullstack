@@ -1,16 +1,3 @@
-package ch07.sec04.exam02;
-
-public class Airplane {
-    //메소드 선언
-    public void land(){
-        System.out.println("착륙합니다.");
-    }
-
-    public void fly(){
-        System.out.println("일반 비행합니다.");
-    }
-
-    public void takeOff(){
-        System.out.println("이륙합니다.");
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:aed09e54fb160ceaf7527da71936b00b0dc2827d50b6449461de4de8e6013812
+size 322

@@ -1,15 +1,3 @@
-package ch08.sec02;
-
-public class RemoteControlExample {
-    public static void main(String[] args) {
-        RemoteControl rc;
-
-        //rc 변수에 Television 객체를 대입
-        rc = new Television();
-        rc.turnOn();
-
-        //rc 변수에 Audio 객체를 대입(교체)
-        rc = new Audio();
-        rc.turnOn();
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:eed2523de4534c83b0c61de44601c64a75567cd55ebc73fe2cbce79ef9f25ca6
+size 342
