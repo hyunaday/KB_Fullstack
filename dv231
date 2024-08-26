@@ -1,0 +1,438 @@
+[33mcommit cd8bf854a61792a6229c9575a48e4b07b440f3b4[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m)[m
+Author: hyunaday <cyj9512@naver.com>
+Date:   Fri Aug 23 14:01:18 2024 +0900
+
+    20240823_apiserver
+
+[33mcommit c9ddf3d07b16d63945883aba6d9a6ac5ad8f9fe0[m
+Merge: 2e4b4211 17d8771a
+Author: hyunaday <cyj9512@naver.com>
+Date:   Thu Aug 22 09:31:27 2024 +0900
+
+    Merge remote-tracking branch 'origin/main'
+
+[33mcommit 2e4b42111b33eaa65b4aed498435bdab4d918b44[m
+Author: hyunaday <cyj9512@naver.com>
+Date:   Thu Aug 22 09:27:02 2024 +0900
+
+    20240822_올라가라!
+
+[33mcommit 17d8771a1d990eb502504f654919e1e798e22874[m[33m ([m[1;31morigin/main[m[33m)[m
+Author: Hyuna Cho <128371729+hyunaday@users.noreply.github.com>
+Date:   Thu Aug 22 09:21:12 2024 +0900
+
+    Delete 08_Spring/apiserver
+
+[33mcommit a531da5ed8f85dbc527fac7f85fc8230e0d85b5a[m
+Author: Hyuna Cho <128371729+hyunaday@users.noreply.github.com>
+Date:   Thu Aug 22 09:20:39 2024 +0900
+
+    Create apiserver
+
+[33mcommit 42f85f840873fb801938320dc1a4445f7e79beee[m
+Author: hyunaday <cyj9512@naver.com>
+Date:   Wed Aug 21 18:23:46 2024 +0900
+
+    20240821_올라가라!
+
+[33mcommit 0ae968d0c3882463956b419d5126a9b3f703e17c[m
+Author: hyunaday <cyj9512@naver.com>
+Date:   Wed Aug 21 17:29:00 2024 +0900
+
+    20240821_얍
+
+[33mcommit ce66725245d8f115ba79d249fa831c769d1a4dd3[m
+Author: hyunaday <cyj9512@naver.com>
+Date:   Wed Aug 21 17:17:50 2024 +0900
+
+    20240821_1
+
+[33mcommit a0366d8d2c569221a44fd894d1df431c8579f03c[m
+Author: hyunaday <cyj9512@naver.com>
+Date:   Wed Aug 21 17:01:36 2024 +0900
+
+    20240821_DTO
+
+[33mcommit 59cf7fdd40472db4c67fcc5efc18b408d7aba3e3[m
+Author: hyunaday <cyj9512@naver.com>
+Date:   Wed Aug 21 16:35:57 2024 +0900
+
+    20240821_please
+
+[33mcommit d1bd315a31a7b42719c5b825644f6741a0d1fef8[m
+Author: hyunaday <cyj9512@naver.com>
+Date:   Wed Aug 21 16:09:05 2024 +0900
+
+    20240821
+
+[33mcommit 8b78c0ef77f08ac50ecf6fb8a95603398c28ce36[m
+Author: hyunaday <cyj9512@naver.com>
+Date:   Wed Aug 21 16:06:36 2024 +0900
+
+    20240821
+
+[33mcommit 657d951fdabb9d4ce2cbb305e9a299da1aa44b52[m
+Author: hyunaday <cyj9512@naver.com>
+Date:   Wed Aug 21 16:01:56 2024 +0900
+
+    First Commit
+
+[33mcommit 684c5e7c1cd269d5058d698778db44597d56422f[m
+Author: hyunaday <cyj9512@naver.com>
+Date:   Wed Aug 21 15:13:34 2024 +0900
+
+    '2024.08.21'
+
+[33mcommit 1bb36228e9f9bde4a1a33a8fcfa4d86bade24458[m
+Author: hyunaday <cyj9512@naver.com>
+Date:   Wed Aug 21 15:03:25 2024 +0900
+
+    20240821
+
+[33mcommit 8b0ee310cea331946c218f0649b256b3b9163607[m
+Author: hyunaday <cyj9512@naver.com>
+Date:   Wed Aug 21 14:54:34 2024 +0900
+
+    20240821
+
+[33mcommit d6d80a533be2aff431f8cb2de4a1e9b14e015544[m
+Author: hyunaday <cyj9512@naver.com>
+Date:   Wed Aug 21 14:03:47 2024 +0900
+
+    20240821
+
+[33mcommit 5ebaeebefbbd0c69f2ba3e6780985140893d4df7[m
+Author: hyunaday <cyj9512@naver.com>
+Date:   Tue Aug 20 17:50:59 2024 +0900
+
+    20240820_로그인과 로그아웃/member/UserDetails
+
+[33mcommit 75754c8f92cb927b1be271678fa253759b299a9b[m
+Author: hyunaday <cyj9512@naver.com>
+Date:   Mon Aug 19 17:44:47 2024 +0900
+
+    20240819_BookDto와 BookController_강사님과제(미완)_RestAPI 응용_삭제
+
+[33mcommit 3d5f1da7b2706b4faf5ec3faec2aacf2d453bf97[m
+Author: hyunaday <cyj9512@naver.com>
+Date:   Mon Aug 19 17:44:03 2024 +0900
+
+    20240819_BookDto와 BookController_강사님과제(미완)_RestAPI 응용
+
+[33mcommit eedb6a78ea974a9cf7b02ab71e46c5e3546a9432[m
+Author: hyunaday <cyj9512@naver.com>
+Date:   Mon Aug 19 16:58:58 2024 +0900
+
+    20240819_RestAPI
+
+[33mcommit 82c9b7b2763335f17ae5d092b07b4f9f67ea253e[m
+Author: hyunaday <cyj9512@naver.com>
+Date:   Wed Aug 14 17:27:54 2024 +0900
+
+    20240814_boardApi
+
+[33mcommit 0dbb063105397c3cf568c72543c4193d8266a586[m
+Author: hyunaday <cyj9512@naver.com>
+Date:   Wed Aug 14 14:39:43 2024 +0900
+
+    20240814_board 수정(2)_주석ver
+
+[33mcommit ef60d640c1d18466c75006cb28ab73432089c933[m
+Author: hyunaday <cyj9512@naver.com>
+Date:   Wed Aug 14 11:45:23 2024 +0900
+
+    20240814_board 수정
+
+[33mcommit 206208e3721f31daf630748bf5c67d3033747f0b[m
+Author: hyunaday <cyj9512@naver.com>
+Date:   Tue Aug 13 17:54:35 2024 +0900
+
+    20240813_06.2 File Upload, Download
+
+[33mcommit 4a32de4a0c05c4cc736eb45107fcbc4c3fe15633[m
+Author: hyunaday <cyj9512@naver.com>
+Date:   Tue Aug 13 12:20:50 2024 +0900
+
+    20240813_[create추가 안되는 문제 해결] mapper.create(vo);
+
+[33mcommit ae6028e61168a48d383269afecc0eb33b2536374[m
+Author: hyunaday <cyj9512@naver.com>
+Date:   Mon Aug 12 16:54:30 2024 +0900
+
+    20240812_ http://localhost:8080/board/list
+
+[33mcommit a286e1102c06bfceef12fe9c1a321f838ce75317[m
+Author: hyunaday <cyj9512@naver.com>
+Date:   Mon Aug 12 15:30:56 2024 +0900
+
+    20240812_Backend 홈페이지 만들기
+
+[33mcommit 5187ad27fed6baf8f363662b2623051155cdbcf0[m
+Author: hyunaday <cyj9512@naver.com>
+Date:   Thu Aug 8 17:08:31 2024 +0900
+
+    20240808_비즈니스계층&CRUD구현
+
+[33mcommit 4be67cb6987fff8e7589395c63727b9c87028143[m
+Author: hyunaday <cyj9512@naver.com>
+Date:   Wed Aug 7 18:36:37 2024 +0900
+
+    20240807_board.pjt_Mapper 경로 및 내용 수정
+
+[33mcommit 55bef3fa978e3d196e260d5f0d272fe18167da10[m
+Author: hyunaday <cyj9512@naver.com>
+Date:   Wed Aug 7 17:25:07 2024 +0900
+
+    20240807_영속,비즈니스 계층의 CRUD 구현_11p까지 완성
+
+[33mcommit 0ddc5bf71fc3c45c283b2dd2f11e41a21af4d722[m
+Author: hyunaday <cyj9512@naver.com>
+Date:   Wed Aug 7 17:21:02 2024 +0900
+
+    20240807_영속,비즈니스 계층의 CRUD 구현_11p까지 완성
+
+[33mcommit 4afd449c64a5e01bf631d5bd949c16a9b243337f[m
+Author: hyunaday <cyj9512@naver.com>
+Date:   Wed Aug 7 11:40:41 2024 +0900
+
+    20240807_<MyBatis Spring Legacy> 템플릿 만들기
+
+[33mcommit 971487c3bcc43948338b05fd4caba2b518c19a31[m
+Author: hyunaday <cyj9512@naver.com>
+Date:   Tue Aug 6 17:20:46 2024 +0900
+
+    20240806_Spring_MYSQL_Database연동
+
+[33mcommit 6e9d0765244f2f9bbba7c9dcf6471bc58572cfe1[m
+Author: hyunaday <cyj9512@naver.com>
+Date:   Mon Aug 5 17:09:58 2024 +0900
+
+    20240805_SpringMVC_Controller
+
+[33mcommit 9563b93230e34c00cd9aa083a31ccee0f4e0145e[m
+Author: hyunaday <cyj9512@naver.com>
+Date:   Mon Aug 5 16:32:20 2024 +0900
+
+    20240805_ex03
+
+[33mcommit 0e2095d9c98e0c250c809dcfcb48fe25671ab3e1[m
+Author: hyunaday <cyj9512@naver.com>
+Date:   Mon Aug 5 14:00:01 2024 +0900
+
+    20240805_ex02
+
+[33mcommit c4877b104d6fca371c13477fd296340be8d9c42e[m
+Author: hyunaday <cyj9512@naver.com>
+Date:   Thu Aug 1 19:30:18 2024 +0900
+
+    20240801_DispatcherServlet
+
+[33mcommit 5cf47515abf0390dadac6a4f80e1c2ed761387bf[m
+Author: hyunaday <cyj9512@naver.com>
+Date:   Thu Aug 1 19:04:55 2024 +0900
+
+    20240801_FrontController_수정
+
+[33mcommit 9b64ed094f8cea952b1db17eb7fd301802590958[m
+Author: hyunaday <cyj9512@naver.com>
+Date:   Thu Aug 1 18:51:37 2024 +0900
+
+    20240801_FrontController_수정
+
+[33mcommit ea3b6060600efd9e286fa3e13c40effc4a70e713[m
+Author: hyunaday <cyj9512@naver.com>
+Date:   Thu Aug 1 17:46:40 2024 +0900
+
+    20270801
+
+[33mcommit b0943ed7b7dd38fb04106508bcf0a6e76681c94e[m
+Author: hyunaday <cyj9512@naver.com>
+Date:   Thu Aug 1 17:23:11 2024 +0900
+
+    20240801_FrontController
+
+[33mcommit 4c9f183de9cc91eeb0d302f2986cfd03fbb97c98[m
+Author: hyunaday <cyj9512@naver.com>
+Date:   Wed Jul 31 18:19:30 2024 +0900
+
+    20240731_ex05
+
+[33mcommit 9987c8f0cb56b9080820f1fe623d3a5f76eb1330[m
+Author: hyunaday <cyj9512@naver.com>
+Date:   Wed Jul 31 13:52:35 2024 +0900
+
+    20240730
+
+[33mcommit efdb47ece692bcf5226337574e2e9272cc857885[m
+Author: hyunaday <cyj9512@naver.com>
+Date:   Mon Jul 29 17:54:53 2024 +0900
+
+    20240729_ex03_Servlet
+
+[33mcommit 7f23d4eba53beb3fd1e98a74409d6910c43e6474[m
+Author: hyunaday <cyj9512@naver.com>
+Date:   Thu Jul 25 19:27:54 2024 +0900
+
+    20240725
+
+[33mcommit 5f28c4f65aeebe8bcbe129d63cb846833ebbb245[m
+Author: hyunaday <cyj9512@naver.com>
+Date:   Thu Jul 25 19:13:45 2024 +0900
+
+    20240725_dynamic-web
+
+[33mcommit f5eb3ca8521c2dab5b6ec681fea4a730c52aa197[m
+Author: hyunaday <cyj9512@naver.com>
+Date:   Tue Jul 23 17:11:58 2024 +0900
+
+    20240723
+
+[33mcommit 67bab9aeeabfba55cf363669b6eb596909198344[m
+Author: hyunaday <cyj9512@naver.com>
+Date:   Tue Jul 23 17:01:53 2024 +0900
+
+    20240723_수정_TodoApp,TodoDao
+
+[33mcommit 9fd0cf3305edda124a9223bb2b25f2491bed39f1[m
+Author: hyunaday <cyj9512@naver.com>
+Date:   Tue Jul 23 17:00:24 2024 +0900
+
+    20240723_BadMenuException
+
+[33mcommit 2a90009c1fda1f4da7b7035be78784da8d3b5b1f[m
+Author: hyunaday <cyj9512@naver.com>
+Date:   Tue Jul 23 16:38:43 2024 +0900
+
+    20240723_MongoDB(오늘의과제)
+
+[33mcommit ca4b813895aced519d2cc7a83251e1dc13909f64[m
+Author: hyunaday <cyj9512@naver.com>
+Date:   Tue Jul 23 16:38:02 2024 +0900
+
+    20240723_ToDoService 생성
+
+[33mcommit 3f0b5ac845ccc3af47b1010b885be181d34e08b0[m
+Author: hyunaday <cyj9512@naver.com>
+Date:   Mon Jul 22 17:54:35 2024 +0900
+
+    20240722-완성
+
+[33mcommit 82661f444aeb4059a48e956789dde7211ca5e97f[m
+Author: hyunaday <cyj9512@naver.com>
+Date:   Mon Jul 22 17:39:34 2024 +0900
+
+    20240722_todoApp_update
+
+[33mcommit c4c2c91bfa512c637239cd9852586938f5596d3e[m
+Author: hyunaday <cyj9512@naver.com>
+Date:   Mon Jul 22 17:39:26 2024 +0900
+
+    20240722_todoApp_update
+
+[33mcommit 2a142d8bba73d15c11afbc71fe17edd6dbb196c2[m
+Author: hyunaday <cyj9512@naver.com>
+Date:   Mon Jul 22 17:27:41 2024 +0900
+
+    20240722-완성
+
+[33mcommit 5268183f848b23901dc947f56654b2569343bfaf[m
+Author: hyunaday <cyj9512@naver.com>
+Date:   Fri Jul 19 14:17:55 2024 +0900
+
+    20240719_StudentScores_commit(2)
+
+[33mcommit f1267718e8e2bec97f80a129f2b731e6e3181975[m
+Author: hyunaday <cyj9512@naver.com>
+Date:   Thu Jul 18 19:51:49 2024 +0900
+
+    20240718_StudentStore
+
+[33mcommit 36327f20932af2fc94172ba107ba953eaf9a3c11[m
+Author: hyunaday <cyj9512@naver.com>
+Date:   Thu Jul 18 19:49:06 2024 +0900
+
+    20240718_StudentStore
+
+[33mcommit 0301ff1964a9a751c0e7a196e0de90258d7cb23c[m
+Author: hyunaday <cyj9512@naver.com>
+Date:   Thu Jul 18 19:11:41 2024 +0900
+
+    20240718_MemoApp
+
+[33mcommit 4e3c546de2fcea25f27e64d901c7bfdbcb093dd9[m
+Author: hyunaday <cyj9512@naver.com>
+Date:   Thu Jul 18 18:34:37 2024 +0900
+
+    20240718_Scoula Framework
+
+[33mcommit 801fea5ece6bab0cd810fc3914bec82f2674cf5f[m
+Author: hyunaday <cyj9512@naver.com>
+Date:   Thu Jul 18 17:51:25 2024 +0900
+
+    20240718_MemoApp(todo)
+
+[33mcommit 57e2c40edcf9708a0b025f2aff38754f117215c2[m
+Author: hyunaday <cyj9512@naver.com>
+Date:   Wed Jul 17 18:49:45 2024 +0900
+
+    20240717_CLI_V5,V6수정
+
+[33mcommit db3a7a5237d85c2248a0db0263305306a46c9fb5[m
+Author: hyunaday <cyj9512@naver.com>
+Date:   Wed Jul 17 17:20:55 2024 +0900
+
+    20240717_CLI
+
+[33mcommit f86396a0271e80a8169a8631fa0b05c61bc79d17[m
+Author: hyunaday <cyj9512@naver.com>
+Date:   Tue Jul 16 17:58:01 2024 +0900
+
+    20240716_sql_dao
+
+[33mcommit 393eec55b888e70a58a430801ebc7c3c23f9fc35[m
+Author: hyunaday <cyj9512@naver.com>
+Date:   Tue Jul 16 17:52:08 2024 +0900
+
+    20240716_sql_dao
+
+[33mcommit 8f5727b04470488c8e542f29b5cd5018c9cea8e1[m
+Author: hyunaday <cyj9512@naver.com>
+Date:   Mon Jul 8 17:35:37 2024 +0900
+
+    20240708_ch18_Stream은 byte다!
+
+[33mcommit 3bfc418f426fd39d86c0c5773e0353f3612a3847[m
+Author: hyunaday <cyj9512@naver.com>
+Date:   Mon Jul 8 12:21:03 2024 +0900
+
+    20240705_java_알고리즘
+
+[33mcommit 41c93bec910ebf523c5ead7759663d564aedcff1[m
+Author: hyunaday <cyj9512@naver.com>
+Date:   Wed Jul 3 19:51:11 2024 +0900
+
+    20240703_Lambda_Stream
+
+[33mcommit 0dc5f375eb91c250c4a24cebeb76ef48f6d93f6d[m
+Author: hyunaday <cyj9512@naver.com>
+Date:   Tue Jul 2 17:52:02 2024 +0900
+
+    20240702_collection(2)
+
+[33mcommit 11a6fa54a8c696b34b599002154e91fee8daec4a[m
+Author: hyunaday <cyj9512@naver.com>
+Date:   Mon Jul 1 17:52:29 2024 +0900
+
+    plz
+
+[33mcommit f1385557cb1bfcc4877277078536187625c19ab3[m
+Author: hyunaday <cyj9512@naver.com>
+Date:   Fri Jun 28 17:30:20 2024 +0900
+
+    plz
+
+[33mcommit 0fb363bd5ae720681cf7b9c2978a66fd4eddca4f[m
+Author: hyunaday <cyj9512@naver.com>
+Date:   Fri Jun 28 17:07:59 2024 +0900
+
+    0628_please

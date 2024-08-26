@@ -1,0 +1,492 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="fa865264-66a7-4de9-b12b-95f3031c3822" name="Changes" comment="20240807_&lt;MyBatis Spring Legacy&gt; 템플릿 만들기">
+      <change beforePath="$PROJECT_DIR$/../board/src/main/java/org/scoula/board/controller/BoardController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../board/src/main/java/org/scoula/board/controller/BoardController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../board/src/main/java/org/scoula/board/domain/BoardAttachmentVO.java" beforeDir="false" afterPath="$PROJECT_DIR$/../board/src/main/java/org/scoula/board/domain/BoardAttachmentVO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../board/src/main/java/org/scoula/common/util/UploadFiles.java" beforeDir="false" afterPath="$PROJECT_DIR$/../board/src/main/java/org/scoula/common/util/UploadFiles.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../template/SpringLegacy/ex01/caches/8.2/javaCompile/jarAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../template/SpringLegacy/ex01/caches/8.2/javaCompile/jarAnalysis.bin" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="MyBatisSpringLegacy" type="f1a62948:ProjectNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileEditorManager">
+    <leaf ideFingerprint="mooapnzw73ti" SIDE_TABS_SIZE_LIMIT_KEY="-1">
+      <file current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/org/scoula/controller/HomeController.java">
+          <provider editor-type-id="text-editor" selected="true">
+            <state>
+              <caret line="7" selection-start-line="7" selection-end-line="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/exception/CommonExceptionAdvice.java">
+          <provider editor-type-id="text-editor" selected="true">
+            <state relative-caret-position="285">
+              <caret line="24" column="29" selection-start-line="24" selection-start-column="29" selection-end-line="24" selection-end-column="29" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/custom404.jsp">
+          <provider editor-type-id="text-editor" selected="true">
+            <state>
+              <caret line="12" column="36" selection-start-line="12" selection-start-column="36" selection-end-line="12" selection-end-column="36" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/org/scoula/config/ServletConfig.java">
+          <provider editor-type-id="text-editor" selected="true">
+            <state relative-caret-position="351">
+              <caret line="44" column="23" lean-forward="true" selection-start-line="44" selection-start-column="23" selection-end-line="44" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/build.gradle">
+          <provider editor-type-id="text-editor" selected="true">
+            <state relative-caret-position="108">
+              <caret line="3" column="1" lean-forward="true" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file>
+        <entry file="file://$PROJECT_DIR$/settings.gradle">
+          <provider editor-type-id="text-editor" selected="true">
+            <state>
+              <caret column="32" selection-start-column="32" selection-end-column="32" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/gradlew.bat">
+          <provider editor-type-id="text-editor" selected="true" />
+        </entry>
+      </file>
+      <file current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/error_page.jsp">
+          <provider editor-type-id="text-editor" selected="true">
+            <state>
+              <caret line="18" column="65" selection-start-line="18" selection-start-column="65" selection-end-line="18" selection-end-column="65" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/org/scoula/config/WebConfig.java">
+          <provider editor-type-id="text-editor" selected="true">
+            <state>
+              <caret line="37" column="35" selection-start-line="37" selection-start-column="35" selection-end-line="37" selection-end-column="35" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="Interface" />
+        <option value="JUnit5 Test Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
+  <component name="ProjectId" id="2kH4uiXCgCIJbUsjdrDh8DEqRaq" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Gradle.Build MyBatisSpringLegacy.executor": "Run",
+    "Gradle.Build ex04.executor": "Run",
+    "Gradle.Download Sources.executor": "Run",
+    "Gradle.JDBCTests.executor": "Run",
+    "Gradle.JDBCTests.testConnection.executor": "Run",
+    "Gradle.RootConfigTest.dataSource.executor": "Run",
+    "Gradle.RootConfigTest.executor": "Run",
+    "Gradle.TimeMapperTest.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "Tomcat Server.Tomcat 9.0.91.executor": "Run",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/KB_fullstack/08_Spring/MemoApp",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.1454219",
+    "project.structure.side.proportion": "0.21199587",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\KB_fullstack\08_Spring\ex04\src\main\resources\org.scoula.mapper" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="org.scoula.mapper" />
+      <recent name="org.scoula.config" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Tomcat Server.Tomcat 9.0.91">
+    <configuration name="JDBCTests" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;org.scoula.persistence.JDBCTests&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="JDBCTests.testConnection" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;org.scoula.persistence.JDBCTests.testConnection&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="RootConfigTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;org.scoula.config.RootConfigTest&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="RootConfigTest.dataSource" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;org.scoula.config.RootConfigTest.dataSource&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="TimeMapperTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;org.scoula.mapper.TimeMapperTest&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="SpringLegacy" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="SpringLegacy" />
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Tomcat 9.0.91" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.91" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/Gradle___org_scoula___ex04_1_0_SNAPSHOT_war/" />
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="Gradle : org.scoula : ex04-1.0-SNAPSHOT.war">
+          <settings>
+            <option name="CONTEXT_PATH" value="/" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="c9a3baf3-1151-4ff0-9b8f-4a3f7593db8e" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="62422" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Profile">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Gradle.TimeMapperTest" />
+      <item itemvalue="Gradle.JDBCTests" />
+      <item itemvalue="Gradle.JDBCTests.testConnection" />
+      <item itemvalue="Gradle.RootConfigTest" />
+      <item itemvalue="Gradle.RootConfigTest.dataSource" />
+      <item itemvalue="Tomcat Server.Tomcat 9.0.91" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Gradle.RootConfigTest.dataSource" />
+        <item itemvalue="Gradle.JDBCTests.testConnection" />
+        <item itemvalue="Gradle.RootConfigTest" />
+        <item itemvalue="Gradle.JDBCTests" />
+        <item itemvalue="Gradle.TimeMapperTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9f38398b9061-18abd8497189-intellij.indexing.shared.core-IU-241.14494.240" />
+        <option value="bundled-js-predefined-1d06a55b98c1-74d2a5396914-JavaScript-IU-241.14494.240" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="fa865264-66a7-4de9-b12b-95f3031c3822" name="Changes" comment="" />
+      <created>1722927394623</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1722927394623</updated>
+      <workItem from="1722927395709" duration="5761000" />
+      <workItem from="1722990393249" duration="7877000" />
+      <workItem from="1722998584834" duration="1459000" />
+      <workItem from="1723022627963" duration="44000" />
+      <workItem from="1723597445381" duration="85000" />
+    </task>
+    <task id="LOCAL-00001" summary="20240806_Spring_MYSQL_Database연동">
+      <option name="closed" value="true" />
+      <created>1722932446975</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1722932446975</updated>
+    </task>
+    <task id="LOCAL-00002" summary="20240807_&lt;MyBatis Spring Legacy&gt; 템플릿 만들기">
+      <option name="closed" value="true" />
+      <created>1722998441961</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1722998441961</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="20240806_Spring_MYSQL_Database연동" />
+    <MESSAGE value="20240807_&lt;MyBatis Spring Legacy&gt; 템플릿 만들기" />
+    <option name="LAST_COMMIT_MESSAGE" value="20240807_&lt;MyBatis Spring Legacy&gt; 템플릿 만들기" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/org/scoula/mapper/TimeMapperTest.java</url>
+          <line>16</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
