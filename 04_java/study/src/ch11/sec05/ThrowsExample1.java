@@ -1,17 +1,3 @@
-package ch11.sec05;
-
-public class ThrowsExample1 {
-    public static void main(String[] args) {
-        try{
-            findClass();
-        }catch (ClassNotFoundException e){
-//            try 문에서 던진 예외를 받아와서 처리해줌
-            System.out.println("예외 처리: " + e.toString());
-        }
-    }
-
-//    throws 키워드를 이용해서 메소드를 호출한 곳으로 예외를 던진다
-    public static void findClass() throws ClassNotFoundException {
-        Class.forName("java.lang.String2");
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:82db50d1d567a0041c13a7d6a42458dc69e1d781aa9f2b45d4bf97ef582d225e
+size 542

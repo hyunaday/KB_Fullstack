@@ -1,17 +1,3 @@
-package ch18.sec10;
-
-import java.io.Serializable;
-
-public class Member implements Serializable {
-    private String id;
-    private String name;
-
-    public Member(String id, String name) {
-        this.id = id;
-        this.name = name;
-    }
-    // java.lang 패키지 : 자바 언어의 기본 클래스를 제공한다.
-    @Override
-    public String toString() { return id + ": " + name; }
-}
-
+version https://git-lfs.github.com/spec/v1
+oid sha256:1945cd895c0bf4cfde26660246bedf2ccff3f7561a01d59fb175c1b40b575824
+size 399
