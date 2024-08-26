@@ -1,11 +1,3 @@
-package org.scoula.lib.cli.exception;
-
-// 사용자 정의 예외 클래스, 예외로 만들어주려면 Exception 상속 필요
-public class BadMenuException extends Exception {
-    public BadMenuException() {
-        super("잘못된 메뉴 선택입니다.");
-    }
-    public BadMenuException(String message) {
-        super(message);
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:db83e04556f5b383447f3f66082c2590ec8e2a5353bcf0e2a7cfddadf6b93c21
+size 347

@@ -1,20 +1,3 @@
-package org.scoula.studentscore.command;
-
-
-import org.scoula.studentscore.lib.cli.command.Command;
-import org.scoula.studentscore.studentscore.domain.StudentScores;
-
-// 3번 메뉴인 점수 출력 기능 처리하는 클래스
-public class PrintScoreCommand implements Command {
-    StudentScores studentScores = StudentScores.getInstance();
-    @Override
-    public void execute() {
-        // 기존에 저장되어잇는 학생들의 점수 리스트를 가져옴
-        int [] scores = studentScores.getScores();
-
-        // 점수 리스트를 돌면서 각각의 점수들을 출력해줌
-        for(int i=0; i<scores.length; i++) {
-            System.out.println("scores[" + i + "]: " + scores[i]);
-        }
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:102236506a0e63f83b3a1b975fd7cfdb36793621354816a11763b757a91ad21f
+size 726

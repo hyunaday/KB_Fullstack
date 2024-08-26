@@ -1,29 +1,3 @@
-package org.scoula.studentscore.studentscore.domain;
-
-public class StudentScores {
-    int studentNum = 0;
-    int[] scores = null;
-
-    // Singleton 패턴
-    private StudentScores() {
-    }
-
-    private static StudentScores instance = new StudentScores();
-
-    public static StudentScores getInstance() {
-        return instance;
-    }
-
-    public int getStudentNum() {
-        return studentNum;
-    }
-
-    public void setStudentNum(int studentNum) {
-        this.studentNum = studentNum;
-        this.scores = new int [studentNum];
-    }
-
-    public int[] getScores() {
-        return scores;
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:48e8abaad3e75ca1353cc79b146042b21b8841657b1239678618755677d8498a
+size 605

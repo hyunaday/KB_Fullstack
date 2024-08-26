@@ -1,6 +1,3 @@
-package org.scoula.studentscore.lib.cli.command;
-
-public interface Command {
-    //    추상 메소드이므로 재정의 필요
-    void execute();
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:3b2d128b71347957095629771809b1cc72eddab87652eb9fe39fc0f6b0068000
+size 152

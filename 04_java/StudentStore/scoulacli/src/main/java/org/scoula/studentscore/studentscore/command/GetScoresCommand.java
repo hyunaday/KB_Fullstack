@@ -1,18 +1,3 @@
-package org.scoula.studentscore.studentscore.command;
-
-import basic.Input;
-import domain.StudentScores;
-
-public class GetScoresCommand implements Command {
-    StudentScores studentScores = StudentScores.getInstance();
-    @Override
-    public void execute() {
-        // 기존에 저장되어있는 학생들의 점수 리스트를 가져옴
-        int [] scores = studentScores.getScores();
-
-        // 점수 리스트를 돌면서 사용자한테 입력받은 점수를 넣어줌
-        for(int i = 0; i< scores.length; i++) {
-            scores[i] = Input.getInt("scores[" + i + "]> ");
-        }
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:855f719935ff13c4cfae990881fce3730d61638dc4f016870bccda2d0f0f7679
+size 613
