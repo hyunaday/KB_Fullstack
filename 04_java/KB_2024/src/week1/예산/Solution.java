@@ -1,19 +1,3 @@
-package week1.예산;
-
-import java.util.Arrays;
-import java.util.HashMap;
-
-class Solution {
-    public int solution(int[] d, int budget) {
-        int answer = 0;
-        int limit = 0;
-        Arrays.sort(d);
-        for(int i = 0; i < d.length; i++) {
-            limit += d[i];
-            if(limit <= budget){
-                answer ++;
-            }
-        }
-        return answer;
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:a62989c150da6e10c2cc446e9e1a36946c6954821d6ee65e4ace58b9c39e6586
+size 396

@@ -1,26 +1,3 @@
-package week1.완주하지못한선수;
-
-import java.util.HashMap;
-
-class Solution {
-
-    public String solution(String[] participant, String[] completion) {
-        HashMap<String, Integer> map = new HashMap<>();
-
-        for (int i = 0; i < participant.length; i++) {
-            map.put(participant[i], map.getOrDefault(participant[i],0)+1);
-        }
-        for(int i = 0 ; i < completion.length;i++){
-            map.put(completion[i], map.getOrDefault(completion[i],0)-1);
-        }
-
-        for(int i = 0; i < participant.length; i++){
-            if(map.get(participant[i] )== 1){
-                return participant[i];
-            }
-        }
-
-
-        return map.values().toString();
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:162fb64d15b6f375e0fae47386767d4a5ffd62ae6be96e2a3069d9b00fccfc5b
+size 702
