@@ -19,6 +19,7 @@ export default defineConfig({
         },
     },
     build: {
-        outDir: 'C:/KB_Fullstack/09_Spring+Vue/scoula/backend/src/main/webapp/resources',
+        outDir: 'C:/KB_fullstack/09_Spring+vue/scoula/backend/src/main/webapp/resources',
+        emptyOutDir: true, // 기존 결과물 덮어쓰기
     },
 });

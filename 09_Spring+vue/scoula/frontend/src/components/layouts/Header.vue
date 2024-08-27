@@ -3,7 +3,7 @@
 import config from '@/config';
 </script>
 <template>
-    <div class="jumbotronp-5 bg-primary text-white">
+    <div class="jumbotron p-5 bg-primary text-white">
         <!--    설정 파일에서 가져온 타이틀과 서브 타이틀 표시-->
         <h1>{{ config.title }}</h1>
         <p>{{ config.subtitle }}</p>
