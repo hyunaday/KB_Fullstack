@@ -1,10 +1,11 @@
 <script setup>
-// @는 src 폴더를 의미한다
+// @는 src 폴더를 의미한다 (설정 파일에서 정해줌)
 import config from '@/config';
 </script>
+
 <template>
     <div class="jumbotron p-5 bg-primary text-white">
-        <!--    설정 파일에서 가져온 타이틀과 서브 타이틀 표시-->
+        <!-- 설정 파일에서 가져온 타이틀과 서브 타이틀 표시 -->
         <h1>{{ config.title }}</h1>
         <p>{{ config.subtitle }}</p>
     </div>
@@ -12,7 +13,7 @@ import config from '@/config';
 
 <style scoped>
 .jumbotron {
-    background-image: url('@/assets/images/background.jpg');
+    background-image: url('@/assets/images/background.png');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;

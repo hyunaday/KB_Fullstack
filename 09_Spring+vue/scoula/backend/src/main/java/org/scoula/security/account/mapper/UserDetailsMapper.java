@@ -1,3 +1,8 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:5de696f1e1f1366bf7c883b1cb34fca644d9d8b26874955cf1fffcdad28c73f8
-size 259
+package org.scoula.security.account.mapper;
+
+import org.scoula.security.account.domain.MemberVO;
+
+public interface UserDetailsMapper {
+//    username으로 조회해서 사용자의 정보를 가져오는 메소드
+    public MemberVO get(String username);
+}

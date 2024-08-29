@@ -1,3 +1,4 @@
+/* font 지정 */
 @font-face {
     font-family: 'HSSanTokki20-Regular';
     src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/2405@1.0/HSSanTokki20-Regular.woff2')
@@ -8,4 +9,26 @@
 
 * {
     font-family: 'HSSanTokki20-Regular';
+}
+
+/* avatar 크기 지정 */
+.avatar {
+    border-radius: 50%;
+    border-color: gray;
+    background-color: #d8d8d8;
+}
+
+.avatar-sm {
+    width: 20px;
+    height: 20px;
+}
+
+.avatar-md {
+    width: 40px;
+    height: 40px;
+}
+
+.avatar-lg {
+    width: 80px;
+    height: 80px;
 }

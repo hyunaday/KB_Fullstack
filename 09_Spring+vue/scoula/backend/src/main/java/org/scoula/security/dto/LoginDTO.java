@@ -1,3 +1,32 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:ff60ce449a2e7100e72a5177c6f686f7b2f2aa63faf27d5f8558aa61f5f9445b
-size 1158
+package org.scoula.security.dto;
+
+import com.fasterxml.jackson.databind.ObjectMapper;
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+import org.springframework.security.authentication.BadCredentialsException;
+import org.springframework.security.core.AuthenticationException;
+
+import javax.servlet.http.HttpServletRequest;
+
+@NoArgsConstructor
+@AllArgsConstructor
+@Data
+//@Builder
+
+public class LoginDTO {
+    private String username;
+    private String password;
+    public static LoginDTO of(HttpServletRequest request) throws AuthenticationException {
+        ObjectMapper om = new ObjectMapper(); // JSON 파싱을 위한 ObjectMapper 생성
+        try {
+            // request에서 JSON 데이터를 읽어와서 LoginDTO 객체로 변환 (역직렬화 : JSON->객체)
+            return om.readValue(request.getInputStream(), LoginDTO.class);
+        }catch (Exception e) {
+            e.printStackTrace();
+            // 자격 증명시 잘못되었을 때 나타나는 예외
+            throw new BadCredentialsException("username 또는 password가 없습니다.");
+        }
+    }
+}

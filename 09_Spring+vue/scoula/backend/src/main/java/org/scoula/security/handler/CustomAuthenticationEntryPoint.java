@@ -1,3 +1,25 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:8697e632f7b7138c86cec9dffb201b5446c6a45acfcb449aa5e6d3abea166f29
-size 1002
+package org.scoula.security.handler;
+
+import lombok.extern.slf4j.Slf4j;
+import org.scoula.security.util.JsonResponse;
+import org.springframework.http.HttpStatus;
+import org.springframework.security.core.AuthenticationException;
+import org.springframework.security.web.AuthenticationEntryPoint;
+import org.springframework.stereotype.Component;
+
+import javax.servlet.ServletException;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+import java.io.IOException;
+
+@Component
+@Slf4j
+public class CustomAuthenticationEntryPoint implements AuthenticationEntryPoint {
+    @Override
+    public void commence(HttpServletRequest request, HttpServletResponse response, AuthenticationException authException) throws IOException, ServletException {
+        log.error("======== 인증 에러 =========");
+
+        // 인증 실패 시 응답을 JSON 형태로 보낸다
+        JsonResponse.sendError(response, HttpStatus.UNAUTHORIZED, authException.getMessage());
+    }
+}
