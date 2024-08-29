@@ -28,7 +28,7 @@ public  class BoardServiceImpl implements BoardService {
     @Override
     public List<BoardDTO> getList() {
         log.info("getList................");
-        return mapper.getList().stream()    //BoardVO의 스트림
+        return mapper.getList().stream()  //BoardVO의 스트림
                 .map(BoardDTO::of)  // 전부 BoardDTO로 변환 -> BoardDTO의 스트림
                 .toList();  // BoardDTO의 리스트로 변환
     }
@@ -37,6 +37,8 @@ public  class BoardServiceImpl implements BoardService {
     public BoardDTO get(Long no) {
         log.info("get..........." + no);
         BoardDTO board = BoardDTO.of(mapper.get(no));
+
+        log.info("========================" + board);
         // board 객체가 null이면 NoSuchElementException 예외 발생, null이 아니면 해당 객체 반환
         return Optional.ofNullable(board)
                 .orElseThrow(NoSuchElementException::new);
@@ -73,6 +75,8 @@ public  class BoardServiceImpl implements BoardService {
                 mapper.createAttachment(attach);
             } catch (IOException e) {
                 throw new RuntimeException(e);  //@Transactional에서 감지, 자동 rollback;
+                //log.error(e.getMessage());
+
             }
         }
     }
@@ -83,7 +87,20 @@ public  class BoardServiceImpl implements BoardService {
         log.info("update................"+ board);
         // mapper의 update를 호출해서 수정된 행의 수가 1일 경우 true 반환
 //        return mapper.update(board.toVO()) == 1;
-        mapper.update(board.toVO());
+        BoardVO boardVO = board.toVO();
+//        2024.08.29 추가 ----------------------------------------
+        log.info("update................"+ boardVO);
+
+        // mapper의 update를 호출해서 행 수정
+        mapper.update(boardVO);
+
+        // 파일업로드 처리
+        List<MultipartFile> files = board.getFiles();
+        if(files != null && !files.isEmpty()) {
+            // 첨부된 파일이 있을 경우 파일 업로드
+            upload(boardVO.getNo(), files);
+        }
+        // -----------------------------------------------------
         // 바뀐 행을 가져와서 DTO로 반환
         return get(board.getNo());
     }
