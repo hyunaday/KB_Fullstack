@@ -119,6 +119,10 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
                 .antMatchers(HttpMethod.OPTIONS).permitAll() // 모든 OPTIONS 요청 허용
                 // 일단 모든 접근 허용
                 .anyRequest().permitAll();
+                // 20240829 추가----------------------------------------------
+//                .antMatchers(HttpMethod.POST,"/api/member").authenticated()
+//                .antMatchers(HttpMethod.PUT,"/api/member", "/api/member/*/changepassword").authenticated();
+                // -----------------------------------------------------------
 //                  .antMatchers("/api/security/all").permitAll() // 해당 경로의 모든 요청 허용
 //                .antMatchers("/api/security/member").access("hasRole('ROLE_MEMBER')") // 해당 경로는 MEMBER 이상 권한을 가진 사용자만 접근 가능
 //                .antMatchers("/api/security/admin").access("hasRole('ROLE_ADMIN')") // 해당 경로는 ADMIN 이상 권한을 가진 사용자만 접근 가능
