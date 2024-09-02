@@ -37,14 +37,15 @@ public class WebConfig extends AbstractAnnotationConfigDispatcherServletInitiali
     }
 
 //    UTF-8 인코딩을 강제로 사용하도록 하는 필터 반환
-    @Override
-    protected Filter[] getServletFilters() {
-        CharacterEncodingFilter characterEncodingFilter = new CharacterEncodingFilter();
-        characterEncodingFilter.setEncoding("UTF-8");
-        characterEncodingFilter.setForceEncoding(true);
-
-        return new Filter[] {characterEncodingFilter};
-    }
+//    20240902-제거
+//    @Override
+//    protected Filter[] getServletFilters() {
+//        CharacterEncodingFilter characterEncodingFilter = new CharacterEncodingFilter();
+//        characterEncodingFilter.setEncoding("UTF-8");
+//        characterEncodingFilter.setForceEncoding(true);
+//
+//        return new Filter[] {characterEncodingFilter};
+//    }
 
     @Override
     protected void customizeRegistration(ServletRegistration.Dynamic registration) {
