@@ -11,11 +11,12 @@ import org.springframework.web.bind.annotation.*;
 
 import javax.servlet.http.HttpServletResponse;
 import java.io.File;
+import java.io.IOException;
 import java.util.List;
 
 @RestController // 모든 메소드에 @ResponseBody 추가해줌 -> 응답을 json으로 받아온다
 @RequestMapping("/api/board") // 메소드들의 공통 url
-@RequiredArgsConstructor // final이 붙은 필드로 생성자 만들어줌
+@RequiredArgsConstructor // final 이 붙은 필드로 생성자 만들어줌
 @Slf4j // 로깅을 위한 어노테이션
 
 // 순서 기억하기 : controller -> service -> mapper.java -> mapper.xml
@@ -63,6 +64,7 @@ public class BoardController {
         return ResponseEntity.ok(service.delete(no));
     }
 
+    //    해당하는 경로로 해당 첨부파일 다운로드
     @GetMapping("/download/{no}")
     public void download(@PathVariable Long no, HttpServletResponse response) throws Exception {
         BoardAttachmentVO attachment = service.getAttachment(no);
@@ -70,8 +72,9 @@ public class BoardController {
         UploadFiles.download(response, file, attachment.getFilename());
     }
 
+    //    해당 첨부파일 삭제
     @DeleteMapping("/deleteAttachment/{no}")
-    public ResponseEntity<Boolean> deleteAttachment(@PathVariable Long no) throws Exception {
+    public ResponseEntity<Boolean> deleteAttachment(@PathVariable Long no) {
         return ResponseEntity.ok(service.deleteAttachment(no));
     }
 }
