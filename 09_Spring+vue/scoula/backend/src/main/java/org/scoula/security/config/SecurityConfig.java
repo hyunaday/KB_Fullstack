@@ -116,9 +116,19 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
 
         http
                 .authorizeRequests() // 경로별 접근 권한 설정
-                .antMatchers(HttpMethod.OPTIONS).permitAll() // 모든 OPTIONS 요청 허용
-                // 일단 모든 접근 허용
-                .anyRequest().permitAll();
+                .antMatchers(HttpMethod.OPTIONS).permitAll()    // 모든 Options 요청 허용
+                .antMatchers(HttpMethod.POST, "/api/board/**").authenticated()
+                .antMatchers(HttpMethod.PUT, "/api/board/**").authenticated()
+                .antMatchers(HttpMethod.DELETE, "/api/board/**").authenticated()
+                .antMatchers(HttpMethod.GET, "/api/member/*").authenticated() // 멤버 정보 얻어오기
+                .antMatchers(HttpMethod.PUT, "/api/member/*/changepassword").authenticated() // 비밀번호 변경 url
+                .anyRequest().permitAll(); // 나머지 요청들은 모두 접근 허용
+
+//        http
+//                .authorizeRequests() // 경로별 접근 권한 설정
+//                .antMatchers(HttpMethod.OPTIONS).permitAll() // 모든 OPTIONS 요청 허용
+//                // 일단 모든 접근 허용
+//                .anyRequest().permitAll();
                 // 20240829 추가----------------------------------------------
 //                .antMatchers(HttpMethod.POST,"/api/member").authenticated()
 //                .antMatchers(HttpMethod.PUT,"/api/member", "/api/member/*/changepassword").authenticated();

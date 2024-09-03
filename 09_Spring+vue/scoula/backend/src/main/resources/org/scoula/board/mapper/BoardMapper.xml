@@ -33,8 +33,6 @@
         order by filename
     </select>
 
-
-
 <!--    tbl_board 테이블의 title, content, writer 컬럼에 각각의 값을 집어넣는다-->
 <!--    no는 자동 증가 값이기때문에 생략-->
 <!--    LAST_INSERT_ID(): 가장 최근에 발급한 아이디-->
@@ -66,8 +64,6 @@
     <delete id="delete">
         delete from tbl_board where no=#{no}
     </delete>
-
-
 
 <!--    파일첨부-->
 <!--    tbl_board_attachment 테이블에 하나의 행을 추가-->
@@ -116,6 +112,15 @@
         <collection property="attaches" resultMap="attachmentMap" />
     </resultMap>
 
+<!--    20240903 추가 ============================================-->
+    <select id="getTotalCount" resultType="java.lang.Integer">
+        select count(*) from tbl_board
+    </select>
 
+    <select id="getPage" resultType="BoardVO">
+        select * from tbl_board order by no desc
+            limit #{offset}, #{amount}
+    </select>
+<!--    ==========================================================-->
 
 </mapper>
