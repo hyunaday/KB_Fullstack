@@ -9,24 +9,27 @@ import { downloadFile } from '@/util/download';
 const auth = useAuthStore();
 const cr = useRoute();
 const router = useRouter();
+
 const no = cr.params.no;
 const article = ref({});
 
 // 뒤로 가기 함수
 const back = () => {
-    router.push({ name: 'board/list' });
+    router.push({ name: 'board/list', query: cr.query });
+    // router.push({ name: 'board/list' });
 };
 
 // 게시글 수정
 const update = () => {
-    router.push({ name: 'board/update', params: { no: no } });
+    router.push({ name: 'board/update', params: { no: no }, query: cr.query });
+    // router.push({ name: 'board/update', params: { no: no } });
 };
 
 // 게시글 삭제
 const remove = async () => {
     if (!confirm('삭제할까요?')) return;
     await api.delete(no);
-    router.push({ name: 'board/list' });
+    router.push({ name: 'board/list', query: cr.query });
 };
 
 // 게시글 데이터 불러오기
@@ -68,7 +71,7 @@ load();
         <div v-for="file in article.attaches" :key="file.no" class="attach">
             <span @click="download(file.no)">
                 <i class="fa-solid fa-paperclip"></i>
-                {{ file.filename }} 
+                {{ file.filename }}
             </span>
         </div>
     </div>

@@ -5,6 +5,7 @@ import boardApi from '@/api/boardApi';
 
 const cr = useRoute();
 const router = useRouter();
+
 const no = cr.params.no;
 const article = reactive({});
 const attachments = ref([]);
@@ -12,7 +13,7 @@ const orgArticle = ref({});
 const files = ref(null);
 
 const back = () => {
-    router.push({ name: 'board/detail', params: { no } });
+    router.push({ name: 'board/detail', params: { no }, query: cr.query });
 };
 
 // 첨부 파일 삭제
@@ -39,12 +40,15 @@ const submit = async () => {
 
 // 게시글 데이터 초기화
 const reset = () => {
+    // orgArticle 값에 기존 게시글 데이터 저장해둔 후, reset 시 다시 불러온다
     article.no = orgArticle.value.no;
     article.title = orgArticle.value.title;
     article.writer = orgArticle.value.writer;
     article.content = orgArticle.value.content;
     console.log(article);
 };
+
+// 로드할 때 기존 게시글의 데이터를 미리 채워둔다
 const load = async () => {
     const data = await boardApi.get(no);
     orgArticle.value = { ...data };
@@ -58,6 +62,7 @@ load();
 <template>
     <h1><i class="fa-regular fa-pen-to-square"></i> 글 수정</h1>
     <form @submit.prevent="submit">
+        <!-- 제목 입력 필드 -->
         <div class="mb-3 mt-3">
             <label for="title" class="form-label"> 제목 </label>
             <input
@@ -69,8 +74,11 @@ load();
             />
             <div class="invalid-feedback">제목은 필수 요소입니다.</div>
         </div>
+
+        <!-- 기존 첨부 파일 목록 -->
         <div class="mb-3 mt-3">
             <label class="form-label"> 기존 첨부파일 </label>
+            <!-- 첨부파일들을 돌면서 이름과 휴지통 아이콘 생성, 휴지통 클릭 시 해당 첨부파일 삭제됨 -->
             <div v-for="file in attachments" :key="file.no" class="attach">
                 <i class="fa-solid fa-paperclip"></i> {{ file.filename }}
                 <i
@@ -113,6 +121,7 @@ load();
         </div>
     </form>
 </template>
+
 <style>
 .fa-trash-can {
     cursor: pointer;

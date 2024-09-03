@@ -9,7 +9,7 @@ const router = useRouter();
 const cr = useRoute();
 const files = ref(null);
 
-// 게시글 데이터를 관리하는 반응형 객체 
+// 게시글 데이터를 관리하는 반응형 객체
 const article = reactive({ writer: auth.username, title: '', files: null });
 
 // 글 제목이 없으면 제출 버튼 비활성화
@@ -33,7 +33,7 @@ const submit = async () => {
 </script>
 
 <template>
-    <h1><i class="fa-regular fa-pen-to-square"></i> 글 작성</h1>
+    <h1><i class="fa-regular fa-pen-to-square"></i>글 작성</h1>
     <form @submit.prevent="submit">
         <div class="mb-3 mt-3">
             <label for="title" class="form-label"> 제목 </label>
