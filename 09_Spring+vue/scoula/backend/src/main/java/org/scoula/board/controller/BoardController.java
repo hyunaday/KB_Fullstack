@@ -27,10 +27,10 @@ public class BoardController {
     private final BoardService service;
 
 //    20240903 추가 =============================================
-    @GetMapping("")
-    public ResponseEntity<Page> getList(PageRequest pageRequest) {
-        return ResponseEntity.ok(service.getPage(pageRequest));
-    }
+        @GetMapping("")
+        public ResponseEntity<Page> getList(PageRequest pageRequest) {
+            return ResponseEntity.ok(service.getPage(pageRequest));
+        }
     //========================================================
     // http://localhost:8080/api/board
 //    @GetMapping("")
